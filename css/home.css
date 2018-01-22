@@ -1,0 +1,35 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 1rem;
+}
+
+#tagline {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#banner-section {
+    height: 25%;
+    margin-top: 2rem;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 80%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
