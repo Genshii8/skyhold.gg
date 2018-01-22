@@ -33,3 +33,16 @@
     border-top: solid 1px black;
     border-bottom: solid 1px black;
 }
+
+#spec-selection {
+    display: flex;
+}
+
+.spec-button {
+    width: 375px;
+    height: 75px;
+    background-color: #4f4b49;
+    border: solid 1px #111;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 1px #111;
+}
