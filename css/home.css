@@ -38,8 +38,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
 .spec-icon {
@@ -47,16 +45,18 @@
     margin-bottom: 1.5rem;
 }
 
-.spec-button {
-    width: 30rem;
-    height: 7.5rem;
-}
-
 .spec-link {
     font-size: 4rem;
     text-decoration: none;
     text-align: center;
     line-height: 7.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.spec-button {
+    width: 30rem;
+    height: 7.5rem;
 }
 
 #links div {
