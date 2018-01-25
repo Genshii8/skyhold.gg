@@ -1,51 +1,6 @@
-#header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logo-image {
-    width: 5rem;
-}
-
-#logo-link {
-    margin-right: 2rem;
-}
-
-#nav {
-    width: 100rem;
-    height: 5.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-left: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.nav-link:hover {
-    border-bottom: solid 2px #e6e6e6;
-}
-
-.nav-selected {
-    border-bottom: solid 2px #e6e6e6;
-}
-
 .post-link {
     margin: 1rem;
-}
-
-#featured {
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
 }
 
 #featured-post {
@@ -53,22 +8,40 @@
     height: 38rem;
 }
 
+.post-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    border-bottom: solid 1px #111;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.post-text {
+    width: 100%; 
+    height: 20%;
+}
+
+.post-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.post-description {
+    font-size: 1.5rem;
+}
+
+#featured-post-image {
+    background-image: url("../images/protection/tier21.png");
+}
+
 #news {
     width: 41.9rem;
     height: 38rem;
 }
 
-#posts {
-    display: flex;
-    justify-content: center;
-}
-
-#post-1 {
-    width: 52.4rem;
-    height: 34rem;
-}
-
-#post-2 {
+.posts {
     width: 52.4rem;
     height: 34rem;
 }

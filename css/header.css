@@ -1,0 +1,33 @@
+#logo-image {
+    width: 5rem;
+}
+
+#logo-link {
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+#nav {
+    width: 100rem;
+    height: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-link:hover {
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.nav-selected {
+    border-bottom: solid 2px #e6e6e6;
+}
