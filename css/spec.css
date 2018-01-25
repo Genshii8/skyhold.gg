@@ -1,0 +1,74 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-image {
+    width: 5rem;
+}
+
+#logo-link {
+    margin-right: 2rem;
+}
+
+#nav {
+    width: 100rem;
+    height: 5.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav-link:hover {
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.nav-selected {
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.post-link {
+    margin: 1rem;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+}
+
+#featured-post {
+    width: 62.9rem;
+    height: 38rem;
+}
+
+#news {
+    width: 41.9rem;
+    height: 38rem;
+}
+
+#posts {
+    display: flex;
+    justify-content: center;
+}
+
+#post-1 {
+    width: 52.4rem;
+    height: 34rem;
+}
+
+#post-2 {
+    width: 52.4rem;
+    height: 34rem;
+}
