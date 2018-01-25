@@ -32,13 +32,38 @@
     font-size: 1.5rem;
 }
 
-#featured-post-image {
-    background-image: url("../images/protection/tier21.png");
-}
-
 #news {
     width: 41.9rem;
     height: 38rem;
+    justify-content: flex-start;
+}
+
+#news > div {
+    width: 100%
+}
+
+#news-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#news-items {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0.5rem;
+}
+
+#news-items i {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.divider {
+    border-top: solid 1px #e6e6e6;
+    width: 90%;
+    height: 0;
+    margin-top: 1rem;
 }
 
 .posts {

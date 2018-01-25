@@ -8,9 +8,13 @@
     <title>Skyhold - Protection</title>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,700i" rel="stylesheet">
+    <link href="../font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="../font-awesome/css/fa-brands.css" rel="stylesheet">
+    <link href="../font-awesome/css/fa-solid.css" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/spec.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/spec.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/protection.css">
 </head>
 <body>
 
@@ -34,12 +38,34 @@
             </div>
         </div></a>
 
-        <div id="news" class="post-link border element-bg-color"></div>
+        <div id="news" class="flex-column post-link border element-bg-color">
+            <div class="flex-column">
+                <span id="news-title">Spec News / Site Updates</span>
+                <div class="divider"></div>
+            </div>
+            <div id="news-items" class="flex-column">
+                <i class="fas fa-newspaper"></i>
+                <i class="fas fa-newspaper"></i>
+            </div>
+        </div>
     </section>
 
     <section class="flex-center">
-        <a class="post-link" href=""><div class="posts border element-bg-color"></div></a>
-        <a class="post-link" href=""><div class="posts border element-bg-color"></div></a>
+
+        <a class="post-link" href=""><div class="flex-column posts border element-bg-color">
+            <div id="post-1" class="post-image"></div>
+            <div class="flex-column post-text">
+                <span class="post-title">Traits Compared / Netherlight Crucible: Tier 3</span>
+                <span class="post-description">Comparison of our minor traits and a rundown of Tier 3 of the NLC.</span>
+            </div>
+        </div></a>
+        <a class="post-link" href=""><div class="flex-column posts border element-bg-color">
+            <div id="post-2" class="post-image"></div>
+            <div class="flex-column post-text">
+                <span class="post-title">Netherlight Crucible: Tier 2</span>
+                <span class="post-description">Comparison of the Tier 2 Netherlight Crucible powers.</span>
+            </div>
+        </div></a>
     </section>
 
     </div>
