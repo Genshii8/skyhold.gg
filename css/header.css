@@ -24,10 +24,6 @@
     padding-bottom: 0.5rem;
 }
 
-.non-link:hover {
-    cursor: default;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -52,8 +48,25 @@
 
 .non-link:hover {
     border-bottom: none;
+    cursor: default;
 }
 
 .nav-selected {
     border-bottom: solid 2px #e6e6e6;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1130px) {
+
+    #nav {
+        width: 95vw;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #nav > div {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
