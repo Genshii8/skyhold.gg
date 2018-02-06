@@ -24,8 +24,34 @@
     padding-bottom: 0.5rem;
 }
 
+.non-link:hover {
+    cursor: default;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    align-items: flex-start;
+}
+
+.dropdown-content div {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: flex;
+}
+
 .nav-link:hover {
     border-bottom: solid 2px #e6e6e6;
+}
+
+.non-link:hover {
+    border-bottom: none;
 }
 
 .nav-selected {
