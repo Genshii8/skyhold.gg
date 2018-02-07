@@ -3,6 +3,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #e6e6e6;
     margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -11,8 +12,6 @@ html, body {
 
 body {
     background-color: #342f2d;
-    margin: 0;
-    padding: 0;
 }
 
 .border {
