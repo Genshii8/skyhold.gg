@@ -1,10 +1,10 @@
-#logo-image {
-    width: 5rem;
-}
-
-#logo-link {
+#logo {
     margin-right: 2rem;
     margin-top: 1rem;
+}
+
+#logo-image {
+    width: 5rem;
 }
 
 #nav {
@@ -15,11 +15,14 @@
     justify-content: flex-start;
 }
 
+#nav > div {
+    margin-left: 2rem;
+}
+
 .nav-link {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
-    margin-left: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -28,11 +31,11 @@
     display: none;
     position: absolute;
     margin-top: 0.5rem;
-    margin-left: 2rem;
     align-items: flex-start;
 }
 
-.dropdown-content div {
+.dropdown-content > div {
+    margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -58,7 +61,10 @@
 @media screen and (min-width: 0px) and (max-width: 1130px) {
 
     #nav {
-        width: 95vw;
+        width: 93vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1rem;
         flex-wrap: wrap;
         height: auto;
     }
