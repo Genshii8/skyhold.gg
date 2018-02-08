@@ -86,7 +86,7 @@
     }
     
     .mobile-width {
-        width: 95vw;
+        width: 95vw !important;
     }
 }
 
