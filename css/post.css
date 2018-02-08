@@ -1,0 +1,96 @@
+#post-container {
+    width: 107.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+}
+
+#title {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#authors {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#authors > div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#author-image {
+    border-radius: 50%;
+    background-color: #111;
+    object-fit: cover;
+    object-position: center;
+    height: 5rem;
+    width: 5rem;
+}
+
+#author-name {
+    font-size: 1.6rem;
+    margin-top: 0.4rem;
+}
+
+#author-social a {
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+#author-social i {
+    font-size: 1.6rem;
+}
+
+#post-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.wowhead-tooltip * {
+    font-size: 100%;
+}
+
+#post-content * {
+    font-size: 2rem;
+}
+
+#post-content h3 * {
+    font-size: 2.5rem;
+}
+
+#post-content h2 * {
+    font-size: 3rem;
+}
+
+#post-content a {
+    text-decoration: none;
+}
+
+#return-to-top {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+#return-to-top * {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1130px) {
+
+    body > section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #post-container {
+        width: 95vw;
+    }
+}
