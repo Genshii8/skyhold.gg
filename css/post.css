@@ -71,6 +71,16 @@
     text-decoration: none;
 }
 
+.iconsmall {
+    bottom: 0.2rem;
+    margin-right: 0.4rem;
+}
+
+.iconmedium {
+    bottom: 0.2rem;
+    margin-right: 0.4rem;
+}
+
 #return-to-top {
     margin-top: 2rem;
     margin-bottom: 2rem;
