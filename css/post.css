@@ -71,6 +71,10 @@
     text-decoration: none;
 }
 
+#post-content img {
+    max-width: 100%;
+}
+
 .iconsmall {
     bottom: 0.2rem;
     margin-right: 0.4rem;
@@ -79,10 +83,6 @@
 .iconmedium {
     bottom: 0.2rem;
     margin-right: 0.4rem;
-}
-
-.wide-image {
-    width: 100%;
 }
 
 #return-to-top {
