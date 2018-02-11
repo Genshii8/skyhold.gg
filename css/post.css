@@ -76,6 +76,11 @@
     color: #3399ff;
 }
 
+.h3-link {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
 .center-text {
     text-align: center;
 }
