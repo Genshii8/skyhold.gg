@@ -1,6 +1,6 @@
-## TL;DR
+<h2 id="tldr" class="center-text">TL;DR</h2>
 
-<img class="border" src="/images/fury/talents/talents.png">
+<img class="center-image border" src="/images/fury/talents/talents.png">
 
 <ul>
 <li>Substitute <a href="http://www.wowhead.com/spell=215556/war-machine">War Machine</a> when adds are present.</li>

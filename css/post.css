@@ -71,8 +71,17 @@
     text-decoration: none;
 }
 
+.center-text {
+    text-align: center;
+}
+
 #post-content img {
     max-width: 100%;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
 }
 
 .iconsmall {
