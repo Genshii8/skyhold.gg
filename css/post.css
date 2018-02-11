@@ -59,11 +59,11 @@
     font-size: 2rem;
 }
 
-#post-content h3 * {
+#post-content h3 {
     font-size: 2.5rem;
 }
 
-#post-content h2 * {
+#post-content h2 {
     font-size: 3rem;
 }
 
@@ -79,6 +79,10 @@
 .iconmedium {
     bottom: 0.2rem;
     margin-right: 0.4rem;
+}
+
+.wide-image {
+    width: 100%;
 }
 
 #return-to-top {
