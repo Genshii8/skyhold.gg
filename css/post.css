@@ -71,12 +71,25 @@
     text-decoration: none;
 }
 
+.text-link {
+    color: #3399ff;
+}
+
 .center-text {
     text-align: center;
 }
 
+textarea {
+    resize: none;
+    color: #111;
+}
+
 #post-content img {
     max-width: 100%;
+}
+
+.image-margin {
+    margin-top: 0.6rem !important;
 }
 
 .center-image {

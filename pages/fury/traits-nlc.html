@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-    <title>Fury - Talents</title>
+    <title>Fury - Traits / Netherlight Crucible</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
@@ -54,7 +54,7 @@
     <section class="flex-center">
 
         <div id="post-container" class="flex-column border element-bg-color">
-            <span id="title">Talents</span>
+            <span id="title">Traits / Netherlight Crucible</span>
             <div id="authors" class="flex-center">
                 <div class="flex-column">
                     <img id="author-image" class="border" src="/images/authors/archimtiros.jpg" alt="Archimtiros"></img>
@@ -69,35 +69,83 @@
             <div class="divider"></div>
             <div id="post-content">
                 <h2 id="tldr">TL;DR</h2>
-                <p><img class="border" src="/images/fury/talents/talents.png"></p>
+                <h3 id="relictraits">Relic Traits</h3>
+                <p><a href="http://www.wowhead.com/spell=200860/unrivaled-strength">Battle Cry</a>, <a href="http://www.wowhead.com/spell=200861/raging-berserker">Enrage</a>, and <a href="http://www.wowhead.com/spell=200853/unstoppable">Unstoppable</a>.<br>
+                <img class="image-margin border" src="/images/fury/traits-nlc/relic-traits.png"><br>
+                *DPS Error of ~1k, consider results within that range to be equivalent.</p>
+                <h3 id="netherlightcrucibletraits">Netherlight Crucible Traits</h3>
+                <p>Highly recommended that you sim your own upgrades. See the Netherlight Crucible Guide for assistance.<br>
+                <img class="image-margin center-image border" src="/images/fury/traits-nlc/nlc-traits.png"><br>
+                *Credit: The entire (<a class="text-link" target="_blank" href="https://www.herodamage.com">herodamage team</a>) for their continued hard work and pretty graphs.</p>
+                <h3 id="crucibleweightaddonstring">Crucible Weight Addon String</h3>
+                <p><textarea>cruweight^128908^252191^3.09^200859^0^252207^0^252091^2.89^200856^0^200860^6.41^238076^1.73^200849^1.00^200853^2.29^252906^3.10^200861^2.57^253111^0^200857^0^252922^1.33^200846^1.03^252088^3.45^253070^2.99^253093^2.99^252875^2.89^216273^0.10^252888^2.66^252799^2.04^ilvl^1^end</textarea></p>
+                <h2 id="netherlightcrucible">Netherlight Crucible</h2>
+                <p>Please be aware that the purpose of this guide is not to simply tell you which bonuses to take - there's no guide which will be able to do so accurately, due to the number of possible combinations. The goals of this guide are to explain the workings of the Netherlight Crucible and learn how to use the available community tools to create comparisons for yourself. Although it's themed toward Warriors, the concepts can be applied to any class.</p>
+                <p><img class="center-image border" src="/images/fury/traits-nlc/nlc.png"></p>
+                <h3 id="whatisthenetherlightcrucibleandhowdoesitwork">What is the Netherlight Crucible, and how does it work?</h3>
+                <p>The newest form of artifact customization, unlocked by questing through Krokuun and Mac'Aree in Argus.
+                <a class="text-link" target="_blank" href="http://www.wowhead.com/netherlight-crucible-guide">Anshlun has written a very good guide explaining the Crucible's basic mechanics</a>, which I recommend reading for better understanding.</p>
+                <p>Simply put, the Crucible creates a three-tier talent tree for each relic in your artifact. These trees are unique <u>to the relic</u>, not the slot, so every time you change relics, you will have different choices, and need to reallocate points in them. <u>Even relics of the same name may randomize different bonuses within the Crucible</u>.</p>
                 <ul>
-                <li>Substitute <a href="http://www.wowhead.com/spell=215556/war-machine">War Machine</a> when adds are present.</li>
-                <li><a href="http://www.wowhead.com/spell=215569/wrecking-ball">Wrecking Ball</a> is worth using if you're consistently using <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> outside of cooldowns, such as in Mythic+.</li>
-                <li><a href="http://www.wowhead.com/spell=202163/bounding-stride">Bounding Stride</a> and <a href="http://www.wowhead.com/spell=208154/warpaint">Warpaint</a> are interchangeable depending on the need for mobility or damage reduction.</li>
+                <li>The first tier is always <a href="http://www.wowhead.com/spell=250879/netherlight-fortification">Netherlight Fortification</a>, and has no requirement. It grants +5 ilevels to the weapon, for a total of +15 ilevels.</li>
+                <li>The second tier branches into the choice of **Void** (left) or **Light** (right) powers. Only one can be chosen, and requires 60-66 artifact levels to fully unlock.</li>
+                <li>The third tier consists of three bronze (4-point) artifact traits. Only one can be chosen, and requires 69-75 artifact levels to fully unlock. The artifact traits here cannot match the artifact trait currently in the associated relic.</li>
                 </ul>
-                <h3 id="whybloodbath">"Why Bloodbath?"</h3>
-                <p>It synergizes very well with the T21 bonuses, which in turn synergize well with <a href="http://www.wowhead.com/item=151650/soul-of-the-battlelord">Soul of the Battlelord</a>, while <a href="http://www.wowhead.com/spell=215573/inner-rage">Inner Rage</a> is devalued by the loss of T20 and general lack of <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a> use during the Execute phase.</p>
-                <p>The tier bonus and reliance on stacked cooldowns does make Fury's damage burstier, with higher spikes and lower falls, but the damage potential is quite impressive, especially with Execute.</p>
-                <p><img class="border" src="/images/fury/talents/bloodbath.png"></p>
-                <p>Spec <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a> once you have at least 2p T21, preferably with 4p.</p>
-                <h3 id="othertalents">Other Talents</h3>
-                <p><img class="border" src="/images/fury/talents/other-talents.png"></p>
-                <ul>
-                <li><a href="http://www.wowhead.com/spell=206315/massacre">Massacre</a> and <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> replace <a href="http://www.wowhead.com/item=151650/soul-of-the-battlelord">Soul of the Battlelord</a> with <a href="http://www.wowhead.com/item=137088/ceann-ar-charger">Ceann-ar Charger</a>.</li>
-                <li><a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> is very competitive when there is no Execute phase, or in sustained cleave "Mythic+".</li>
-                <img class="border" style="margin-top: 0.6rem" src="/images/fury/talents/carnage.png">
-                <li><a href="http://www.wowhead.com/spell=215571/frothing-berserker">Frothing</a> is still stronger when dealing AoE only during <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>.</li>
-                <li><a href="http://www.wowhead.com/spell=215573/inner-rage">Inner Rage</a> isn't very competitive in raids, but does smooth out the damage profile, and is still very useful in short/intermittent combat, such as open world questing, due to non-reliance on <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a>.</li>
-                </ul>
-                <p><strong>The Forgotten Ones</strong></p>
-                <ul>
-                <li><a href="http://www.wowhead.com/spell=215568/fresh-meat">Fresh Meat</a> doesn't provided a large enough buff to ensure <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> critical strikes, or last long enough in raid encounters.</li>
-                <li><a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a> or <a href="http://www.wowhead.com/spell=107570/storm-bolt">Storm Bolt</a> can be used, but there are plenty of other classes which bring stuns without opportunity cost.</li>
-                <li><a href="http://www.wowhead.com/spell=206320/outburst">Outburst</a> has very little DPS potential, since <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a> can be reliably triggered with <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> and <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>.</li>
-                <li><a href="http://www.wowhead.com/spell=202224/furious-charge">Furious Charge</a> has some benefit while leveling or chaining solo combat, but isn't practical for group content with healer roles.</li>
-                <li><a href="http://www.wowhead.com/spell=46924/bladestorm">Bladestorm</a> doesn't perform well due to not fitting inside <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a> or <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>, and competing with <a href="http://www.wowhead.com/spell=205545/odyns-fury">Odyn's Fury</a>.</li>
-                <li><a href="http://www.wowhead.com/spell=118000/dragon-roar">Dragon Roar's</a> buff is outclassed by the extra time added by <a href="http://www.wowhead.com/spell=202751/reckless-abandon">Reckless Abandon</a>.</li>
-                </ul>
+                <p><img class="center-image border" src="/images/fury/traits-nlc/nlc-overview.jpg"></p>
+                <p>While there are no resource costs to choosing bonuses within the Netherlight Crucible, the choices branch semi-exclusively, so you must think ahead before making allocations. Choosing Void (left) in the second tier restricts you to the left or center third tier choices, while choosing Light (right) restricts you to the center or right choices. This means there are four total combinations of bonuses per Relic in the Netherlight Crucible.</p>
+                <p><img class="border" src="/images/fury/traits-nlc/nlc-detailed.jpg"><br>
+                (image credits: Ashlun)</p>
+                <h3 id="analyzingchoices">Analyzing Choices</h3>
+                <p>Because of exclusive pathing, there's no simple rule for evaluating Crucible choices. A strong Void trait may lead to weak Bronze choices, while a weak Light trait may lead to stronger Bronze, therefore, both tier 2 and tier 3 options must be evaluated together.</p>
+                <p>A simple analysis may tell you that prioritizing the higher ranked bonuses is better. A <a href="http://www.wowhead.com/spell=209472/crushing-blows">Crushing Blows</a> relic with <a href="http://www.wowhead.com/spell=252091/master-of-shadows">Master of Shadows</a> and <a href="http://www.wowhead.com/spell=248579/precise-strikes">Precise Strikes</a> will be stronger than an <a href="http://www.wowhead.com/spell=209494/exploit-the-weakness">Exploit the Weakness</a> relic with <a href="http://www.wowhead.com/spell=252799/shocklight">Shocklight</a> and <a href="http://www.wowhead.com/spell=238075/storm-of-swords">Storm of Swords</a>. That said, once you start analyzing relics of a different ilevel, with different base traits, 4 bonus combinations per relic, multiplied by 3 relics for each weapon, the situation quickly becomes complicated.</p>
+                <p><img class="center-image border" src="/images/fury/traits-nlc/nlc-traits.png"></p>
+                <p><u><em>Notes</em></u><br>
+                <em>For simplicity's sake, defensive/utility bonuses are not considered. That may come in a later update, but for now, it will be left for the user to consider based on their own criteria.</em><br>
+                <em>Non-thoroughput Bronze traits can appear in the Crucible, but will be left out of the below tables.</em><br>
+                <em>Bronze traits still have a maximum cap of 7 points (4 base + 3 relics); while the Crucible traits are random, it will not roll a Bronze trait already present on the relic itself. This means if you have three Precise Strikes relics, you will not see Precise Strikes offered in the Crucible.</em></p>
+                <h3 id="usingraidbotstherecommendedmethod">Using Raidbots (the recommended method)</h3>
+                <p>Simulating the Netherlight Crucible is fairly tricky at the moment, due to some awkward syntax and the large amount of possible outcomes. Luckily, our friends over at raidbots have a set up initial support for <a class="text-link" href="https://medium.com/raidbots/relic-compare-netherlight-crucible-support-729764d27837">comparing Netherlight Crucible bonuses</a>. Please be sure to read the <strong>Caveats</strong> section, as it contains important warnings.</p>
+                <p>Using the <a class="text-link" href="https://www.raidbots.com/simbot/relic">Relic Comparison Tool</a> is simple. Import your characters data, and select the traits present in your crucible (due to the traits rolling randomly, the Tool cannot automatically do this for you). Check the box for Netherlight Fortification as appropriate, and duplicate as needed to compare different choices.</p>
+                <p>Here I'll compare the difference between my Fire Relic taking the Void path - <a href="http://www.wowhead.com/spell=252091/master-of-shadows">Master of Shadows</a> + <a href="http://www.wowhead.com/spell=200853/unstoppable">Unstoppable</a>, with the Light path - <a href="http://www.wowhead.com/spell=252088/light-speed">Light Speed</a> + <a href="http://www.wowhead.com/spell=200849/wrath-and-fury">Wrath and Fury</a>.<br>
+                <img class="image-margin center-image border" src="/images/fury/traits-nlc/raidbots-1.png"></p>
+                <p>In this case, <a href="http://www.wowhead.com/spell=252088/light-speed">Light Speed</a> + <a href="http://www.wowhead.com/spell=200849/wrath-and-fury">Wrath and Fury</a> come out ahead.<br>
+                <img class="image-margin center-image border" src="/images/fury/traits-nlc/raidbots-2.png"></p>
+                <h3 id="usingsimulationcraftforadvancedusers">Using SimulationCraft (for advanced users)</h3>
+                <p>Manually simulating is still possible and often better for doing mass comparisons, though the syntax is somewhat awkward. The simplest way is to use overrides to force in the relevant bonuses, using the <em>copy</em> function to compare choices. Keep in mind that SimulationCraft is a constantly evolving project, so some of these functions and syntax may change or break over time.</p>
+                <p><strong>Netherlight Fortification/adjusting ilevel</strong></p>
+                <p>Comparing relics of a different ilevel can be accomplished easily by modifying the ilevel of the mainhand.<br>
+                The simplest way is to simply add 15 ilevels onto your weapon, by adjusting the mainhand <em>ilevel</em>, although given that Fortification will be a constant, it shouldn't be necessary to do so manually. This function is still useful for evaluating the difference better relics of a different ilevel.</p>
+                <p>For example, if you have a 951 Arms weapon, and want to change it to a 955 you would change the line<br>
+                <em>main<em>hand=,id=128908,bonus</em>id=751,ilevel=<strong>951</strong></em> at the bottom of the simulation tab to<br>
+                <em>main<em>hand=,id=128908,bonus</em>id=751,ilevel=<strong>955</strong></em>. This can also be done with the copy command to create a comparison.</p>
+                <p><strong>Adding Shadow and Light powers</strong></p>
+                <p>Add the relevant line to the bottom of your simulation tab, just below your equipment data. Note that each crucible trait can have up to three points (one per relic), in which case the number of points should be set accordingly (for example, if you have two relics with Torment the Weak you'd use <em>crucible=1780:2</em> instead of <em>:1</em>).</p>
+                <p><strong>Torment The Weak</strong> - crucible=1780:1<br>
+                <strong>Shadowbind</strong> - crucible=1778:1<br>
+                <strong>Chaotic Darkness</strong> - crucible=1779:1<br>
+                <strong>Dark Sorrows</strong> - crucible=1781:1<br>
+                <strong>Master of Shadows</strong> - crucible=1771:1<br>
+                <strong>Murderous Intent</strong> - crucible=1774:1<br>
+                <strong>Shocklight</strong> - crucible=1777:1<br>
+                <strong>Light Speed</strong> - crucible=1770:1<br>
+                <strong>Secure in the Light</strong> - crucible=1782:1<br>
+                <strong>Infusion of Light</strong> - crucible=1783:1</p>
+                <p><strong>Overriding Artifact traits</strong></p>
+                <p>Similar to the above, add the override to the bottom of your simulation tab. Ensure you enter the correct number of points in the trait, to include the base (4) and combined total of all bonuses (trait on the Relic itself, plus any from the Crucible). For example: If you have 2 Unrivaled Strength relics, and one point through the Crucible, the correct syntax would be <em>artifact<em>override=unrivaled</em>strength:7</em>.</p>
+                <p><strong>Wrath and Fury</strong> - artifact<em>override=wrath</em>and<em>fury:5<br>
+                <strong>Unrivaled Strength</strong> - artifact</em>override=unrivaled<em>strength:5<br>
+                <strong>Unstoppable</strong> - artifact</em>override=unstoppable:5<br>
+                <strong>Raging Berserker</strong> - artifact<em>override=raging</em>berserker:5<br>
+                <strong>Wild Slashes</strong> - artifact<em>override=wild</em>slashes:5<br>
+                <strong>Deathdealer</strong> - artifact<em>override=deathdealer:5<br>
+                <strong>Pulse of Battle</strong> - artifact</em>override=pulse<em>of</em>battle:5</p>
+                <p><strong>Creating a comparison</strong></p>
+                <p>You can combine the above to evaluate different relics and Netherlight Crucible bonuses. For example, take an Arms Warrior a 951 weapon, and compare using a 915 (62 ilvls) Deathblow relic with Shadowbind and Crushing Blows to a 900 (58 ilvls) Exploit the Weakness relic with Torment the Weak and Precise Strikes.<br>
+                <img class="image-margin center-image border" src="/images/fury/traits-nlc/simc-1.png"></p>
+                <p>The two come out almost equal, despite the ilevel disparity, due to the better bonuses. This isn't unusual, as generally ilevel is going to win, unless there's a pronounced disparity between bonus traits.<br>
+                <img class="image-margin border" src="/images/fury/traits-nlc/simc-2.png"></p>
+                <p>This is, clearly, much more involved than using Raidbots, but offers certain advantages, not the least of which being able to do large batches of simulations and comparisons (see lists above) quickly on your own machine. It's also certainly not the only way to work with the Crucible in SimCraft, I just like using overrides because I find it much easier to work with and keep track of what I'm doing, rather than deciphering raw spell IDs.</p>
+                <p><em>There are too many variables and combinations within the Netherlight Crucible to create an easy list of X > Y. Reference the lists provided, but understand the strength of each bonus, and using the community tools available will give you better answers.</em></p>
             </div>
             <a id="return-to-top" href="#"><div class="flex-column">
                 <i class="fas fa-chevron-up"></i>

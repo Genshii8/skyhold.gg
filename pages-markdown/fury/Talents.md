@@ -25,7 +25,7 @@ Spec <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a> once y
 <ul>
 <li><a href="http://www.wowhead.com/spell=206315/massacre">Massacre</a> and <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> replace <a href="http://www.wowhead.com/item=151650/soul-of-the-battlelord">Soul of the Battlelord</a> with <a href="http://www.wowhead.com/item=137088/ceann-ar-charger">Ceann-ar Charger</a>.</li>
 <li><a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> is very competitive when there is no Execute phase, or in sustained cleave "Mythic+".</li>
-<img class="border" style="margin-top: 0.6rem" src="/images/fury/talents/carnage.png">
+<img class="image-margin border" src="/images/fury/talents/carnage.png">
 <li><a href="http://www.wowhead.com/spell=215571/frothing-berserker">Frothing</a> is still stronger when dealing AoE only during <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>.</li>
 <li><a href="http://www.wowhead.com/spell=215573/inner-rage">Inner Rage</a> isn't very competitive in raids, but does smooth out the damage profile, and is still very useful in short/intermittent combat, such as open world questing, due to non-reliance on <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a>.</li>
 </ul>
