@@ -1,5 +1,3 @@
-<h2 id="tldr" class="center-text">TL;DR</h2>
-
 <img class="center-image border" src="/images/fury/talents/talents.png">
 
 <ul>
@@ -14,13 +12,13 @@ It synergizes very well with the T21 bonuses, which in turn synergize well with 
 
 The tier bonus and reliance on stacked cooldowns does make Fury's damage burstier, with higher spikes and lower falls, but the damage potential is quite impressive, especially with Execute.
 
-<img class="border" src="/images/fury/talents/bloodbath.png">
+<img class="center-image border" src="/images/fury/talents/bloodbath.png">
 
 Spec <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a> once you have at least 2p T21, preferably with 4p.
 
 ### Other Talents
 
-<img class="border" src="/images/fury/talents/other-talents.png">
+<img class="center-image border" src="/images/fury/talents/other-talents.png">
 
 <ul>
 <li><a href="http://www.wowhead.com/spell=206315/massacre">Massacre</a> and <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> replace <a href="http://www.wowhead.com/item=151650/soul-of-the-battlelord">Soul of the Battlelord</a> with <a href="http://www.wowhead.com/item=137088/ceann-ar-charger">Ceann-ar Charger</a>.</li>

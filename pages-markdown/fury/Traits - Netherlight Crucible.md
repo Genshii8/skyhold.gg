@@ -1,5 +1,3 @@
-## TL;DR
-
 ### Relic Traits
 
 [Battle Cry](http://www.wowhead.com/spell=200860/unrivaled-strength), [Enrage](http://www.wowhead.com/spell=200861/raging-berserker), and [Unstoppable](http://www.wowhead.com/spell=200853/unstoppable).<br>
@@ -31,7 +29,7 @@ Simply put, the Crucible creates a three-tier talent tree for each relic in your
 
 <ul>
 <li>The first tier is always <a href="http://www.wowhead.com/spell=250879/netherlight-fortification">Netherlight Fortification</a>, and has no requirement. It grants +5 ilevels to the weapon, for a total of +15 ilevels.</li>
-<li>The second tier branches into the choice of **Void** (left) or **Light** (right) powers. Only one can be chosen, and requires 60-66 artifact levels to fully unlock.</li>
+<li>The second tier branches into the choice of <strong>Void</strong> (left) or <strong>Light</strong> (right) powers. Only one can be chosen, and requires 60-66 artifact levels to fully unlock.</li>
 <li>The third tier consists of three bronze (4-point) artifact traits. Only one can be chosen, and requires 69-75 artifact levels to fully unlock. The artifact traits here cannot match the artifact trait currently in the associated relic.</li>
 </ul>
 

@@ -49,6 +49,7 @@
 #post-content {
     padding-left: 2rem;
     padding-right: 2rem;
+    align-self: stretch;
 }
 
 .wowhead-tooltip * {
