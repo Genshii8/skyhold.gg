@@ -37,7 +37,7 @@ Simply put, the Crucible creates a three-tier talent tree for each relic in your
 
 While there are no resource costs to choosing bonuses within the Netherlight Crucible, the choices branch semi-exclusively, so you must think ahead before making allocations. Choosing Void (left) in the second tier restricts you to the left or center third tier choices, while choosing Light (right) restricts you to the center or right choices. This means there are four total combinations of bonuses per Relic in the Netherlight Crucible.
 
-<img class="border" src="/images/fury/traits-nlc/nlc-detailed.jpg"><br>
+<img class="center-image border" src="/images/fury/traits-nlc/nlc-detailed.jpg"><br>
 (image credits: Ashlun)
 
 ### Analyzing Choices
