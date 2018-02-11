@@ -1,11 +1,19 @@
 #featured-post-image {
-    background-image: url("/images/protection/tier21.png");
+    background-image: url("/images/fury/rotations.png");
 }
 
 #post-1-image {
-    background-image: url("/images/protection/Netherlight Crucible - Tier 3.png");
+    background-image: url("/images/fury/traits-nlc/nlc.png");
 }
 
 #post-2-image {
-    background-image: url("/images/protection/Netherlight Crucible - Tier 2.png");
+    background-image: url("/images/fury/stats.png");
+}
+
+#post-3-image {
+    background-image: url("/images/fury/sims/sims-2.png");
+}
+
+#post-4-image {
+    background-image: url("/images/fury/arms-fury.png");
 }
