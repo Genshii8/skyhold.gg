@@ -1,1 +1,0 @@
-<img class="center-image border" src="/images/fury/races/races.png">

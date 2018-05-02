@@ -52,6 +52,10 @@
     align-self: stretch;
 }
 
+/*
+    Page Content Formatting
+*/
+
 .wowhead-tooltip * {
     font-size: 100%;
 }
@@ -68,21 +72,12 @@
     font-size: 3rem;
 }
 
+#post-content h1 {
+    font-size: 3.5rem;
+}
+
 #post-content a {
     text-decoration: none;
-}
-
-.text-link {
-    color: #3399ff;
-}
-
-.h3-link {
-    font-size: 2.5rem !important;
-    font-weight: bold;
-}
-
-.center-text {
-    text-align: center;
 }
 
 textarea {
@@ -94,14 +89,7 @@ textarea {
     max-width: 100%;
 }
 
-.image-margin {
-    margin-top: 0.6rem !important;
-}
-
-.center-image {
-    display: block;
-    margin: 0 auto;
-}
+/* Wowhead Icons */
 
 .iconsmall {
     bottom: 0.2rem;
@@ -112,6 +100,32 @@ textarea {
     bottom: 0.2rem;
     margin-right: 0.4rem;
 }
+
+/* Formatting Classes */
+
+.large-link {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.text-link {
+    color: #3399ff;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.image-margin {
+    margin-top: 0.6rem !important;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+/**/
 
 #return-to-top {
     margin-top: 2rem;

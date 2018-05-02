@@ -44,6 +44,6 @@ On single-target, you generally feel a bit rage starved. When tanking 4+ targets
 
 # Talents
 
-The most significant changes are to our talents. Rather than list out all of the changes, I'll just go over how they are right now on Beta.<br>[Beta Talent Calculator](http://bfa.wowhead.com/talent-calc/warrior/protection)
+The most significant changes are to our talents. Rather than list out all of the changes, I'll just go over how they are right now on Beta.<br><a class="text-link" target="_blank" href="http://bfa.wowhead.com/talent-calc/warrior/protection">Beta Talent Calculator</a>
 
 ## 15 - 
