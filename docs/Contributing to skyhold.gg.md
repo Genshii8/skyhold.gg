@@ -378,3 +378,13 @@ Edit your Markdown first. Convert to HTML. Paste in `<div id="post-content"> `.
 Once you're done, it's time to push to the GitHub Repo.
 
 Use https://www.gitkraken.com/ for this. It's essentially a GUI for git.
+
+You need a GitHub account. Login with GitHub in GitKraken. Open the skyhold.gg folder in GitKraken.
+
+On the right, you can hit "Stage all changes".
+
+Type in a summary at the bottom. For example, "Add Talents page". These commit messages should be in present tense.
+
+Click "Push" at the top.
+
+You're done. The changes will be pushed to the live site within 30 seconds.

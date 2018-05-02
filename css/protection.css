@@ -1,5 +1,5 @@
 #featured-post-image {
-    background-image: url("/images/protection/tier21.png");
+    background-image: url("/images/protection/bfa.png");
 }
 
 #post-1-image {
@@ -7,5 +7,13 @@
 }
 
 #post-2-image {
+    background-image: url("/images/protection/Netherlight Crucible - Tier 2.png");
+}
+
+#post-3-image {
+    background-image: url("/images/protection/Netherlight Crucible - Tier 2.png");
+}
+
+#post-4-image {
     background-image: url("/images/protection/Netherlight Crucible - Tier 2.png");
 }
