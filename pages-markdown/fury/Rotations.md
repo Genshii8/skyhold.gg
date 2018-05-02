@@ -1,7 +1,7 @@
 *Note: **>** means **greater than**, not and then. This means it's a priority list, not a step-by-step sequence.*<br>
 *Note: **->** means **and then**, not greater than. This means it's a step-by-step sequence, not a priority list.*
 
-**New in 7.3.5**
+### New in 7.3.5
 
 <ul>
 <li>T21 favors <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a>, which makes the rotation less sequential, and introduces duplicate casts, something that doesn't happen with <a href="http://www.wowhead.com/spell=215573/inner-rage">Inner Rage</a>.</li>
@@ -9,9 +9,9 @@
 <li><a href="http://www.wowhead.com/spell=251881/item-warrior-t21-fury-4p-bonus">The 4p bonus</a> lasts buffs all <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> damage during its duration and lasts 1s longer than <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>, allowing it to catch the "tail end" of <a href="http://www.wowhead.com/spell=184367/rampage">Rampage's</a> cast just before <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> starts or just before it ends.</li>
 </ul>
 
-### Single Target w/ Bloodbath & Frothing
+## Single Target w/ Bloodbath & Frothing
 
-**Outside Battle Cry**
+### Outside Battle Cry
 
 <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> (100 rage) > <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> > <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a> > <a href="http://www.wowhead.com/spell=100130/furious-slash">Furious Slash</a><br>
 <ul>
@@ -21,7 +21,7 @@
 
 This should look something like: *<a href="http://www.wowhead.com/spell=184367/rampage">100 Ramp</a> -> <a href="http://www.wowhead.com/spell=23881/bloodthirst">BT</a> -> <a href="http://www.wowhead.com/spell=85288/raging-blow">RB</a> -> <a href="http://www.wowhead.com/spell=85288/raging-blow">RB</a> -> <a href="http://www.wowhead.com/spell=23881/bloodthirst">BT</a> -> <a href="http://www.wowhead.com/spell=100130/furious-slash">FS</a> -> <a href="http://www.wowhead.com/spell=100130/furious-slash">FS</a> -> <a href="http://www.wowhead.com/spell=23881/bloodthirst">BT</a> -> <a href="http://www.wowhead.com/spell=85288/raging-blow">RB</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">100 Ramp</a>*... prioritizing according to the above.
 
-**During Battle Cry**
+### During Battle Cry
 
 <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> -> <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> + <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a> > <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> > <a href="http://www.wowhead.com/spell=205545/odyns-fury">Odyn's Fury</a> > <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> > <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> > <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a>
 
@@ -36,9 +36,9 @@ This should look like: *<a href="http://www.wowhead.com/spell=184367/rampage">Ra
 <li>Increased rage generation from <a href="http://www.wowhead.com/spell=243228/odyns-glory">Odyn's Glory</a>, <a href="http://www.wowhead.com/spell=238076/pulse-of-battle">Pulse of Battle</a>, <a href="http://www.wowhead.com/spell=238112/oathblood">Oathblood</a>, <a href="http://www.wowhead.com/item=151824/valarjar-berserkers">Valarjar Berserkers</a>, and <a href="http://www.wowhead.com/item=137088/ceann-ar-charger">Ceann-ar Charger</a> can allow extra <a href="http://www.wowhead.com/spell=184367/rampage">Rampages</a>, which should be used immediately.</li>
 </ul>
 
-### Execute
+## Execute
 
-**Outside Battle Cry**
+### Outside Battle Cry
 
 <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> > <a href="http://www.wowhead.com/spell=5308/execute">Execute</a> > <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a> > <a href="http://www.wowhead.com/spell=100130/furious-slash">Furious Slash</a>
 
@@ -47,11 +47,11 @@ This should look like: *<a href="http://www.wowhead.com/spell=184367/rampage">Ra
 <li><a href="http://www.wowhead.com/spell=205545/odyns-fury">Odyn's Fury</a> can be used outside of <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>, while rage starved and preferably while <a href="http://www.wowhead.com/spell=184361/enrage">Enraged</a>, both for damage and the chance of bonus rage generation from <a href="http://www.wowhead.com/spell=243228/odyns-glory">Odyn's Glory</a>.</li>
 </ul>
 
-**Juggling Frothing Berserker during Execute**
+### Juggling Frothing Berserker during Execute
 
 Does not work with <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a>.
 
-**Massacre with Soul of the Battlelord**
+### Massacre with Soul of the Battlelord
 
 <a href="http://www.wowhead.com/spell=5308/execute">Execute</a> -> <a href="http://www.wowhead.com/spell=5308/execute">Execute</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Massacre</a> -> Execute -> <a href="http://www.wowhead.com/spell=5308/execute">Execute</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Massacre</a>
 
@@ -61,7 +61,7 @@ Does not work with <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodb
 <li><a href="http://www.wowhead.com/spell=215571/frothing-berserker">Frothing</a> will still be applied upon activating <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a>.</li>
 </ul>
 
-**During Battle Cry**
+### During Battle Cry
 
 <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Massacre</a>/<a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> -> <a href="http://www.wowhead.com/spell=5308/execute">Execute</a> -> <a href="http://www.wowhead.com/spell=5308/execute">Executes</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Massacre</a>/<a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> -> <a href="http://www.wowhead.com/spell=5308/execute">Execute</a>
 
@@ -69,7 +69,7 @@ Does not work with <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodb
 <li>Regardless of which rotation is used above, the cooldown rotation remains the same. <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> will generate 100 rage and proc <a href="http://www.wowhead.com/spell=215571/frothing-berserker">Frothing Berserker</a>, <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a>/<a href="http://www.wowhead.com/spell=184367/rampage">Massacre</a> will apply/maintain <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a>, and fill GCDs with <a href="http://www.wowhead.com/spell=5308/execute">Execute</a>.</li>
 </ul>
 
-### Using Carnage
+## Using Carnage
 
 With T21, <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> is behind <a href="http://www.wowhead.com/spell=215571/frothing-berserker">Frothing</a> due to a lack of usefulness during the Execute phase. When no Execute takes place, however, <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> with Frothing, making it ideal for encounters with constant cleave (not to be confused with intermittent *burst* AoE) such as Mythic+.<br>
 <img class="image-margin border" src="/images/fury/rotations/carnage-1.png">
@@ -86,17 +86,17 @@ The rotation is very similar, with two main differences:
 During Battle Cry, <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> should be used as often as possible without delay. With <a href="http://www.wowhead.com/item=137088/ceann-ar-charger">Ceann</a>, <a href="http://www.wowhead.com/item=151824/valarjar-berserkers">Valarjar</a>, and enough Haste, <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> can even be chain cast (in these cases, use <a href="http://www.wowhead.com/spell=205545/odyns-fury">Odyn's Fury</a> after the first <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a>).<br>
 <img class="image-margin center-image border" src="/images/fury/rotations/carnage-3.png">
 
-### Multi-target
+## Multi-target
 
-**Two+ targets**
+### Two+ targets
 
 <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> on cooldown, <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> ahead of <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a> whenever <a href="http://www.wowhead.com/spell=85739/meat-cleaver">Meat Cleaver</a> is not up, otherwise continue to use <a href="http://www.wowhead.com/spell=85288/raging-blow">Raging Blow</a> and <a href="http://www.wowhead.com/spell=100130/furious-slash">Furious Slash</a> to fill.
 
-**Eight+ targets**
+### Eight+ targets
 
 Spam <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a>; use <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> for <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a>.
 
-**During Battle Cry**
+### During Battle Cry
 
 <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> -> <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> + <a href="http://www.wowhead.com/spell=12292/bloodbath">Bloodbath</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> -> <a href="http://www.wowhead.com/spell=205545/odyns-fury">Odyn's Fury</a> -> <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> -> <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> -> <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> -> <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a>
 
@@ -104,7 +104,7 @@ Spam <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a>; use 
 <li>Prestack <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a> and alternate <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a>, <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwind</a>, and <a href="http://www.wowhead.com/spell=23881/bloodthirst">Bloodthirst</a> for maximum burst while maintaining <a href="http://www.wowhead.com/spell=184361/enrage">Enrage</a>. With <a href="http://www.wowhead.com/spell=202922/carnage">Carnage</a> or increased rage generation, <a href="http://www.wowhead.com/spell=184367/rampage">Rampage</a> as much as possible, <a href="http://www.wowhead.com/spell=190411/whirlwind">Whirlwinding</a> before each to ensure it cleaves.</li>
 </ul>
 
-### Notes for Cooldown use
+## Notes for Cooldown use
 
 - Sync cooldowns as much as possible for maximum burst potential.
 - <a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> should be used on cooldown as much as possible, to avoid wasting <a href="http://www.wowhead.com/item=140806/convergence-of-fates">Convergence of Fates</a> procs.
