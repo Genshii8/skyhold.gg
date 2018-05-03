@@ -40,6 +40,7 @@
     line-height: 7.5rem;
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 2rem;
 }
 
 .spec-button {
@@ -53,7 +54,7 @@
     height: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 #links > div {
@@ -62,13 +63,13 @@
 }
 
 .link-image {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 #made-by {
     margin-top: 4rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
