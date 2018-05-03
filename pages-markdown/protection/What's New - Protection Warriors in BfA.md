@@ -1,5 +1,7 @@
 While many specs are staying more or less the same going into Battle for Azeroth, Protection Warrior is once again getting some fairly significant changes. This is by no means a bad thing. While Prot was fun in Legion, it definitely had its share of issues. In BfA, our core gameplay, i.e. [Devastate](http://bfa.wowhead.com/spell=20243/devastate)/[Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam)/[Thunder Clap](http://bfa.wowhead.com/spell=6343/thunder-clap)/[Revenge](http://bfa.wowhead.com/spell=6572/revenge), remains more or less the same. The major changes are to our rage generation model, talents, and baseline abilities.
 
+**<u>Prot Warrior is still incomplete and we will definitely see more changes before BfA is released. Nothing is set in stone.</u>**
+
 This post will be updated as new changes are released.
 
 # Baseline
