@@ -54,7 +54,7 @@ The most significant changes are to our talents. Rather than list out all of the
 - Punish is also a fairly good talent. It's essentially a permanent 5% DR on single-target. The debuff is applied to the enemy, not you. In other words, when you [Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam) an enemy, that enemy deals 5% less damage to you for 9 seconds.
 - There is no good reason for Impending Victory to be on this row (or a talent at all really). It's uses are so niche, *especially* when it's up against two talents that are both damage and survivability increases.
 
-Likely the choice between ITTF and Punish will come down to whether or not you're able to keep near 100% uptime on ITTF. Or it may be as simple as ITTF for AoE and Punish for ST. Regardless, both talents are good and I can see situations where you'd take either.
+Likely the choice between ITTF and Punish will come down to whether or not you're able to keep near 100% uptime on ITTF. Or it may be as simple as ITTF for AoE and Punish for ST. Punish also has some increased value on magic damage heavy fights. Regardless, both talents are good and I can see situations where you'd take either.
 
 <h3>30 - <a href="http://bfa.wowhead.com/spell=203201/crackling-thunder" rel="spell=203201" data-wh-icon-size="small">Crackling Thunder</a> / <a href="http://bfa.wowhead.com/spell=202163/bounding-stride" rel="spell=202163" data-wh-icon-size="small">Bounding Stride</a> / <a href="bfa.wowhead.com/spell=223657/safeguard" rel="spell=223657" data-wh-icon-size="small">Safeguard</a></h3>
 
