@@ -1,12 +1,11 @@
 # Contributing to skyhold.gg
 
-## The Workflow
+# The Workflow
 
 In a nutshell, the (currently crappy) workflow is this:
 
 1. Create posts in Markdown. Add images where needed.
    - **I recommend a Markdown editor such as Typora. [https://typora.io/](https://typora.io/)**
-   - Along with posts, changes to the actual site are made directly to the HTML/CSS.
 2. Create necessary HTML pages/folders from template, as well as image folders.
 3. Add necessary links to the Nav bar. *This is by far the worst part of the process.* Every time a new page is added, the Nav bar needs to be updated, and this updated Nav bar needs to be added to every single page for the spec. Yes, I need to learn how to template.
 4. Convert Markdown to useable HTML for the site. This is done via an online tool.
@@ -23,7 +22,7 @@ I will explain this process in detail the best I can below. <u>If you have any q
 1. **Simply create the posts in Markdown and let me handle everything else.**
 2. **Learn the process and contribute yourself.**
 
-### skyhold.gg Dropbox Folder
+## skyhold.gg Dropbox Folder
 
 The Dropbox folder is where the full contents of the project are stored.
 
@@ -39,7 +38,7 @@ The main folders that contributors deal with are: `images`, `pages`, and `pages-
 
 `pages-markdown` are where the actual posts gets created/stored.
 
-### Creating Posts
+## Creating Posts
 
 Open your Markdown editor (you can even use Notepad if you really hate yourself), open the spec folder in `pages-markdown`, create a new markdown file (all markdown files end in `.md`), and start writing!
 
@@ -47,7 +46,7 @@ The file name should be the full title of your post.
 
 Again, I highly recommend [https://typora.io/](https://typora.io/) for this part.
 
-### Basic Markdown Formatting
+## Basic Markdown Formatting
 
 
 
@@ -125,11 +124,11 @@ Again, I highly recommend [https://typora.io/](https://typora.io/) for this part
 
 ~~strike~~
 
-### Custom Content and Formatting
+## Custom Content and Formatting
 
 Due to the restrictions of Markdown formatting, some HTML and CSS is required.
 
-#### Adding an Image
+### Adding an Image
 
  `<img class="border class2" src="/path/to/image.png">`
 
@@ -139,7 +138,7 @@ For example, if I wanted to add an image in a for a Fury page:
 
 Just stick a line like that on its own line.
 
-##### - Available classes
+#### - Available classes
 
 `image-margin` - Adds a bit of spacing on top of the image. You usually won't need to use this. You'll know when you do.
 
@@ -147,13 +146,13 @@ Just stick a line like that on its own line.
 
 <u>The `border` class should always be put on images.
 
-#### Adding a Divider
+### Adding a Divider
 
 If you ever want to add a divider (i.e. 1 pixel white line, the same as below the title/author section), you can add in:
 
 `<div class="divider"></div> `
 
-#### Adding Single Line Breaks
+### Adding Single Line Breaks
 
 By default with markdown, hitting enter for a line break adds an empty line.
 
@@ -172,7 +171,7 @@ Text text text
 
 In other words, simply add a `<br>` tag *after* the line of text that comes before the line you want on the next line.
 
-#### Custom Wowhead Icon Sizing
+### Custom Wowhead Icon Sizing
 
 By default, Wowhead links (`[Avatar](http://wowhead.com/spell=107574/avatar)`) are a particular size.
 
@@ -193,7 +192,7 @@ There are four parts to this:
 3. `data-wh-icon-size="small"` - Icon size
 4. Text goes at the end before the closing tag
 
-#### Coloring a Link
+### Coloring a Link
 
 All non-Wowhead links need to be colored. This is because Wowhead links are automatically styled.
 
@@ -207,7 +206,7 @@ A link to anything else should look like:
 
 Simply replace the link and text.
 
-##### - Available classes
+#### - Available classes
 
 `large-link` - Changes the size of a link to be the same as `<h3>` which is the same as `###`. This is really the only way to increase the font size of a link (unless you know how the CSS to change it).
 
@@ -221,13 +220,13 @@ Now, while it is possible to directly edit things on GitHub, which makes quite a
 
 https://youtu.be/Y8WROWhykMA
 
-### Some Basics
+## Some Basics
 
 All paths should be from the root of the project and therefore start with a forward slash. For example, the path to my author image is: `/images/authors/author.png`
 
 This goes for pages as well.
 
-### Setting up your test environment
+## Setting up your test environment
 
 You have to do this if you want to see what the site looks like.
 
@@ -247,11 +246,11 @@ The .bat file is in the `/docs/` folder. Double click that. You should see `Serv
 
 Congrats, you now have a local web server running that will automatically refresh as you make changes to the site.
 
-### Text editor
+## Text editor
 
 I personally use [VS Code](https://code.visualstudio.com/). It's not an actual IDE, but rather a feature-heavy text editor. If you want something simple, just use [Notepad++](https://notepad-plus-plus.org/).
 
-### Using the Template
+## Using the Template
 
 There is a post/page template located in `/docs/`, `post-template.html`.
 
@@ -265,11 +264,11 @@ The name of the html file should be a shortened version of your actual title wit
 
 Once you have the file copied in there, it's time to start editing it.
 
-### Sections of the Template 
+## Sections of the Template 
 
 Firstly, edit the `<title>` towards the top. This should be the name of your post.
 
-### Nav Bar
+## Nav Bar
 
 `<div id="nav">` is the start of the "container" for the nav bar.
 
@@ -302,7 +301,7 @@ In most cases, you will be copying what you've already made and pasting it into 
 
 I recommend that every time you add a new post, update the nav bar on the spec's homepage first, and copy that to everything else.
 
-### Author Section
+## Author Section
 
 `<span id="title">TITLE</span> ` - Change the title of the post here.
 
@@ -334,7 +333,7 @@ For example:
 
 You can of course add addition social links. `<a target="_blank" href="PatreonLink"><i class="fab fa-patreon"></i></a>` for example.
 
-### Post Content
+## Post Content
 
 You're almost done.
 
@@ -350,7 +349,7 @@ Simply paste your converted Markdown inside of `<div id="post-content"> `.
 
 Now you can view how your post looks by going directly to its path. `http://127.0.0.1:35729/pages/protection/whatsnew.html`
 
-### Edit the Spec's Homepage
+## Edit the Spec's Homepage
 
 By this point, it should be fairly self-explanatory as to how to do this part.
 
@@ -378,13 +377,13 @@ Finally, there's the image for the post. Open the .css file for your spec. e.g. 
 
 Simply change the path to point to your image.
 
-### Editing your Post
+## Editing your Post
 
 Once you have everything setup for a post, to edit it, you would:
 
 Edit your Markdown first. Convert to HTML. Paste in `<div id="post-content"> `.
 
-### Pushing to GitHub
+## Pushing to GitHub
 
 Once you're done, it's time to push to the GitHub Repo.
 
