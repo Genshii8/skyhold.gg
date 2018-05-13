@@ -1,6 +1,6 @@
 At this point, Fury remains largely unchanged, although there have been scant hints of works in progress. The rotation still largely revolves around [Rampage](http://bfa.wowhead.com/spell=184367/rampage) and [Enrage](http://bfa.wowhead.com/spell=184361/enrage), and a few small improvements have been added, although many of the same issues we’ve dealt with throughout Legion remain. Most importantly, none of the artifact traits or legendary gear perks have been carried as of this point.
 
-## What’s been removed
+# What’s been removed
 
 - All artifact traits, including [Odyn’s Fury](http://bfa.wowhead.com/spell=205545/odyns-fury). As a result, rage generation has been reduced by approximately 30%.
 <br>
@@ -10,11 +10,11 @@ At this point, Fury remains largely unchanged, although there have been scant hi
 <br>
 - [Shockwave](http://bfa.wowhead.com/spell=46968/shockwave) is now Protection-only.
 
-## What’s been added
+# What’s been added
 
 - [Impending Victory](http://bfa.wowhead.com/spell=202168/impending-victory) is now a talent, which replaces [Shockwave](http://bfa.wowhead.com/spell=46968/shockwave).
 
-## What’s different
+# What’s different
 
 - [Enrage](http://bfa.wowhead.com/spell=184361/enrage) lasts 6 seconds (up from 4), but increases attack speed by 50% (down from 100%).
 <br>
@@ -42,7 +42,7 @@ At this point, Fury remains largely unchanged, although there have been scant hi
 <br>
 - Due to the loss of rage generation from the artifact and legendaries, the average time between [Rampage](http://bfa.wowhead.com/spell=184367/rampage) casts is greatly increased (from ~5-8s to ~8-12s), although the increased duration of Enrage keeps Enrage uptime mostly relative.
 
-## Talents
+# Talents
 
 There have been few talent changes so far, though other changes have impacted their use considerably.
 
@@ -89,7 +89,7 @@ There have been few talent changes so far, though other changes have impacted th
 <br>
 - [Bladestorm](http://bfa.wowhead.com/spell=46924/bladestorm) is relatively better, due to being the only burst AoE ability after the removal of [Odyn’s Fury](http://bfa.wowhead.com/spell=205545/odyns-fury), though still suffers all of the same issues of being difficult to align with [Recklessness](http://bfa.wowhead.com/spell=1719/recklessness) and [Enrage](http://bfa.wowhead.com/spell=184361/enrage). If anything, it’s made even worse due to the inability to increased GCD conflict with [Bloodbath](http://bfa.wowhead.com/spell=12292/bloodbath) and [Avatar](http://bfa.wowhead.com/spell=107574/avatar).
 
-## Azerite Traits (many values are placeholder)
+# Azerite Traits (many values are placeholder)
 
 - [Bloodcraze](http://bfa.wowhead.com/spell=273423/bloodcraze) – When [Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst) does not critically strike, it increases your Haste by 0 for 6 seconds.
 <br>
@@ -102,15 +102,15 @@ There have been few talent changes so far, though other changes have impacted th
 <br>
 - [Pulverizing Blows](http://bfa.wowhead.com/spell=275670/pulverizing-blows) – [Raging Blow](http://bfa.wowhead.com/spell=85288/raging-blow) causes every strike of your next [Rampage](http://bfa.wowhead.com/spell=184367/rampage) to deal an addition 6 damage. Stacks up to 5 times.
 
-## Overview
+# Overview
 
-### Rage Generation and Enrage
+## Rage Generation and Enrage
 
 The loss of artifact traits and legendaries has reduced rage generation by approximately 30%, which increases the average time between [Rampage](http://bfa.wowhead.com/spell=184367/rampage) casts from ~5-8s to ~8-12s. This is offset by [Enrage’s](http://bfa.wowhead.com/spell=184361/enrage) duration being increased to 6 seconds, keeping Fury at roughly 70% [Enrage](http://bfa.wowhead.com/spell=184361/enrage) uptime, which is just slightly lower than live, but has the secondary effect of making the rotation feel slower, even though the actual amount of actions per minute remains the same.
 
 There’s a natural conflict at work, as rage generation (and the frequency of [Rampage](http://bfa.wowhead.com/spell=184367/rampage)) cannot be increased without also reducing the duration of Enrage, or else [Enrage](http://bfa.wowhead.com/spell=184361/enrage) uptime will increase as a result. While many players would certainly like that, it limits the specs potential for growth and even negatively impacts the rotation, since [Furious Slash](http://bfa.wowhead.com/spell=100130/furious-slash) would have even less of a place in the rotation, effectively limiting the four rotational buttons ([Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst), [Rampage](http://bfa.wowhead.com/spell=184367/rampage), [Raging Blow](http://bfa.wowhead.com/spell=85288/raging-blow), and [Furious Slash](http://bfa.wowhead.com/spell=100130/furious-slash)) to a repetitive three.
 
-### Talents and Toolkit, comparison to Arms
+## Talents and Toolkit, comparison to Arms
 
 While the core rotation is solid, the biggest issue is with Fury’s talents. Due to being put on the GCD, the many talented cooldowns now compete rather than complement one another, and there’s still an alarming number of vastly underutilized talents taking up space on the tree ([Fresh Meat](http://bfa.wowhead.com/spell=215568/fresh-meat), [Impending Victory](http://bfa.wowhead.com/spell=202168/impending-victory), [Outburst](http://bfa.wowhead.com/spell=206320/outburst), [Furious Charge](http://bfa.wowhead.com/spell=202224/furious-charge), [Dragon Roar](http://bfa.wowhead.com/spell=118000/dragon-roar)).
 

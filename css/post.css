@@ -1,5 +1,5 @@
 #post-container {
-    width: 107.2rem;
+    width: 107rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     justify-content: flex-start;
@@ -110,7 +110,7 @@ textarea {
 }
 
 .text-link {
-    color: #3399ff;
+    color: #3399ff !important;
 }
 
 .center-text {
@@ -126,7 +126,9 @@ textarea {
     margin: 0 auto;
 }
 
-/**/
+/*
+
+*/
 
 #return-to-top {
     margin-top: 2rem;

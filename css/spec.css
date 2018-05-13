@@ -13,9 +13,20 @@
     height: 100%;
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
     border-bottom: solid 1px #111;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+}
+
+.post-image-center {
+    background-size: contain;
+    background-position: center;
+}
+
+.soon-image {
+    background-size: 25%;
+    background-position: center;
 }
 
 .post-text {
@@ -61,6 +72,11 @@
 
 #news-items i {
     font-size: 1.6rem;
+}
+
+.news-item {
+    font-size: 1.6rem;
+    margin-left: 1rem;
 }
 
 .post {

@@ -42,3 +42,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.fixed-image {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2rem;
+    opacity: 0.4;
+    width: 15rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1443px) {
+
+    .fixed-image {
+        display: none;
+    }
+}
