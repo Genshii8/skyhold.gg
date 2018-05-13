@@ -19,6 +19,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,700i" rel="stylesheet">
+    <link href="/font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/font-awesome/css/fa-brands.css" rel="stylesheet">
+    <link href="/font-awesome/css/fa-solid.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/home.css">
 </head>
@@ -34,40 +37,68 @@
         <img src="/images/home/banner.png" alt="Skyhold" id="banner">
     </section>
 
-    <section id="spec-selection" class="flex-center">
+    <main class="flex-center">
 
-        <div class="flex-column">
-            <a class="spec-icon" href="/arms.html"><img class="border" src="/images/home/arms-icon.jpg" alt="Arms"></a>
-            <a class="spec-link" href="/arms.html"><div class="spec-button border element-bg-color">Arms</div></a>
+        <div class="flex-1"></div>
+
+        <div class="flex-column flex-2 flex-order-2">
+
+            <div id="spec-selection" class="flex-center">
+
+                <div class="flex-column">
+                    <a class="spec-icon" href="/arms.html"><img class="border" src="/images/home/arms-icon.jpg" alt="Arms"></a>
+                    <a class="spec-link" href="/arms.html"><div class="spec-button border element-bg-color">Arms</div></a>
+                </div>
+        
+                <div class="flex-column">
+                    <a class="spec-icon" href="/fury.html"><img class="border" src="/images/home/fury-icon.jpg" alt="Fury"></a>
+                    <a class="spec-link" href="/fury.html"><div class="spec-button border element-bg-color">Fury</div></a>
+                </div>
+        
+                <div class="flex-column">
+                    <a class="spec-icon" href="/protection.html"><img class="border" src="/images/home/protection-icon.jpg" alt="Protection"></a>
+                    <a class="spec-link" href="/protection.html"><div class="spec-button border element-bg-color">Protection</div></a>
+                </div>
+            </div>
+
+            <div class="links-divider"></div>
+
+            <div id="links" class="flex-center">
+        
+                <div class="flex-column">
+                    <a class="link-image" target="_blank" href="https://discord.gg/Skyhold"><img class="smaller-image" src="/images/home/discord.png" alt="Discord"></a>
+                    <a target="_blank" href="https://discord.gg/Skyhold"><img class="border" src="/images/home/discord-button.png" alt="Discord"></a>
+                </div>
+        
+                <div class="flex-column">
+                    <a class="link-image" target="_blank" href=""><img class="smaller-image" src="/images/home/patreon.png" alt="Patreon"></a>
+                    <a target="_blank" href=""><img class="border" src="/images/home/patreon-button.png" alt="Patreon"></a>
+                </div>
+            </div>
+        
+            <div class="links-divider"></div>
         </div>
 
-        <div class="flex-column">
-            <a class="spec-icon" href="/fury.html"><img class="border" src="/images/home/fury-icon.jpg" alt="Fury"></a>
-            <a class="spec-link" href="/fury.html"><div class="spec-button border element-bg-color">Fury</div></a>
+        <div class="flex-column flex-stretch flex-1 flex-order-1">
+
+            <div id="recent-articles" class="flex-column mobile-width border element-bg-color">
+                
+                <div class="flex-column">
+                    <span id="recent-title">Recent Articles</span>
+                    <div id="recent-divider"></div>
+                </div>
+
+                <div id="recent-items" class="flex-column">
+                    <div class="flex-center recent-first"><img class="border recent-spec-icon" src="/images/home/protection-icon.jpg"><a href="/protection/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
+                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/fury-icon.jpg"><a href="/fury/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
+                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/arms-icon.jpg"><a href="/arms/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
+                </div>
+            </div>
+            
+            <div id="recent-mobile-divider" class="links-divider"></div>
         </div>
-
-        <div class="flex-column">
-            <a class="spec-icon" href="/protection.html"><img class="border" src="/images/home/protection-icon.jpg" alt="Protection"></a>
-            <a class="spec-link" href="/protection.html"><div class="spec-button border element-bg-color">Protection</div></a>
-        </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <section id="links" class="flex-center">
-
-        <div class="flex-column">
-            <a class="link-image" target="_blank" href="https://discord.gg/Skyhold"><img class="smaller-image" src="/images/home/discord.png" alt="Discord"></a>
-            <a target="_blank" href="https://discord.gg/Skyhold"><img class="border" src="/images/home/discord-button.png" alt="Discord"></a>
-        </div>
-
-        <div class="flex-column">
-            <a class="link-image" target="_blank" href=""><img class="smaller-image" src="/images/home/patreon.png" alt="Patreon"></a>
-            <a target="_blank" href=""><img class="border" src="/images/home/patreon-button.png" alt="Patreon"></a>
-        </div>
-    </section>
-
-    <div class="divider"></div>
+    
+    </main>
 
     <span id="made-by" class="flex-center">Made by Marok</span>
     
