@@ -30,270 +30,286 @@
 </head>
 <body>
 
-    <section class="flex-center">
+    <main class="flex-column">
 
-        <div id="logo"><a href="https://skyhold.gg"><img id="logo-image" src="/images/logo.png" alt="Skyhold"></a></div>
+        <div>
+
+            <div id="nav-spec">
+
+                <a id="logo" href="/index.html"><img class="border header-image" src="/images/logo.png" alt="Skyhold"></a>
+                <a class="header-image-link" href="/arms.html"><img class="border header-image header-image-selected" src="/images/home/arms-icon.jpg"></a>
+                <a class="header-image-link" href="/fury.html"><img class="border header-image" src="/images/home/fury-icon.jpg"></a>
+                <a class="header-image-link" href="/protection.html"><img class="border header-image" src="/images/home/protection-icon.jpg"></a>
+            </div>
         
-        <div id="nav" class="border element-bg-color"><div id="padding-div" class="flex-center">
-            <div><a class="nav-link" href="/arms.html">Home</a></div>
-            <div class="dropdown-container"><a href="#" class="nav-link non-link">Articles&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
-                <div class="flex-column dropdown-content border element-bg-color">
-                    <div><a class="nav-link nav-selected" href="/arms/whatsnew.html">What's New in BfA</a></div>
-                </div>
-            </div>
-        </div></div>
-    </section>
-    
-    <img class="fixed-image" src="/images/warrior-crest.png">
-
-    <section class="flex-center">
-
-        <div id="post-container" class="flex-column border element-bg-color">
-            <span id="title">What's New - Arms Warriors in BfA</span>
-            <div id="authors" class="flex-center">
-                <div class="flex-column">
-                    <img id="author-image" class="border" src="/images/authors/corejo.png" alt="Corejo"></img>
-                    <span id="author-name">Corejo</span>
-                    <div id="author-social" class="flex-center">
-                        <a target="_blank" href="https://twitter.com/Corejowow"><i class="fab fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.twitch.tv/corejowow"><i class="fab fa-twitch"></i></a>
-                        <a target="_blank" href="https://www.patreon.com/Corejo"><i class="fab fa-patreon"></i></a>
+            <div class="flex-center">
+        
+                <div id="nav" class="border element-bg-color"><div id="padding-div" class="flex-center-start">
+                    <div class="dropdown-container"><a href="#" class="nav-link non-link">Articles&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
+                        <div class="flex-column dropdown-content border element-bg-color">
+                            <div><a class="nav-link nav-selected" href="/arms/whatsnew.html">What's New in BfA</a></div>
+                        </div>
                     </div>
+                </div></div>
+            </div>
+
+            <div class="flex-center">
+
+                <div id="post-container" class="border element-bg-color flex-column-start flex-1">
+                    <span id="title">What's New - Arms Warriors in BfA</span>
+                    <div id="authors" class="flex-center">
+                        <div class="flex-column">
+                            <img id="author-image" class="border" src="/images/authors/corejo.png" alt="Corejo"></img>
+                            <span id="author-name">Corejo</span>
+                            <div id="author-social" class="flex-center">
+                                <a target="_blank" href="https://twitter.com/Corejowow"><i class="fab fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.twitch.tv/corejowow"><i class="fab fa-twitch"></i></a>
+                                <a target="_blank" href="https://www.patreon.com/Corejo"><i class="fab fa-patreon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div id="post-content" class="flex-stretch">
+                        <p>Arms has a decent rework in BfA Beta. The rotation is still similar to Legion, but less prone to RNG and a majority of the design issues from Legion are gone, more on that below. </p>
+                        <p>A few Artifact traits have been carried over. Some keep their old name, or they were baked into another ability.</p>
+                        <h3 id="whats-been-removed">What's been removed</h3>
+                        <ul>
+                        <li><a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://wowhead.com/spell=76838/mastery-colossal-might">Mastery: Colossal Might</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=207982/focused-rage">Focused Rage</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=57789/mortal-strike">Mortal Combo</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=202612/titanic-might">Titanic Might</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=202593/mortal-combo">Mortal Combo</a> has been removed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=209569/corrupted-blood-of-zakajz">Corrupted Blood of Zakajz</a> and <a href="http://www.wowhead.com/spell=209573/void-cleave">Void Cleave</a> are not coming with us to BfA.</li>
+                        </ul>
+                        <h3 id="whats-been-added">What's been added</h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Mastery: Deep Wounds</a> was been added, replacing <a href="http://bfa.wowhead.com/spell=76838/mastery-colossal-might">Mastery: Colossal Might</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=260643/skullsplitter">Skullsplitter</a> has been added, in place of <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> was added, in place of <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> was added, in place of <a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=202168/impending-victory">Impending Victory</a> was added, in place of <a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=268243/collateral-damage">Collateral Damage</a> was added, in place of <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> (<a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> has moved).
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262161/warbreaker">Warbreaker</a> was added, in place of <a href="http://www.wowhead.com/spell=202593/mortal-combo">Mortal Combo</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262150/dreadnaught">Dreadnaught</a> was been added, in place of <a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a>.</li>
+                        </ul>
+                        <h3 id="whats-different">What's different</h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> is now a 45s cooldown. Increasing all damage done on the target by 30% for 10s.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a> has been changed. It is now a .9% per rage spent to reset the cooldown of <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> is now baseline. It now increases the damage of your next <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> by 20%, stacking up to 2 times (think of <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>).
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> rage cost has been bumped up to 30 rage.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=163201/execute">Execute's</a> rage cost has been bumped up to 20-40 rage.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> and <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> both apply <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a>  when they deal damage.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a> is now a baseline cooldown with a larger ranged and less targets hit. It is on the GCD.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=97462/commanding-shout#changelog">Commanding Shout</a> has been renamed to <a href="http://bfa.wowhead.com/spell=97462/rallying-cry">Rallying Cry</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=772/rend">Rend</a> is now a 12s duration, up from 8s.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=107574/avatar">Avatar</a> now generates 20 rage.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a> has been moved to a talent, in place of <a href="http://bfa.wowhead.com/spell=202612/titanic-might">Titanic Might</a>. Now applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> when it hits 3+ targets, and it's rage cost has been bumped up to 20.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> has changed. It now increases <a href="http://bfa.wowhead.com/spell=1680/whirlwind">Whirlwind</a> damage by 10%, and casts a free  <a href="http://bfa.wowhead.com/spell=1464/slam">Slam</a> on your primary target as well. This <a href="http://bfa.wowhead.com/spell=1464/slam">Slam</a> is affected by <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> is now an active, moved in place of <a href="http://bfa.wowhead.com/spell=207982/focused-rage">Focused Rage</a>. It reduces the rage cost of your abilites by 100% for 6s (on the GCD).
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill">In for the Kill</a> is the same, but now increases haste by 20% if the target is below 20% HP.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a> now also affects the cooldown of <a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> and <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> is now an Azerite trait.</li>
+                        </ul>
+                        <h3 id="talents">Talents</h3>
+                        <h5 id="there-have-been-some-significant-changes-to-arms-talents">There have been some significant changes to Arms talents.</h5>
+                        <h3>15 - <a href="http://bfa.wowhead.com/spell=262231/war-machine" rel="spell=262231" data-wh-icon-size="small">War Machine</a> / <a href="http://bfa.wowhead.com/spell=29725/sudden-death" rel="spell=29725" data-wh-icon-size="small">Sudden Death</a> / <a href="http://bfa.wowhead.com/spell=260643/skullsplitter" rel="spell=260643" data-wh-icon-size="small">Skullsplitter</a></h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> is powerful if there's a lot of adds that die quickly. However this isn't always the case. Great for outdoor content with the movement speed.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> is the best choice for single target and cleave situations. I can even see it being used over <a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> in M+. <a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> has such a high PPM (2.5), and applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> AND <a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> if you have the Azerite trait. <a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a>, like <a href="http://www.wowhead.com/item=137052/ayalas-stone-heart">Ayala's Stone Heart</a>, has so much damage loaded into it.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=260643/skullsplitter">Skullsplitter</a> seems a little weak in my opinion. It doesn't hit really hard and the rage you gain from it isn't a whole lot. I can see it being used when you need on-demand rage/burst on a target.</li>
+                        </ul>
+                        <h3>30 - <a href="http://bfa.wowhead.com/spell=103827/double-time" rel="spell=103827" data-wh-icon-size="small">Double Time</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=103827/double-time">Double Time</a> is an essential talent for Arms for rage generation.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=202168/impending-victory">Impending Victory</a> was added in place of <a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=107570/storm-bolt">Stormbolt</a> might seem to be the obvious choice for M+. However, a lot of mobs in dungeons are immune to CC as I've seen in the Beta. And there are better AoE stuns on other specs.</li>
+                        </ul>
+                        <h3>45 - <a href="http://bfa.wowhead.com/spell=215538/trauma" rel="spell=215538" data-wh-icon-size="small">Trauma</a> / <a href="http://bfa.wowhead.com/spell=772/rend" rel="spell=772" data-wh-icon-size="small">Rend</a> / <a href="http://bfa.wowhead.com/spell=107574/avatar" rel="spell=107574" data-wh-icon-size="small">Avatar</a></h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=215538/trauma">Trauma</a> remains the same, but is really powerful with the new <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle.</a>
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=772/rend">Rend</a> being a 12s duration is a nice QoL buff. You don't need to refresh it during the new <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> window and you spend less rage refreshing it.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=107574/avatar">Avatar</a> is basically the same, 20 rage every 1.5m is quite weak however.</li>
+                        </ul>
+                        <h3>60 - <a href="http://bfa.wowhead.com/spell=29838/second-wind" rel="spell=29838" data-wh-icon-size="small">Second Wind</a> / <a href="http://bfa.wowhead.com/spell=202163/bounding-stride" rel="spell=202163" data-wh-icon-size="small">Bounding Stride</a> / <a href="http://bfa.wowhead.com/spell=197690/defensive-stance" rel="spell=197690" data-wh-icon-size="small">Defensive Stance</a></h3>
+                        <ul>
+                        <li>No changes.</li>
+                        </ul>
+                        <h3>75 - <a href="http://bfa.wowhead.com/spell=268243/collateral-damage" rel="spell=268243" data-wh-icon-size="small">Collateral Damage</a> / <a href="http://bfa.wowhead.com/spell=262161/warbreaker" rel="spell=262161" data-wh-icon-size="small">Warbreaker</a> / <a href="http://bfa.wowhead.com/spell=845/cleave" rel="spell=845" data-wh-icon-size="small">Cleave</a></h3>
+                        <ul>
+                        <li>This entire row is all AoE/Cleave based.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=268243/collateral-damage">Collateral Damage</a> is a little weak and boring. Only really good on consistent 2 target cleave.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262161/warbreaker">Warbreaker</a> of course still a really good AoE burst ability. Can't be parried, really good choice for single target.
+                        <br>
+                        <br></li>
+                        <li>However <a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a> steals the show,  <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> is really powerful on AoE. Applying it to 3+ targets every 6s is really strong. <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> can end up being 40%+ of your damage on AoE.</li>
+                        </ul>
+                        <h3>90 - <a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill" rel="spell=248621" data-wh-icon-size="small">In for the Kill</a> / <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle" rel="spell=202316" data-wh-icon-size="small">Fervor of Battle</a> / <a href="http://bfa.wowhead.com/spell=262228/deadly-calm" rel="spell=262228" data-wh-icon-size="small">Deadly Calm</a></h3>
+                        <ul>
+                        <li>Unfortunately this talent row only has one good choice.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill">In for the Kill</a> is much weaker now because it doesn't nearly have the same amount of uptime as it does on live.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> feels really bad to press.
+                        <br>
+                        <br></li>
+                        <li>And <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> is just plain strong. It's amazing on single target and AoE. And all that damage rolls into <a href="http://bfa.wowhead.com/spell=215538/trauma">Trauma</a>, which is huge.</li>
+                        </ul>
+                        <h3>100 - <a href="http://bfa.wowhead.com/spell=152278/anger-management" rel="spell=152278" data-wh-icon-size="small">Anger Management</a> / <a href="http://bfa.wowhead.com/spell=262150/dreadnaught" rel="spell=262150" data-wh-icon-size="small">Dreadnaught</a> / <a href="http://www.wowhead.com/spell=152277/ravager" rel="spell=152277" data-wh-icon-size="small">Ravager</a></h3>
+                        <ul>
+                        <li>This row has a lot of good choices here.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a> is quite powerful, getting more <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash's</a> off and more <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a>.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=262150/dreadnaught">Dreadnaught</a> is really fun to play and offers a more frontloaded <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> gameplay style. Although a little weaker than <a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a>, it may have a place in BfA.
+                        <br>
+                        <br></li>
+                        <li><a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> remains the same but applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> as mentioned earlier. However, since <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> hits very hard as well now, <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a>/<a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> choice might be dependent on the fight timers.</li>
+                        </ul>
+                        <h3 id="azerite-traits-many-values-are-placeholder">Azerite Traits (many values are placeholder)</h3>
+                        <ul>
+                        <li><a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> - <a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> increases the damage of your next <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> against the target by 235, stacking up to 2 times. (Previous Artifact trait)
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=273414/gathering-storm">Gathering Storm</a> - While <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> is active or you are <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorming</a> , every 1 sec you gain 22 Speed and <a href="http://www.wowhead.com/spell=152277/ravager">Ravager's</a>/<a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm's</a> damage increases by 125. Lasts 6 sec. (<a href="http://www.wowhead.com/item=151823/the-great-storms-eye">Legendary Helm</a>)
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=275529/test-of-might">Test of Might</a> - When <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> expires, your Strength is increased by 9 for every 10 Rage you spent during <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>. Lasts 12 sec.</li>
+                        </ul>
+                        <h4 id="where-legion-fell-short">Where Legion fell short</h4>
+                        <p>BfA Arms Rotation is very similar to Legion Arms. The rework has addressed a few of the design issues Arms had in Legion - for example, the <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> window having such a high uptime meant it didn't work as a "window of opportunity". There wasn't any room to play around the debuff as procs were too frequent and random, so you couldn't prepare for it. This was also an issue combined with the massive amount of synergy between <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>, <a href="http://www.wowhead.com/spell=248579/precise-strikes">Precise Strikes</a> and <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>. When you experienced the lower end of RNG, your damage plummeted, because all your synergy and damage was loaded into this one big thing. There wasn't any "skill" in regards to the procs, just how lucky you are.</p>
+                        <p>There was a slight rework in 7.1.5 which helped with [Colossus Smash]( <a href="http://www.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>) and the damage loaded into it. But that was mostly a band-aid to help the spec until a full expansion rework. Legion Arms is fine, but it could definitely use a refresh.</p>
+                        <h4 id="where-battle-for-azeroth-picks-up-the-slack">Where Battle for Azeroth picks up the slack</h4>
+                        <p>Battle for Azeroth picks up where Legion fell short mostly with <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>. Being a cooldown that can't reset was the best way to fix the problem. It now feels like a "window of opportunity." You can play around the debuff since it's a consistent 45s cd, and 10s uptime. Now another issue that was fixed was all the synergy with <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>. The traits were moved/removed from the game. And the one that remains (<a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>) is nearly not as impactful as it once was</p>
+                        <h3 id="overview">Overview</h3>
+                        <p><a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a> was moved into <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>, increases <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> damage, free to cast and resets through <a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a>. But it's nearly not as impactful. The rotation is basically the same. Keeping  <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> on CD, spending  <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> procs and using <a href="http://www.wowhead.com/spell=1464/slam">Slam</a>/<a href="http://www.wowhead.com/spell=1680/whirlwind">Whirlwind</a> (with <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a>)with as a filler. <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> has little effect on the rotation at all. </p>
+                        <p>Our cooldown, <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> is quite simple to maximize. Fit as many hard hitting GCD's into the window as possible. Such as <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a>, <a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> and <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>.</p>
+                        <p>The whole rotation is a bit slower. You get less rage per auto, <a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a> is gone, <a href="http://www.wowhead.com/item=137060/archavons-heavy-hand">Archavon's Heavy Hand</a> is gone, <a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a> is gone and <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> costs 10 more rage. You're going to be spending more time sitting on a GCD or two to keep <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> on CD.</p>
+                        <p>But there are ways to combat this such as <a href="http://www.wowhead.com/spell=100/charge">Charge</a> and <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorming</a>. However, the higher <a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a> proc chance helps fill globals.</p>
+                        <p><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> is really powerful now and might be used on single target for its full duration, but we'll have to see.</p>
+                        <p><a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> phase is pretty simple. </p>
+                        <p>Spam <a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a>, use <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> when it procs and <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> at 1-2 <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> stacks depending on talents/traits.</p>
+                        <h4 id="this-is-still-beta-everything-is-subject-to-change">THIS IS STILL BETA, EVERYTHING IS SUBJECT TO CHANGE.</h4>
+                        <h5 id="to-sum-it-up">To sum it up</h5>
+                        <ul>
+                        <li>Reliance on <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> is gone.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> replaces <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>.
+                        <br>
+                        <br></li>
+                        <li>Resets are still in the spec, not nearly as impactful.
+                        <br>
+                        <br></li>
+                        <li>Slightly slower rotation without many rage generating/reduction tools.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> may be worth using for it's full duration on single target.
+                        <br>
+                        <br></li>
+                        <li><a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> phase is largely the same, using Mortal Strike at X <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> stacks/X <a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> Stacks.</li>
+                        </ul>
+                        <h5 id="toolkit-compared-to-fury">Toolkit compared to Fury</h5>
+                        <p>Arms has the upper hand in pretty much every single situation over Fury. <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a> covering 2 target cleave, 3-5 target cleave while talented into <a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a>, and Burst AoE with <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a>/<a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a>. Arms really excels at multi-target situations and does decently well at single target.</p>
+                        <h5 id="closing">Closing</h5>
+                        <p>Blizzard finally made the spec they wanted since the start of Legion. The spec rewards good gameplay and doesn't play like a slot machine. Of course there are some issues with BfA Arms, but they are very minor compared to Legion's massive issues.</p>
+                        <p>Thanks to Vel for the much appreciated feedback!</p>
+                    </div>
+                    <a id="return-to-top" href="#"><div class="flex-column">
+                        <i class="fas fa-chevron-up"></i>
+                        <span>Return to Top</span>
+                    </div></a>
                 </div>
             </div>
-            <div class="divider"></div>
-            <div id="post-content">
-                <p>Arms has had a decently sized rework in BfA. However, the rotation should feel similar to Legion's, with it being much less reliant on resets and the <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> debuff. </p>
-                <p>Most of the issues from Legion are gone, however there are a few newer ones that are not as impactful as not having the <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> debuff up however.</p>
-                <p>A few Artifact traits have been carried over. Some keep their old name, or they were baked into another ability.</p>
-                <h1 id="whatsbeenremoved">What's been removed</h1>
-                <ul>
-                <li><a href="http://www.wowhead.com/spell=1719/battle-cry">Battle Cry</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://wowhead.com/spell=76838/mastery-colossal-might">Mastery: Colossal Might</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=207982/focused-rage">Focused Rage</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=57789/mortal-strike">Mortal Combo</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=202612/titanic-might">Titanic Might</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=202593/mortal-combo">Mortal Combo</a> has been removed.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=209569/corrupted-blood-of-zakajz">Corrupted Blood of Zakajz</a> and <a href="http://www.wowhead.com/spell=209573/void-cleave">Void Cleave</a> are not coming with us to BfA.</li>
-                </ul>
-                <h1 id="whatsbeenadded">What's been added</h1>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Mastery: Deep Wounds</a> was been added, replacing <a href="http://bfa.wowhead.com/spell=76838/mastery-colossal-might">Mastery: Colossal Might</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=260643/skullsplitter">Skullsplitter</a> has been added, in place of <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> was added, in place of <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> was added, in place of <a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=202168/impending-victory">Impending Victory</a> was added, in place of <a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=268243/collateral-damage">Collateral Damage</a> was added, in place of <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> (<a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> has moved).
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262161/warbreaker">Warbreaker</a> was added, in place of <a href="http://www.wowhead.com/spell=202593/mortal-combo">Mortal Combo</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262150/dreadnaught">Dreadnaught</a> was been added, in place of <a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a>.</li>
-                </ul>
-                <h1 id="whatsdifferent">What's different</h1>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> is now a 45s cooldown. Increasing all damage done on the target by 30% for 10s.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a> has been changed. It is now a .9% per rage spent to reset the cooldown of <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> is now baseline. It now increases the damage of your next <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> by 20%, stacking up to 2 times (think of <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>).
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> rage cost has been bumped up to 30 rage.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=163201/execute">Execute's</a> rage cost has been bumped up to 20-40 rage.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> and <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> both apply <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a>  when they deal damage.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a> is now a baseline cooldown with a larger ranged and less targets hit. It is on the GCD.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=97462/commanding-shout#changelog">Commanding Shout</a> has been renamed to <a href="http://bfa.wowhead.com/spell=97462/rallying-cry">Rallying Cry</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=772/rend">Rend</a> is now a 12s duration, up from 8s.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=107574/avatar">Avatar</a> now generates 20 rage.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a> has been moved to a talent, in place of <a href="http://bfa.wowhead.com/spell=202612/titanic-might">Titanic Might</a>. Now applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> when it hits 3+ targets, and it's rage cost has been bumped up to 20.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> has changed. It now increases <a href="http://bfa.wowhead.com/spell=1680/whirlwind">Whirlwind</a> damage by 10%, and casts a free  <a href="http://bfa.wowhead.com/spell=1464/slam">Slam</a> on your primary target as well. This <a href="http://bfa.wowhead.com/spell=1464/slam">Slam</a> is affected by <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> is now an active, moved in place of <a href="http://bfa.wowhead.com/spell=207982/focused-rage">Focused Rage</a>. It reduces the rage cost of your abilites by 100% for 6s (on the GCD).
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill">In for the Kill</a> is the same, but now increases haste by 20% if the target is below 20% HP.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a> now also affects the cooldown of <a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> and <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> is now an Azerite trait.</li>
-                </ul>
-                <h1 id="talents">Talents</h1>
-                <h3 id="therehavebeensomesignificantchangestoarmstalents">There have been some significant changes to Arms talents.</h3>
-                <h3>15 - <a href="http://bfa.wowhead.com/spell=262231/war-machine" rel="spell=262231" data-wh-icon-size="small">War Machine</a> / <a href="http://bfa.wowhead.com/spell=29725/sudden-death" rel="spell=29725" data-wh-icon-size="small">Sudden Death</a> / <a href="http://bfa.wowhead.com/spell=260643/skullsplitter" rel="spell=260643" data-wh-icon-size="small">Skullsplitter</a></h3>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> is powerful if there's a lot of adds that die quickly. However this isn't always the case. Great for outdoor content with the movement speed.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> is the best choice for single target and cleave situations. I can even see it being used over <a href="http://bfa.wowhead.com/spell=262231/war-machine">War Machine</a> in M+. <a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a> has such a high PPM (2.5), and applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> AND <a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> if you have the Azerite trait. <a href="http://bfa.wowhead.com/spell=29725/sudden-death">Sudden Death</a>, like <a href="http://www.wowhead.com/item=137052/ayalas-stone-heart">Ayala's Stone Heart</a>, has so much damage loaded into it.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=260643/skullsplitter">Skullsplitter</a> seems a little weak in my opinion. It doesn't hit really hard and the rage you gain from it isn't a whole lot. I can see it being used when you need on-demand rage/burst on a target.</li>
-                </ul>
-                <h3>30 - <a href="http://bfa.wowhead.com/spell=103827/double-time" rel="spell=103827" data-wh-icon-size="small">Double Time</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=103827/double-time">Double Time</a> is an essential talent for Arms for rage generation.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=202168/impending-victory">Impending Victory</a> was added in place of <a href="http://www.wowhead.com/spell=46968/shockwave">Shockwave</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=107570/storm-bolt">Stormbolt</a> might seem to be the obvious choice for M+. However, a lot of mobs in dungeons are immune to CC as I've seen in the Beta. And there are better AoE stuns on other specs.</li>
-                </ul>
-                <h3>45 - <a href="http://bfa.wowhead.com/spell=215538/trauma" rel="spell=215538" data-wh-icon-size="small">Trauma</a> / <a href="http://bfa.wowhead.com/spell=772/rend" rel="spell=772" data-wh-icon-size="small">Rend</a> / <a href="http://bfa.wowhead.com/spell=107574/avatar" rel="spell=107574" data-wh-icon-size="small">Avatar</a></h3>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=215538/trauma">Trauma</a> remains the same, but is really powerful with the new <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle.</a>
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=772/rend">Rend</a> being a 12s duration is a nice QoL buff. You don't need to refresh it during the new <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> window and you spend less rage refreshing it.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=107574/avatar">Avatar</a> is basically the same, 20 rage every 1.5m is quite weak however.</li>
-                </ul>
-                <h3>60 - <a href="http://bfa.wowhead.com/spell=29838/second-wind" rel="spell=29838" data-wh-icon-size="small">Second Wind</a> / <a href="http://bfa.wowhead.com/spell=202163/bounding-stride" rel="spell=202163" data-wh-icon-size="small">Bounding Stride</a> / <a href="http://bfa.wowhead.com/spell=197690/defensive-stance" rel="spell=197690" data-wh-icon-size="small">Defensive Stance</a></h3>
-                <ul>
-                <li>No changes.</li>
-                </ul>
-                <h3>75 - <a href="http://bfa.wowhead.com/spell=268243/collateral-damage" rel="spell=268243" data-wh-icon-size="small">Collateral Damage</a> / <a href="http://bfa.wowhead.com/spell=262161/warbreaker" rel="spell=262161" data-wh-icon-size="small">Warbreaker</a> / <a href="http://bfa.wowhead.com/spell=845/cleave" rel="spell=845" data-wh-icon-size="small">Cleave</a></h3>
-                <ul>
-                <li>This entire row is all AoE/Cleave based.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=268243/collateral-damage">Collateral Damage</a> is a little weak and boring. Only really good on consistent 2 target cleave.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262161/warbreaker">Warbreaker</a> of course still a really good AoE burst ability. Can't be parried, really good choice for single target.
-                <br>
-                <br></li>
-                <li>However <a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a> steals the show,  <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> is really powerful on AoE. Applying it to 3+ targets every 6s is really strong. <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> can end up being 40%+ of your damage on AoE.</li>
-                </ul>
-                <h3>90 - <a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill" rel="spell=248621" data-wh-icon-size="small">In for the Kill</a> / <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle" rel="spell=202316" data-wh-icon-size="small">Fervor of Battle</a> / <a href="http://bfa.wowhead.com/spell=262228/deadly-calm" rel="spell=262228" data-wh-icon-size="small">Deadly Calm</a></h3>
-                <ul>
-                <li>Unfortunately this talent row only has one good choice.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill">In for the Kill</a> is much weaker now because it doesn't nearly have the same amount of uptime as it does on live.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262228/deadly-calm">Deadly Calm</a> feels really bad to press.
-                <br>
-                <br></li>
-                <li>And <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a> is just plain strong. It's amazing on single target and AoE. And all that damage rolls into <a href="http://bfa.wowhead.com/spell=215538/trauma">Trauma</a>, which is huge.</li>
-                </ul>
-                <h3>100 - <a href="http://bfa.wowhead.com/spell=152278/anger-management" rel="spell=152278" data-wh-icon-size="small">Anger Management</a> / <a href="http://bfa.wowhead.com/spell=262150/dreadnaught" rel="spell=262150" data-wh-icon-size="small">Dreadnaught</a> / <a href="http://www.wowhead.com/spell=152277/ravager" rel="spell=152277" data-wh-icon-size="small">Ravager</a></h3>
-                <ul>
-                <li>This row has a lot of good choices here.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a> is quite powerful, getting more <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash's</a> off and more <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a>.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=262150/dreadnaught">Dreadnaught</a> is really fun to play and offers a more frontloaded <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> gameplay style. Although a little weaker than <a href="http://bfa.wowhead.com/spell=152278/anger-management">Anger Management</a>, it may have a place in BfA.
-                <br>
-                <br></li>
-                <li><a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> remains the same but applies <a href="http://bfa.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> as mentioned earlier. However, since <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> hits very hard as well now, <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a>/<a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> choice might be dependent on the fight timers.</li>
-                </ul>
-                <h1 id="azeritetraitsmanyvaluesareplaceholder">Azerite Traits (many values are placeholder)</h1>
-                <ul>
-                <li><a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> - <a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> increases the damage of your next <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> against the target by 235, stacking up to 2 times. (Previous Artifact trait)
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=273414/gathering-storm">Gathering Storm</a> - While <a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a> is active or you are <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorming</a> , every 1 sec you gain 22 Speed and <a href="http://www.wowhead.com/spell=152277/ravager">Ravager's</a>/<a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm's</a> damage increases by 125. Lasts 6 sec. (<a href="http://www.wowhead.com/item=151823/the-great-storms-eye">Legendary Helm</a>)
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=275529/test-of-might">Test of Might</a> - When <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> expires, your Strength is increased by 9 for every 10 Rage you spent during <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a>. Lasts 12 sec.</li>
-                </ul>
-                <h1 id="overview">Overview</h1>
-                <h2 id="coregameplay">Core gameplay</h2>
-                <p>Like mentioned at the beginning, Arms in BfA feels very similar to Arms in Legion. <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> being our cooldown is the best thing they could've done for the ability. Not relying on a debuff to deal any sort of damage feels so much better. Target switching is easier, more consistent damage and less frustrating when you go quite a while without procs. Having the <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> debuff be a 100% uptime with <a href="http://bfa.wowhead.com/spell=202612/titanic-might">Titanic Might</a> made it pretty boring, it was quite the band-aid talent. <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a> was moved into <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a>, increases <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> damage, free to cast and resets through <a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a>. But it's nearly not as impactful. The rotation is a bit slower, especially with <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle">Fervor of Battle</a>.</p>
-                <p>You get less rage per auto, <a href="http://www.wowhead.com/spell=203179/opportunity-strikes">Opportunity Strikes</a> is gone, <a href="http://www.wowhead.com/item=137060/archavons-heavy-hand">Archavon's Heavy Hand</a> is gone, <a href="http://www.wowhead.com/spell=202297/dauntless">Dauntless</a> is gone and <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> costs 10 more rage. You're going to be spending more time sitting on a GCD or two to keep on CD. </p>
-                <p>But there are ways to combat this such as <a href="http://www.wowhead.com/spell=100/charge">Charge</a> and <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorming</a>. However, the higher <a href="http://bfa.wowhead.com/spell=184783/tactician">Tactician</a> proc chance helps fill globals.</p>
-                <p><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> is really powerful now and might be used on single target for its full duration, but we'll have to see.</p>
-                <p><a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> phase is pretty simple. </p>
-                <p>Spam <a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a>, use <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> when it procs and <a href="http://bfa.wowhead.com/spell=12294/mortal-strike">Mortal Strike</a> at 1-2 <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> stacks depending on talents/traits.</p>
-                <h2 id="thisisstillbetaeverythingissubjecttochange">THIS IS STILL BETA, EVERYTHING IS SUBJECT TO CHANGE.</h2>
-                <h3 id="tosumitup">To sum it up</h3>
-                <ul>
-                <li>Reliance on <a href="http://bfa.wowhead.com/spell=167105/colossus-smash">Colossus Smash</a> is gone.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> replaces <a href="http://www.wowhead.com/spell=248580/shattered-defenses">Shattered Defenses</a>.
-                <br>
-                <br></li>
-                <li>Resets are still in the spec, not nearly as impactful.
-                <br>
-                <br></li>
-                <li>Slightly slower rotation without many rage generating/reduction tools.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a> may be worth using for it's full duration on single target.
-                <br>
-                <br></li>
-                <li><a href="http://bfa.wowhead.com/spell=163201/execute">Execute</a> phase is largely the same, using Mortal Strike at X <a href="http://bfa.wowhead.com/spell=7384/overpower">Overpower</a> stacks/X <a href="http://bfa.wowhead.com/spell=272867/executioners-precision">Executioner's Precision</a> Stacks.</li>
-                </ul>
-                <h3 id="toolkitcomparedtofury">Toolkit compared to Fury</h3>
-                <p>Arms has the upper hand in pretty much every single situation over Fury. <a href="http://bfa.wowhead.com/spell=260708/sweeping-strikes">Sweeping Strikes</a> covering 2 target cleave, 3-5 target cleave while talented into <a href="http://bfa.wowhead.com/spell=845/cleave">Cleave</a>, and Burst AoE with <a href="http://bfa.wowhead.com/spell=227847/bladestorm">Bladestorm</a>/<a href="http://www.wowhead.com/spell=152277/ravager">Ravager</a>. Arms really excels at multi-target situations and does decently well at single target.</p>
-            </div>
-            <a id="return-to-top" href="#"><div class="flex-column">
-                <i class="fas fa-chevron-up"></i>
-                <span>Return to Top</span>
-            </div></a>
         </div>
+    </main>
 
-    </section>
-    
+    <img class="fixed-image" src="/images/warrior-crest.png">
 </body>
 </html>

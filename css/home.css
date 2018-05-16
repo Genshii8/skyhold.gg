@@ -29,8 +29,15 @@
 }
 
 .spec-icon {
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-top: 8rem;
+}
+
+#arms-icon-link {
+    margin-right: 4rem;
+}
+
+#protection-icon-link {
+    margin-left: 4rem;
 }
 
 .spec-link {
@@ -38,9 +45,18 @@
     text-decoration: none;
     text-align: center;
     line-height: 7.5rem;
+    margin-top: 1.5rem;
     margin-left: 4rem;
     margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+}
+
+#arms-link {
+    margin-left: 0;
+}
+
+#protection-link {
+    margin-right: 0;
 }
 
 .spec-button {
@@ -48,82 +64,25 @@
     height: 7.5rem;
 }
 
-#recent-articles {
-    width: 30rem;
-    height: 100%;
-    margin-top: 4rem;
-    margin-right: 1rem;
-    justify-content: flex-start;
-}
-
-#recent-articles > div {
-    width: 100%
-}
-
-#recent-title {
-    font-size: 2rem;
-    margin-top: 1rem;
-}
-
-#recent-divider {
-    border-top: solid 1px #e6e6e6;
-    width: 90%;
-    height: 0;
-    margin-top: 1rem;
-}
-
-#recent-items {
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-#recent-items > div {
-    margin-left: 1rem;
-    margin-top: 1.5rem;
-}
-
-.recent-first {
-    margin-top: 1rem !important;
-}
-
-#recent-items i {
-    font-size: 1.6rem;
-}
-
-#recent-items a {
-    text-decoration: none;
-}
-
-.recent-item {
-    font-size: 1.6rem;
-    margin-left: 1rem;
-}
-
-.recent-spec-icon {
-    width: 2.4rem;
-}
-
-#recent-mobile-divider {
-    display: none;
-}
-
 .links-divider {
     border-top: solid 1px #e6e6e6;
-    width: 106.6rem;
+    width: 100%;
     height: 0;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2rem;
 }
 
 #links > div {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .link-image {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+.link-image-size {
+    width: 5rem;
 }
 
 #made-by {
@@ -136,15 +95,6 @@
     
     main {
         flex-direction: column;
-    }
-
-    #recent-articles {
-        height: 37.9rem;
-        margin-right: 0;
-    }
-
-    #recent-mobile-divider {
-        display: initial;
     }
 
     .flex-order-1 {
@@ -161,19 +111,46 @@
     #spec-selection {
         flex-direction: column;
     }
-    
-    .links-divider {
-        width: 30rem;
+
+    #arms-icon-link {
+        margin-right: 0;
+    }
+
+    #fury-icon-link {
+        margin-top: 0;
     }
     
-    #links {
-        flex-direction: column;
+    #protection-icon-link {
+        margin-top: 0;
+        margin-left: 0;
     }
-}
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+    #arms-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-    .smaller-image {
-        width: 20rem;
+    #fury-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #protection-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #links > div {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .link-image {
+        margin-right: 0;
+    }
+
+    .display-none {
+        display: none;
     }
 }

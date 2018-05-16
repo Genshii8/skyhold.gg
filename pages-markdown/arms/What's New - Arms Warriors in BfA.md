@@ -1,6 +1,4 @@
-Arms has had a decently sized rework in BfA. However, the rotation should feel similar to Legion's, with it being much less reliant on resets and the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) debuff. 
-
-Most of the issues from Legion are gone, however there are a few newer ones that are not as impactful as not having the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) debuff up however.
+Arms has a decent rework in BfA Beta. The rotation is still similar to Legion, but less prone to RNG and a majority of the design issues from Legion are gone, more on that below. 
 
 A few Artifact traits have been carried over. Some keep their old name, or they were baked into another ability.
 
@@ -196,13 +194,23 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 <br>
 - [Test of Might](http://bfa.wowhead.com/spell=275529/test-of-might) - When [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) expires, your Strength is increased by 9 for every 10 Rage you spent during [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). Lasts 12 sec.
 
-#Overview
+##Where Legion fell short
 
-## Core gameplay
+BfA Arms Rotation is very similar to Legion Arms. The rework has addressed a few of the design issues Arms had in Legion - for example, the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) window having such a high uptime meant it didn't work as a "window of opportunity". There wasn't any room to play around the debuff as procs were too frequent and random, so you couldn't prepare for it. This was also an issue combined with the massive amount of synergy between [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash), [Precise Strikes](http://www.wowhead.com/spell=248579/precise-strikes) and [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses). When you experienced the lower end of RNG, your damage plummeted, because all your synergy and damage was loaded into this one big thing. There wasn't any "skill" in regards to the procs, just how lucky you are.
 
-Like mentioned at the beginning, Arms in BfA feels very similar to Arms in Legion. [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) being our cooldown is the best thing they could've done for the ability. Not relying on a debuff to deal any sort of damage feels so much better. Target switching is easier, more consistent damage and less frustrating when you go quite a while without procs. Having the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) debuff be a 100% uptime with [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might) made it pretty boring, it was quite the band-aid talent. [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses) was moved into [Overpower](http://bfa.wowhead.com/spell=7384/overpower), increases [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) damage, free to cast and resets through [Tactician](http://bfa.wowhead.com/spell=184783/tactician). But it's nearly not as impactful. The rotation is a bit slower, especially with [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle).
+There was a slight rework in 7.1.5 which helped with [Colossus Smash]( [Colossus Smash](http://www.wowhead.com/spell=167105/colossus-smash)) and the damage loaded into it. But that was mostly a band-aid to help the spec until a full expansion rework. Legion Arms is fine, but it could definitely use a refresh.
 
-You get less rage per auto, [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes) is gone, [Archavon's Heavy Hand](http://www.wowhead.com/item=137060/archavons-heavy-hand) is gone, [Dauntless](http://www.wowhead.com/spell=202297/dauntless) is gone and [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) costs 10 more rage. You're going to be spending more time sitting on a GCD or two to keep on CD. 
+## Where Battle for Azeroth picks up the slack
+
+Battle for Azeroth picks up where Legion fell short mostly with [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). Being a cooldown that can't reset was the best way to fix the problem. It now feels like a "window of opportunity." You can play around the debuff since it's a consistent 45s cd, and 10s uptime. Now another issue that was fixed was all the synergy with [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). The traits were moved/removed from the game. And the one that remains ([Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses)) is nearly not as impactful as it once was
+
+#Overview 
+
+[Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses) was moved into [Overpower](http://bfa.wowhead.com/spell=7384/overpower), increases [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) damage, free to cast and resets through [Tactician](http://bfa.wowhead.com/spell=184783/tactician). But it's nearly not as impactful. The rotation is basically the same. Keeping  [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) on CD, spending  [Overpower](http://bfa.wowhead.com/spell=7384/overpower) procs and using [Slam](http://www.wowhead.com/spell=1464/slam)/[Whirlwind](http://www.wowhead.com/spell=1680/whirlwind) (with [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle))with as a filler. [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) has little effect on the rotation at all. 
+
+Our cooldown, [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) is quite simple to maximize. Fit as many hard hitting GCD's into the window as possible. Such as [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike), [Execute](http://bfa.wowhead.com/spell=163201/execute) and [Overpower](http://bfa.wowhead.com/spell=7384/overpower).
+
+The whole rotation is a bit slower. You get less rage per auto, [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes) is gone, [Archavon's Heavy Hand](http://www.wowhead.com/item=137060/archavons-heavy-hand) is gone, [Dauntless](http://www.wowhead.com/spell=202297/dauntless) is gone and [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) costs 10 more rage. You're going to be spending more time sitting on a GCD or two to keep [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) on CD.
 
 But there are ways to combat this such as [Charge](http://www.wowhead.com/spell=100/charge) and [Bladestorming](http://bfa.wowhead.com/spell=227847/bladestorm). However, the higher [Tactician](http://bfa.wowhead.com/spell=184783/tactician) proc chance helps fill globals.
 
@@ -236,3 +244,10 @@ Spam [Execute](http://bfa.wowhead.com/spell=163201/execute), use [Overpower](htt
 ### Toolkit compared to Fury
 
 Arms has the upper hand in pretty much every single situation over Fury. [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes) covering 2 target cleave, 3-5 target cleave while talented into [Cleave](http://bfa.wowhead.com/spell=845/cleave), and Burst AoE with [Bladestorm](http://bfa.wowhead.com/spell=227847/bladestorm)/[Ravager](http://www.wowhead.com/spell=152277/ravager). Arms really excels at multi-target situations and does decently well at single target.
+
+###Closing
+
+Blizzard finally made the spec they wanted since the start of Legion. The spec rewards good gameplay and doesn't play like a slot machine. Of course there are some issues with BfA Arms, but they are very minor compared to Legion's massive issues.
+
+Thanks to Vel for the much appreciated feedback!
+

@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <meta name="google-site-verification" content="u917zEeQ-qj6jXXboX-1qM0VqR9vfApPjes0ozfbH9w" />
 
     <title>Skyhold</title>
 
@@ -24,6 +23,7 @@
     <link href="/font-awesome/css/fa-solid.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/home.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/news.css">
 </head>
 <body>
 
@@ -34,68 +34,77 @@
     </section>
 
     <section id="banner-section">
-        <img src="/images/home/banner.png" alt="Skyhold" id="banner">
+        <img id="banner" src="/images/home/banner.png" alt="Skyhold" >
     </section>
 
     <main class="flex-center">
 
         <div class="flex-1"></div>
 
-        <div class="flex-column flex-2 flex-order-2">
+        <div class="flex-1 flex-order-2">
 
-            <div id="spec-selection" class="flex-center">
+            <div class="flex-column">
 
-                <div class="flex-column">
-                    <a class="spec-icon" href="/arms.html"><img class="border" src="/images/home/arms-icon.jpg" alt="Arms"></a>
-                    <a class="spec-link" href="/arms.html"><div class="spec-button border element-bg-color">Arms</div></a>
+                <div id="spec-selection" class="flex-center">
+
+                    <div class="flex-column">
+                        <a id="arms-icon-link" class="spec-icon" href="/arms.html"><img class="border" src="/images/home/arms-icon.jpg" alt="Arms"></a>
+                        <a id="arms-link" class="spec-link" href="/arms.html"><div class="border element-bg-color spec-button">Arms</div></a>
+                    </div>
+            
+                    <div class="flex-column">
+                        <a id="fury-icon-link" class="spec-icon" href="/fury.html"><img class="border" src="/images/home/fury-icon.jpg" alt="Fury"></a>
+                        <a id="fury-link" class="spec-link" href="/fury.html"><div class="border element-bg-color spec-button">Fury</div></a>
+                    </div>
+            
+                    <div class="flex-column">
+                        <a id="protection-icon-link" class="spec-icon" href="/protection.html"><img class="border" src="/images/home/protection-icon.jpg" alt="Protection"></a>
+                        <a id="protection-link" class="spec-link" href="/protection.html"><div class="border element-bg-color spec-button">Protection</div></a>
+                    </div>
                 </div>
-        
-                <div class="flex-column">
-                    <a class="spec-icon" href="/fury.html"><img class="border" src="/images/home/fury-icon.jpg" alt="Fury"></a>
-                    <a class="spec-link" href="/fury.html"><div class="spec-button border element-bg-color">Fury</div></a>
+
+                <div class="links-divider"></div>
+
+                <div id="links" class="flex-center">
+            
+                    <div class="flex-center">
+                        <a class="link-image" target="_blank" href="https://discord.gg/Skyhold"><img class="link-image-size" src="/images/home/discord.png" alt="Discord"></a>
+                        <a class="display-none" target="_blank" href="https://discord.gg/Skyhold"><img class="border" src="/images/home/discord-button.png" alt="Discord"></a>
+                    </div>
+
+                    <div class="flex-center">
+                        <a target="_blank" href="https://twitter.com/Skyholdgg"><img class="link-image-size" src="/images/home/twitter.png" alt="Twitter"></a>
+                    </div>
+
+                    <div class="flex-center">
+                        <a target="_blank" href="https://www.youtube.com/c/Skyholdgg"><img class="link-image-size" src="/images/home/youtube.png" alt="Twitter"></a>
+                    </div>
+            
+                    <div class="flex-center">
+                        <a class="link-image" target="_blank" href=""><img class="link-image-size" src="/images/home/patreon.png" alt="Patreon"></a>
+                        <a class="display-none" target="_blank" href=""><img class="border" src="/images/home/patreon-button.png" alt="Patreon"></a>
+                    </div>
                 </div>
-        
-                <div class="flex-column">
-                    <a class="spec-icon" href="/protection.html"><img class="border" src="/images/home/protection-icon.jpg" alt="Protection"></a>
-                    <a class="spec-link" href="/protection.html"><div class="spec-button border element-bg-color">Protection</div></a>
-                </div>
+            
+                <div class="links-divider"></div>
             </div>
-
-            <div class="links-divider"></div>
-
-            <div id="links" class="flex-center">
-        
-                <div class="flex-column">
-                    <a class="link-image" target="_blank" href="https://discord.gg/Skyhold"><img class="smaller-image" src="/images/home/discord.png" alt="Discord"></a>
-                    <a target="_blank" href="https://discord.gg/Skyhold"><img class="border" src="/images/home/discord-button.png" alt="Discord"></a>
-                </div>
-        
-                <div class="flex-column">
-                    <a class="link-image" target="_blank" href=""><img class="smaller-image" src="/images/home/patreon.png" alt="Patreon"></a>
-                    <a target="_blank" href=""><img class="border" src="/images/home/patreon-button.png" alt="Patreon"></a>
-                </div>
-            </div>
-        
-            <div class="links-divider"></div>
         </div>
 
         <div class="flex-column flex-stretch flex-1 flex-order-1">
 
-            <div id="recent-articles" class="flex-column mobile-width border element-bg-color">
+            <div id="recent-articles" class="border element-bg-color flex-column-start news">
                 
                 <div class="flex-column">
-                    <span id="recent-title">Recent Articles</span>
-                    <div id="recent-divider"></div>
+                    <span class="news-title">Recent Articles</span>
+                    <div class="divider"></div>
                 </div>
 
-                <div id="recent-items" class="flex-column">
-                    <div class="flex-center recent-first"><img class="border recent-spec-icon" src="/images/home/protection-icon.jpg"><a href="/protection/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
-                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/fury-icon.jpg"><a href="/fury/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
-                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/arms-icon.jpg"><a href="/arms/whatsnew.html"><div class="recent-item">May 13</div><div class="recent-item text-link">What's New in BfA</div></a></div>
+                <div id="recent-items" class="flex-column-start news-items">
+                    <div class="flex-center recent-first"><img class="border recent-spec-icon" src="/images/home/protection-icon.jpg"><a href="/protection/whatsnew.html"><div class="news-item">May 13</div><div class="news-item text-link">What's New in BfA</div></a></div>
+                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/fury-icon.jpg"><a href="/fury/whatsnew.html"><div class="news-item">May 13</div><div class="news-item text-link">What's New in BfA</div></a></div>
+                    <div class="flex-center"><img class="border recent-spec-icon" src="/images/home/arms-icon.jpg"><a href="/arms/whatsnew.html"><div class="news-item">May 13</div><div class="news-item text-link">What's New in BfA</div></a></div>
                 </div>
             </div>
-            
-            <div id="recent-mobile-divider" class="links-divider"></div>
         </div>
     
     </main>

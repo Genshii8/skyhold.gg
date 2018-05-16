@@ -1,22 +1,39 @@
+#nav-spec {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #logo {
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.header-image-link {
     margin-right: 2rem;
     margin-top: 1rem;
 }
 
-#logo-image {
+.header-image {
+    border-radius: 50%;
     width: 5rem;
 }
 
+.header-image-selected {
+    border: solid 1px #ffcc66;
+    box-shadow: 0 0 10px 1px #ffcc66;
+}
+
 #nav {
-    width: 100rem;
+    width: 107rem;
     height: 5.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #padding-div {
     height: 100%;
-    justify-content: flex-start;
 }
 
 #padding-div > div {
@@ -63,6 +80,10 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 1130px) {
+
+    #logo {
+        margin-left: 1rem;
+    }
 
     #nav {
         width: 95vw;

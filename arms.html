@@ -24,84 +24,95 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/spec.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/news.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/arms.css">
 </head>
 <body>
 
-    <section class="flex-center">
+    <main class="flex-column">
 
-        <div id="logo"><a href="https://skyhold.gg"><img id="logo-image" src="/images/logo.png" alt="Skyhold"></a></div>
+        <div>
+
+            <div id="nav-spec">
+
+                <a id="logo" href="/index.html"><img class="border header-image" src="/images/logo.png" alt="Skyhold"></a>
+                <a class="header-image-link" href="/arms.html"><img class="border header-image header-image-selected" src="/images/home/arms-icon.jpg"></a>
+                <a class="header-image-link" href="/fury.html"><img class="border header-image" src="/images/home/fury-icon.jpg"></a>
+                <a class="header-image-link" href="/protection.html"><img class="border header-image" src="/images/home/protection-icon.jpg"></a>
+            </div>
         
-        <div id="nav" class="border element-bg-color"><div id="padding-div" class="flex-center">
-            <div><a class="nav-link nav-selected" href="/arms.html">Home</a></div>
-            <div class="dropdown-container"><a href="#" class="nav-link non-link">Articles&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
-                <div class="flex-column dropdown-content border element-bg-color">
-                    <div><a class="nav-link" href="/arms/whatsnew.html">What's New in BfA</a></div>
+            <div class="flex-center">
+        
+                <div id="nav" class="border element-bg-color"><div id="padding-div" class="flex-center-start">
+                    <div class="dropdown-container"><a href="#" class="nav-link non-link">Articles&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
+                        <div class="flex-column dropdown-content border element-bg-color">
+                            <div><a class="nav-link" href="/arms/whatsnew.html">What's New in BfA</a></div>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+
+            <div class="flex-center">
+
+                <a class="post-link-left flex-3" href="/arms/whatsnew.html"><div id="featured-post" class="border element-bg-color flex-column mobile-width">
+                    <div id="featured-post-image" class="post-image post-image-center"></div>
+                    <div class="flex-column post-text">
+                        <span class="post-title">What's New - Arms Warriors in BfA</span>
+                        <span class="post-description">A look at the changes for Arms Warriors in Battle for Azeroth</span>
+                    </div>
+                </div></a>
+        
+                <div id="news" class="border element-bg-color flex-column-start flex-2 news mobile-width">
+                    <div class="flex-column">
+                        <span class="news-title">Spec News / Site Updates</span>
+                        <div class="divider"></div>
+                    </div>
+                    <div id="news-items" class="flex-column-start news-items">
+                        <div class="flex-center"><i class="fas fa-newspaper"></i><div class="news-item">May 15 - skyhold.gg has been released!</div></div>
+                    </div>
                 </div>
             </div>
-        </div></div>
-    </section>
 
-    <img class="fixed-image" src="/images/warrior-crest.png">
-
-    <section class="flex-center">
-
-        <a class="post-link" href="/arms/whatsnew.html"><div id="featured-post" class="flex-column mobile-width border element-bg-color">
-            <div id="featured-post-image" class="post-image post-image-center"></div>
-            <div class="flex-column post-text">
-                <span class="post-title">What's New - Arms Warriors in BfA</span>
-                <span class="post-description">A look at the changes for Arms Warriors in Battle for Azeroth</span>
+            <div class="flex-center">
+        
+                <a class="post-link-left flex-1" href=""><div id="post-1" class="border element-bg-color flex-column post mobile-width">
+                    <div id="post-1-image" class="post-image soon-image"></div>
+                    <div class="flex-column post-text">
+                        <span class="post-title">Coming Soon</span>
+                        <span class="post-description"></span>
+                    </div>
+                </div></a>
+        
+                <a class="post-link-right flex-1" href=""><div id="post-2" class="border element-bg-color flex-column post mobile-width">
+                    <div id="post-2-image" class="post-image soon-image"></div>
+                    <div class="flex-column post-text">
+                        <span class="post-title">Coming Soon</span>
+                        <span class="post-description"></span>
+                    </div>
+                </div></a>
             </div>
-        </div></a>
 
-        <div id="news" class="flex-column mobile-width border element-bg-color">
-            <div class="flex-column">
-                <span id="news-title">Spec News / Site Updates</span>
-                <div class="divider"></div>
-            </div>
-            <div id="news-items" class="flex-column">
-                <div class="flex-center"><i class="fas fa-newspaper"></i><div class="news-item">May 15 - skyhold.gg has been released!</div></div>
+            <div class="flex-center">
+
+                <a class="post-link-left flex-1 bottom-post-margin" href=""><div id="post-3" class="border element-bg-color flex-column post mobile-width">
+                    <div id="post-3-image" class="post-image soon-image"></div>
+                    <div class="flex-column post-text">
+                        <span class="post-title">Coming Soon</span>
+                        <span class="post-description"></span>
+                    </div>
+                </div></a>
+            
+                <a class="post-link-right flex-1 bottom-post-margin" href=""><div id="post-4" class="border element-bg-color flex-column post mobile-width">
+                    <div id="post-4-image" class="post-image soon-image"></div>
+                    <div class="flex-column post-text">
+                        <span class="post-title">Coming Soon</span>
+                        <span class="post-description"></span>
+                    </div>
+                </div></a>
             </div>
         </div>
-    </section>
+    </main>
 
-    <section class="flex-center">
-
-        <a class="post-link" href=""><div id="post-1" class="flex-column mobile-width post border element-bg-color">
-            <div id="post-1-image" class="post-image soon-image"></div>
-            <div class="flex-column post-text">
-                <span class="post-title">Coming Soon</span>
-                <span class="post-description"></span>
-            </div>
-        </div></a>
-
-        <a class="post-link" href=""><div id="post-2" class="flex-column mobile-width post border element-bg-color">
-            <div id="post-2-image" class="post-image soon-image"></div>
-            <div class="flex-column post-text">
-                <span class="post-title">Coming Soon</span>
-                <span class="post-description"></span>
-            </div>
-        </div></a>
-    </section>
-
-    <section class="flex-center">
-
-        <a class="post-link bottom-post-margin" href=""><div id="post-3" class="flex-column mobile-width post border element-bg-color">
-            <div id="post-3-image" class="post-image soon-image"></div>
-            <div class="flex-column post-text">
-                <span class="post-title">Coming Soon</span>
-                <span class="post-description"></span>
-            </div>
-        </div></a>
-    
-        <a class="post-link bottom-post-margin" href=""><div id="post-4" class="flex-column mobile-width post border element-bg-color">
-            <div id="post-4-image" class="post-image soon-image"></div>
-            <div class="flex-column post-text">
-                <span class="post-title">Coming Soon</span>
-                <span class="post-description"></span>
-            </div>
-        </div></a>
-    </section>
-    
+    <img class="fixed-image" src="/images/warrior-crest.png">
 </body>
 </html>
