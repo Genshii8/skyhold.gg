@@ -65,15 +65,18 @@
     width: 2.4rem;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1130px) {
+@media screen and (min-width: 0px) and (max-width: 1800px) {
     
-    #news {
-        margin: 1rem;
-    }
-
     #recent-articles {
         height: 38.7rem;
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1130px) {
+    
+    #news {
+        margin: 1rem;
     }
 }
