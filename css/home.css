@@ -91,6 +91,11 @@
     font-size: 1.5rem;
 }
 
+.warrior-crest {
+    opacity: 0.4;
+    width: 15rem;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1800px) {
     
     main {
@@ -103,6 +108,10 @@
     
     .flex-order-2 {
         order: 2;
+    }
+
+    .warrior-crest {
+        display: none;
     }
 }
 
