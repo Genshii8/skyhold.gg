@@ -3,7 +3,7 @@ main > div {
 }
 
 #post-container {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -61,10 +61,6 @@ main > div {
     font-size: 100%;
 }
 
-#post-content * {
-    font-size: 2rem;
-}
-
 #post-content h1 {
     font-size: 3.5rem;
 }
@@ -75,6 +71,10 @@ main > div {
 
 #post-content h3 {
     font-size: 2.5rem;
+}
+
+#post-content * {
+    font-size: 2rem;
 }
 
 #post-content a {
@@ -135,11 +135,4 @@ textarea {
 
 #return-to-top * {
     font-size: 2rem;
-}
-
-@media screen and (min-width: 0px) and (max-width: 1130px) {
-    
-    #post-container {
-        width: 95vw;
-    }
 }

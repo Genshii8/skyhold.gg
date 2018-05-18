@@ -85,6 +85,13 @@ body {
     width: 15rem;
 }
 
+@media screen and (min-width: 0px) and (max-width: 1130px) {
+    
+    .mobile-width {
+        width: 95vw !important;
+    }
+}
+
 @media screen and (min-width: 0px) and (max-width: 1443px) {
 
     .fixed-image {

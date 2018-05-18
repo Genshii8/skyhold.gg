@@ -135,7 +135,6 @@
     }
 
     #arms-link {
-        margin-left: 0;
         margin-right: 0;
     }
 
@@ -146,11 +145,9 @@
     
     #protection-link {
         margin-left: 0;
-        margin-right: 0;
     }
 
     #links > div {
-        margin-top: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }

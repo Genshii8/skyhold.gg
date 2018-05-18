@@ -1,7 +1,5 @@
 .news {
     margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 #recent-articles {
@@ -11,10 +9,6 @@
 
 #news {
     height: 38rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 0;
-    margin-bottom: 1rem;
 }
 
 .news > div {
@@ -40,7 +34,6 @@
 }
 
 #recent-items > div {
-    margin-left: 1rem;
     margin-top: 1.5rem;
 }
 
@@ -69,14 +62,5 @@
     
     #recent-articles {
         height: 38.7rem;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 1130px) {
-    
-    #news {
-        margin: 1rem;
     }
 }
