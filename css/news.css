@@ -49,9 +49,17 @@
     text-decoration: none;
 }
 
+.news-link {
+    margin-left: 1rem;
+}
+
 .news-item {
     font-size: 1.6rem;
     margin-left: 1rem;
+}
+
+.news-link .news-item {
+    margin-left: 0;
 }
 
 .recent-spec-icon {
