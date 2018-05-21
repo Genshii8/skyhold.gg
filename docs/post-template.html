@@ -2,7 +2,7 @@
 <html>
 <head>
     <script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: false, iconSize: true};</script>
-    <script src="/scripts/wowhead.js"></script>
+    <script src="//wow.zamimg.com/widgets/power.js"></script>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,42 +30,64 @@
 </head>
 <body>
 
-    <section class="flex-center">
+    <main class="flex-column">
 
-        <div id="logo"><a href="https://skyhold.gg"><img id="logo-image" src="/images/logo.png" alt="Skyhold"></a></div>
-        
-        <div id="nav" class="border element-bg-color"><div id="padding-div" class="flex-center">
-            nav bar stuff here
-        </div></div>
-    </section>
-    
-    <img class="fixed-image" src="/images/warrior-crest.png">
+        <div>
 
-    <section class="flex-center">
+            <div class="flex-center">
 
-        <div id="post-container" class="flex-column border element-bg-color">
-            <span id="title">TITLE</span>
-            <div id="authors" class="flex-center">
-                <div class="flex-column">
-                    <img id="author-image" class="border" src="/images/authors/author.png" alt="Author"></img>
-                    <span id="author-name">Author</span>
-                    <div id="author-social" class="flex-center">
-                        <a target="_blank" href="https://twitter.com/Handle"><i class="fab fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.twitch.tv/Handle"><i class="fab fa-twitch"></i></a>
-                    </div>
+                <div class="flex-center-start flex-1 mobile-width">
+                    <a id="logo" href="/index.html"><img class="border header-image" src="/images/logo.png" alt="Skyhold"></a>
+                    <a class="header-image-link" href="/arms.html"><img class="border header-image" src="/images/home/arms-icon.jpg"></a>
+                    <a class="header-image-link" href="/fury.html"><img class="border header-image" src="/images/home/fury-icon.jpg"></a>
+                    <a class="header-image-link" href="/protection.html"><img class="border header-image header-image-selected" src="/images/home/protection-icon.jpg"></a>
                 </div>
             </div>
-            <div class="divider"></div>
-            <div id="post-content">
-                                
-            </div>
-            <a id="return-to-top" href="#"><div class="flex-column">
-                <i class="fas fa-chevron-up"></i>
-                <span>Return to Top</span>
-            </div></a>
-        </div>
+        
+            <div class="flex-center">
+        
+                <div id="nav" class="border element-bg-color mobile-width"><div id="padding-div" class="flex-center-start">
 
-    </section>
-    
+                    NAV
+                </div></div>
+            </div>
+
+            <div class="flex-center">
+
+                <div id="post-container" class="border element-bg-color flex-column-start flex-1 mobile-width">
+
+                    <span id="title">TITLE</span>
+
+                    <div id="authors" class="flex-center">
+
+                        <div class="flex-column">
+
+                            <img id="author-image" class="border" src="/images/authors/marok.png" alt="Marok"></img>
+                            <span id="author-name">Marok</span>
+
+                            <div id="author-social" class="flex-center">
+
+                                <a target="_blank" href="https://twitter.com/xMarok"><i class="fab fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.twitch.tv/xMarok"><i class="fab fa-twitch"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div id="post-content" class="flex-stretch">
+
+                    </div>
+                    
+                    <a id="return-to-top" href="#"><div class="flex-column">
+                        <i class="fas fa-chevron-up"></i>
+                        <span>Return to Top</span>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <img class="fixed-image" src="/images/warrior-crest.png">
 </body>
 </html>
