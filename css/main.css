@@ -90,6 +90,18 @@ body {
     .mobile-width {
         width: 95vw !important;
     }
+
+    .flex-1 {
+        flex: none;
+    }
+    
+    .flex-2 {
+        flex: none;
+    }
+    
+    .flex-3 {
+        flex: none;
+    }
 }
 
 @media screen and (min-width: 0px) and (max-width: 1443px) {
