@@ -29,12 +29,7 @@ main > div {
 .post-image-center {
     background-size: contain;
     background-position: center;
-}
-
-.soon-image {
-    background-size: 25%;
-    background-position: center;
-}
+}   
 
 .post-text {
     width: 100%; 
