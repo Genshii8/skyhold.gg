@@ -5,32 +5,32 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 # What's been removed
 
 - [Battle Cry](http://www.wowhead.com/spell=1719/battle-cry)
-  <br>
-  <br>
+<br>
+<br>
 - [Mastery: Colossal Might](http://wowhead.com/spell=76838/mastery-colossal-might)
-  <br>
-  <br>
+<br>
+<br>
 - [Focused Rage](http://bfa.wowhead.com/spell=207982/focused-rage)
-  <br>
-  <br>
+<br>
+<br>
 - [Mortal Combo](http://bfa.wowhead.com/spell=57789/mortal-strike)
-  <br>
-  <br>
+<br>
+<br>
 - [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might)
-  <br>
-  <br>
+<br>
+<br>
 - [Shockwave](http://www.wowhead.com/spell=46968/shockwave)
-  <br>
-  <br>
+<br>
+<br>
 - [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes)
-  <br>
-  <br>
+<br>
+<br>
 - [Dauntless](http://www.wowhead.com/spell=202297/dauntless)
-  <br>
-  <br>
+<br>
+<br>
 - [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo)
-  <br>
-  <br>
+<br>
+<br>
 - [Corrupted Blood of Zakajz](http://www.wowhead.com/spell=209569/corrupted-blood-of-zakajz) and [Void Cleave](http://www.wowhead.com/spell=209573/void-cleave) are not coming with us to BfA.
 
 # What's been added
@@ -114,11 +114,11 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 <h3>15 - <a href="http://bfa.wowhead.com/spell=262231/war-machine" rel="spell=262231" data-wh-icon-size="small">War Machine</a> / <a href="http://bfa.wowhead.com/spell=29725/sudden-death" rel="spell=29725" data-wh-icon-size="small">Sudden Death</a> / <a href="http://bfa.wowhead.com/spell=260643/skullsplitter" rel="spell=260643" data-wh-icon-size="small">Skullsplitter</a></h3>
 
 - [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) is powerful if there's a lot of adds that die quickly. However, this isn't always the case of course.
-  <br>
-  <br>
+<br>
+<br>
 - [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) is the best choice for single target and cleave situations. I can even see it being used over [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) in M+. [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) has such a high PPM (2.5), and applies [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) AND [Executioner's Precision](http://bfa.wowhead.com/spell=272867/executioners-precision) if you have the Azerite trait. [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death), like [Ayala's Stone Heart](http://www.wowhead.com/item=137052/ayalas-stone-heart), has so much damage loaded into it.
-  <br>
-  <br>
+<br>
+<br>
 - [Skullsplitter](http://bfa.wowhead.com/spell=260643/skullsplitter) doesn't hit all that hard and the rage you gain from it isn't a whole lot either. It could have use when you need on-demand rage or burst on a target.
 
 <h3>30 - <a href="http://bfa.wowhead.com/spell=103827/double-time" rel="spell=103827" data-wh-icon-size="small">Double Time</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
@@ -148,14 +148,14 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 <h3>75 - <a href="http://bfa.wowhead.com/spell=268243/collateral-damage" rel="spell=268243" data-wh-icon-size="small">Collateral Damage</a> / <a href="http://bfa.wowhead.com/spell=262161/warbreaker" rel="spell=262161" data-wh-icon-size="small">Warbreaker</a> / <a href="http://bfa.wowhead.com/spell=845/cleave" rel="spell=845" data-wh-icon-size="small">Cleave</a></h3>
 
 - This entire row is all AoE/Cleave based.
-  <br>
-  <br>
+<br>
+<br>
 - [Collateral Damage](http://bfa.wowhead.com/spell=268243/collateral-damage) only performs well on consistent 2 target cleave.
-  <br>
-  <br>
+<br>
+<br>
 - [Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) of course still a really good AoE burst ability. Can't be parried, really good choice for single target.
-  <br>
-  <br>
+<br>
+<br>
 - [Cleave](http://bfa.wowhead.com/spell=845/cleave) steals the show. It can apply [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) to 3+ targets every 6s which can lead to [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) being 40%+ of your damage on AoE. 
 
 <h3>90 - <a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill" rel="spell=248621" data-wh-icon-size="small">In for the Kill</a> / <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle" rel="spell=202316" data-wh-icon-size="small">Fervor of Battle</a> / <a href="http://bfa.wowhead.com/spell=262228/deadly-calm" rel="spell=262228" data-wh-icon-size="small">Deadly Calm</a></h3>
@@ -186,13 +186,22 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 # Azerite Traits (many values are placeholder)
 
-- [Executioner's Precision](http://bfa.wowhead.com/spell=272867/executioners-precision) - [Execute](http://bfa.wowhead.com/spell=163201/execute) increases the damage of your next [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) against the target by 235, stacking up to 2 times. (Previous Artifact trait)
+- [Crushing Assault](http://bfa.wowhead.com/spell=278751/crushing-assault) - Your melee abilities have a chance to increase the damage of your next [Slam](http://www.wowhead.com/spell=1464/slam) by 248 and reduce its Rage cost by 20.
 <br>
 <br>
-- [Gathering Storm](http://bfa.wowhead.com/spell=273414/gathering-storm) - While [Ravager](http://www.wowhead.com/spell=152277/ravager) is active or you are [Bladestorming](http://bfa.wowhead.com/spell=227847/bladestorm) , every 1 sec you gain 22 Speed and [Ravager's](http://www.wowhead.com/spell=152277/ravager)/[Bladestorm's](http://bfa.wowhead.com/spell=227847/bladestorm) damage increases by 125. Lasts 6 sec. ([Legendary Helm](http://www.wowhead.com/item=151823/the-great-storms-eye))
+- [Executioner's Precision](http://bfa.wowhead.com/spell=272866/executioners-precision) - [Execute](http://bfa.wowhead.com/spell=163201/execute) increases the damage of your next [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) against the target by 235, stacking up to 2 times. (Previous Artifact trait)
 <br>
 <br>
-- [Test of Might](http://bfa.wowhead.com/spell=275529/test-of-might) - When [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) expires, your Strength is increased by 9 for every 10 Rage you spent during [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). Lasts 12 sec.
+- [Gathering Storm](http://bfa.wowhead.com/spell=273409/gathering-storm) - While [Ravager](http://www.wowhead.com/spell=152277/ravager) is active or you are [Bladestorming](http://bfa.wowhead.com/spell=227847/bladestorm), every 1 sec you gain 22 Speed and [Ravager's](http://www.wowhead.com/spell=152277/ravager)/[Bladestorm's](http://bfa.wowhead.com/spell=227847/bladestorm) damage increases by 125. Lasts 6 sec. ([Legendary Helm](http://www.wowhead.com/item=151823/the-great-storms-eye))
+<br>
+<br>
+- [Lord of War](http://bfa.wowhead.com/spell=278752/lord-of-war) - [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash)/[Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) deals an additional 248 damage and generates 10 Rage.
+<br>
+<br>
+- [Seismic Wave](http://bfa.wowhead.com/spell=277639/seismic-wave) - [Overpower](http://bfa.wowhead.com/spell=7384/overpower) causes a seismic wave that deals 208 Physical damage to enemies in a 10 yd line.
+<br>
+<br>
+- [Test of Might](http://bfa.wowhead.com/spell=275531/test-of-might) - When [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash)/[Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) expires, your Strength is increased by 9 for every 10 Rage you spent during [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash)/[Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker). Lasts 12 sec.
 
 ##Where Legion fell short
 
@@ -250,4 +259,3 @@ Arms has the upper hand in pretty much every single situation over Fury. [Sweepi
 Blizzard finally made the spec they wanted since the start of Legion. The spec rewards good gameplay and doesn't play like a slot machine. Of course there are some issues with BfA Arms, but they are very minor compared to Legion's massive issues.
 
 Thanks to Vel for the much appreciated feedback!
-
