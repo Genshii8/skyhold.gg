@@ -28,20 +28,8 @@
     border-bottom: solid 1px black;
 }
 
-#warrior-art-padding {
-    width: 100%;
-    height: 2rem;
-}
-
-.warrior-art {
-    background-image: url("/images/home/warrior-art.png");
-    background-size: contain;
-    background-position: 75%;
-    background-repeat: no-repeat;
-}
-
 .spec-icon {
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 #arms-icon-link {
@@ -128,10 +116,6 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 1130px) {
-
-    .warrior-art {
-        background-image: none;
-    }
 
     #spec-selection {
         flex-direction: column;
