@@ -4,66 +4,66 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 # What's been removed
 
-- [Battle Cry](http://www.wowhead.com/spell=1719/battle-cry) has been removed.
-<br>
-<br>
-- [Mastery: Colossal Might](http://wowhead.com/spell=76838/mastery-colossal-might) has been removed.
-<br>
-<br>
-- [Focused Rage](http://bfa.wowhead.com/spell=207982/focused-rage) has been removed.
-<br>
-<br>
-- [Mortal Combo](http://bfa.wowhead.com/spell=57789/mortal-strike) has been removed.
-<br>
-<br>
-- [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might) has been removed.
-<br>
-<br>
-- [Shockwave](http://www.wowhead.com/spell=46968/shockwave) has been removed.
-<br>
-<br>
-- [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes) has been removed.
-<br>
-<br>
-- [Dauntless](http://www.wowhead.com/spell=202297/dauntless) has been removed.
-<br>
-<br>
-- [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo) has been removed.
-<br>
-<br>
+- [Battle Cry](http://www.wowhead.com/spell=1719/battle-cry)
+  <br>
+  <br>
+- [Mastery: Colossal Might](http://wowhead.com/spell=76838/mastery-colossal-might)
+  <br>
+  <br>
+- [Focused Rage](http://bfa.wowhead.com/spell=207982/focused-rage)
+  <br>
+  <br>
+- [Mortal Combo](http://bfa.wowhead.com/spell=57789/mortal-strike)
+  <br>
+  <br>
+- [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might)
+  <br>
+  <br>
+- [Shockwave](http://www.wowhead.com/spell=46968/shockwave)
+  <br>
+  <br>
+- [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes)
+  <br>
+  <br>
+- [Dauntless](http://www.wowhead.com/spell=202297/dauntless)
+  <br>
+  <br>
+- [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo)
+  <br>
+  <br>
 - [Corrupted Blood of Zakajz](http://www.wowhead.com/spell=209569/corrupted-blood-of-zakajz) and [Void Cleave](http://www.wowhead.com/spell=209573/void-cleave) are not coming with us to BfA.
 
 # What's been added
 
-- [Mastery: Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) was been added, replacing [Mastery: Colossal Might](http://bfa.wowhead.com/spell=76838/mastery-colossal-might).
+- [Mastery: Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) replacing [Mastery: Colossal Might](http://bfa.wowhead.com/spell=76838/mastery-colossal-might).
 <br>
 <br>
-- [Skullsplitter](http://bfa.wowhead.com/spell=260643/skullsplitter) has been added, in place of [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes).
+- [Skullsplitter](http://bfa.wowhead.com/spell=260643/skullsplitter) in place of [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes).
 <br>
 <br>
-- [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) was added, in place of [Overpower](http://bfa.wowhead.com/spell=7384/overpower).
+- [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) in place of [Overpower](http://bfa.wowhead.com/spell=7384/overpower).
 <br>
 <br>
-- [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) was added, in place of [Dauntless](http://www.wowhead.com/spell=202297/dauntless).
+- [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) in place of [Dauntless](http://www.wowhead.com/spell=202297/dauntless).
 <br>
 <br>
-- [Impending Victory](http://bfa.wowhead.com/spell=202168/impending-victory) was added, in place of [Shockwave](http://www.wowhead.com/spell=46968/shockwave).
+- [Impending Victory](http://bfa.wowhead.com/spell=202168/impending-victory) in place of [Shockwave](http://www.wowhead.com/spell=46968/shockwave).
 <br>
 <br>
-- [Collateral Damage](http://bfa.wowhead.com/spell=268243/collateral-damage) was added, in place of [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) ([Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) has moved).
+- [Collateral Damage](http://bfa.wowhead.com/spell=268243/collateral-damage) in place of [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) ([Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) has moved).
 <br>
 <br>
-- [Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) was added, in place of [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo).
+- [Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) in place of [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo).
 <br>
 <br>
-- [Dreadnaught](http://bfa.wowhead.com/spell=262150/dreadnaught) was been added, in place of [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes).
+- [Dreadnaught](http://bfa.wowhead.com/spell=262150/dreadnaught) in place of [Opportunity Strikes](http://www.wowhead.com/spell=203179/opportunity-strikes).
 
 # What's different 
 
 - [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) is now a 45s cooldown. Increasing all damage done on the target by 30% for 10s.
 <br>
 <br>
-- [Tactician](http://bfa.wowhead.com/spell=184783/tactician) has been changed. It is now a .9% per rage spent to reset the cooldown of [Overpower](http://bfa.wowhead.com/spell=7384/overpower).
+- [Tactician](http://bfa.wowhead.com/spell=184783/tactician) now has a .9% per rage spent to reset the cooldown of [Overpower](http://bfa.wowhead.com/spell=7384/overpower).
 <br>
 <br>
 - [Overpower](http://bfa.wowhead.com/spell=7384/overpower) is now baseline. It now increases the damage of your next [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike) by 20%, stacking up to 2 times (think of [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses)).
@@ -78,7 +78,7 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 - [Bladestorm](http://bfa.wowhead.com/spell=227847/bladestorm) and [Ravager](http://www.wowhead.com/spell=152277/ravager) both apply [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds)  when they deal damage.
 <br>
 <br>
-- [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes) is now a baseline cooldown with a larger rang and less targets hit. It is on the GCD.
+- [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes) is now a baseline cooldown with a larger range and less targets hit. It is on the GCD.
 <br>
 <br>
 - [Commanding Shout](http://www.wowhead.com/spell=97462/commanding-shout#changelog) has been renamed to [Rallying Cry](http://bfa.wowhead.com/spell=97462/rallying-cry).
@@ -90,10 +90,10 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 - [Avatar](http://bfa.wowhead.com/spell=107574/avatar) now generates 20 rage.
 <br>
 <br>
-- [Cleave](http://bfa.wowhead.com/spell=845/cleave) has been moved to a talent, in place of [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might). Now applies [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) when it hits 3+ targets, and it's rage cost has been bumped up to 20.
+- [Cleave](http://bfa.wowhead.com/spell=845/cleave) has been moved to a talent, in place of [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might). Now applies [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) when it hits 3+ targets and it's rage cost has been bumped up to 20.
 <br>
 <br>
-- [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) has changed. It now increases [Whirlwind](http://bfa.wowhead.com/spell=1680/whirlwind) damage by 10%, and casts a free  [Slam](http://bfa.wowhead.com/spell=1464/slam) on your primary target as well. This [Slam](http://bfa.wowhead.com/spell=1464/slam) is affected by [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes).
+- [Fervor of Battle](http://bfa.wowhead.com/spell=202316/fervor-of-battle) now increases [Whirlwind](http://bfa.wowhead.com/spell=1680/whirlwind) damage by 10%, and casts a free [Slam](http://bfa.wowhead.com/spell=1464/slam) on your primary target as well. This [Slam](http://bfa.wowhead.com/spell=1464/slam) is affected by [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes).
 <br>
 <br>
 - [Deadly Calm](http://bfa.wowhead.com/spell=262228/deadly-calm) is now an active, moved in place of [Focused Rage](http://bfa.wowhead.com/spell=207982/focused-rage). It reduces the rage cost of your abilites by 100% for 6s (on the GCD).
@@ -113,13 +113,13 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 <h3>15 - <a href="http://bfa.wowhead.com/spell=262231/war-machine" rel="spell=262231" data-wh-icon-size="small">War Machine</a> / <a href="http://bfa.wowhead.com/spell=29725/sudden-death" rel="spell=29725" data-wh-icon-size="small">Sudden Death</a> / <a href="http://bfa.wowhead.com/spell=260643/skullsplitter" rel="spell=260643" data-wh-icon-size="small">Skullsplitter</a></h3>
 
-- [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) is powerful if there's a lot of adds that die quickly. However this isn't always the case. Great for outdoor content with the movement speed.
-<br>
-<br>
+- [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) is powerful if there's a lot of adds that die quickly. However, this isn't always the case of course.
+  <br>
+  <br>
 - [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) is the best choice for single target and cleave situations. I can even see it being used over [War Machine](http://bfa.wowhead.com/spell=262231/war-machine) in M+. [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death) has such a high PPM (2.5), and applies [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) AND [Executioner's Precision](http://bfa.wowhead.com/spell=272867/executioners-precision) if you have the Azerite trait. [Sudden Death](http://bfa.wowhead.com/spell=29725/sudden-death), like [Ayala's Stone Heart](http://www.wowhead.com/item=137052/ayalas-stone-heart), has so much damage loaded into it.
-<br>
-<br>
-- [Skullsplitter](http://bfa.wowhead.com/spell=260643/skullsplitter) seems a little weak in my opinion. It doesn't hit really hard and the rage you gain from it isn't a whole lot. I can see it being used when you need on-demand rage/burst on a target.
+  <br>
+  <br>
+- [Skullsplitter](http://bfa.wowhead.com/spell=260643/skullsplitter) doesn't hit all that hard and the rage you gain from it isn't a whole lot either. It could have use when you need on-demand rage or burst on a target.
 
 <h3>30 - <a href="http://bfa.wowhead.com/spell=103827/double-time" rel="spell=103827" data-wh-icon-size="small">Double Time</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
 
@@ -148,15 +148,15 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 <h3>75 - <a href="http://bfa.wowhead.com/spell=268243/collateral-damage" rel="spell=268243" data-wh-icon-size="small">Collateral Damage</a> / <a href="http://bfa.wowhead.com/spell=262161/warbreaker" rel="spell=262161" data-wh-icon-size="small">Warbreaker</a> / <a href="http://bfa.wowhead.com/spell=845/cleave" rel="spell=845" data-wh-icon-size="small">Cleave</a></h3>
 
 - This entire row is all AoE/Cleave based.
-<br>
-<br>
-- [Collateral Damage](http://bfa.wowhead.com/spell=268243/collateral-damage) is a little weak and boring. Only really good on consistent 2 target cleave.
-<br>
-<br>
+  <br>
+  <br>
+- [Collateral Damage](http://bfa.wowhead.com/spell=268243/collateral-damage) only performs well on consistent 2 target cleave.
+  <br>
+  <br>
 - [Warbreaker](http://bfa.wowhead.com/spell=262161/warbreaker) of course still a really good AoE burst ability. Can't be parried, really good choice for single target.
-<br>
-<br>
-- However [Cleave](http://bfa.wowhead.com/spell=845/cleave) steals the show,  [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) is really powerful on AoE. Applying it to 3+ targets every 6s is really strong. [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) can end up being 40%+ of your damage on AoE.
+  <br>
+  <br>
+- [Cleave](http://bfa.wowhead.com/spell=845/cleave) steals the show. It can apply [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) to 3+ targets every 6s which can lead to [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds) being 40%+ of your damage on AoE. 
 
 <h3>90 - <a href="http://bfa.wowhead.com/spell=248621/in-for-the-kill" rel="spell=248621" data-wh-icon-size="small">In for the Kill</a> / <a href="http://bfa.wowhead.com/spell=202316/fervor-of-battle" rel="spell=202316" data-wh-icon-size="small">Fervor of Battle</a> / <a href="http://bfa.wowhead.com/spell=262228/deadly-calm" rel="spell=262228" data-wh-icon-size="small">Deadly Calm</a></h3>
 
@@ -173,7 +173,7 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 <h3>100 - <a href="http://bfa.wowhead.com/spell=152278/anger-management" rel="spell=152278" data-wh-icon-size="small">Anger Management</a> / <a href="http://bfa.wowhead.com/spell=262150/dreadnaught" rel="spell=262150" data-wh-icon-size="small">Dreadnaught</a> / <a href="http://www.wowhead.com/spell=152277/ravager" rel="spell=152277" data-wh-icon-size="small">Ravager</a></h3>
 
-- This row has a lot of good choices here.
+- This row has a lot of good choices.
 <br>
 <br>
 - [Anger Management](http://bfa.wowhead.com/spell=152278/anger-management) is quite powerful, getting more [Colossus Smash's](http://bfa.wowhead.com/spell=167105/colossus-smash) off and more [Bladestorm](http://bfa.wowhead.com/spell=227847/bladestorm).
@@ -196,13 +196,13 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 ##Where Legion fell short
 
-BfA Arms Rotation is very similar to Legion Arms. The rework has addressed a few of the design issues Arms had in Legion - for example, the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) window having such a high uptime meant it didn't work as a "window of opportunity". There wasn't any room to play around the debuff as procs were too frequent and random, so you couldn't prepare for it. This was also an issue combined with the massive amount of synergy between [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash), [Precise Strikes](http://www.wowhead.com/spell=248579/precise-strikes) and [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses). When you experienced the lower end of RNG, your damage plummeted, because all your synergy and damage was loaded into this one big thing. There wasn't any "skill" in regards to the procs, just how lucky you are.
+BfA Arms Rotation is very similar to Legion Arms. The rework has addressed a few of the design issues Arms had in Legion. For example, the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) window had such a high uptime meant it didn't work as a "window of opportunity". There wasn't any room to play around the debuff as procs were too frequent and random, so you couldn't prepare for it. This was also an issue combined with the massive amount of synergy between [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash), [Precise Strikes](http://www.wowhead.com/spell=248579/precise-strikes) and [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses). When you experienced the lower end of RNG, your damage plummeted, because all your synergy and damage was loaded into this one big thing. There wasn't any "skill" in regards to the procs, just how lucky you are.
 
 There was a slight rework in 7.1.5 which helped with [Colossus Smash](http://www.wowhead.com/spell=167105/colossus-smash) and the damage loaded into it. But that was mostly a band-aid to help the spec until a full expansion rework. Legion Arms is fine, but it could definitely use a refresh.
 
 ## Where Battle for Azeroth picks up the slack
 
-Battle for Azeroth picks up where Legion fell short mostly with [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). Being a cooldown that can't reset was the best way to fix the problem. It now feels like a "window of opportunity." You can play around the debuff since it's a consistent 45s cd, and 10s uptime. Now another issue that was fixed was all the synergy with [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash). The traits were moved/removed from the game. And the one that remains ([Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses)) is nearly not as impactful as it once was
+Battle for Azeroth improves on Legion's failures by reducing the reliance on [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash), and instead making it the spec's primary cooldown in place of [Battle Cry](http://www.wowhead.com/spell=1719/battle-cry). This allows the spec's baseline damage to improve considerably, and take emphasis off of random procced resets controlling damage output, making target swapping easier and reducing the emphasis on burst. [Overpower](http://bfa.wowhead.com/spell=7384/overpower) replaces [Colossus Smash's](http://bfa.wowhead.com/spell=167105/colossus-smash) former place in the rotation, applying what is essentially the [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses) buff to [Mortal Strike](http://bfa.wowhead.com/spell=12294/mortal-strike), and keeping Arms gameplay in Battle for Azeroth more forgiving, but overall very similar to that of Legion.
 
 #Overview 
 
