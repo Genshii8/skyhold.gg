@@ -1,4 +1,4 @@
-At this point, Fury remains largely unchanged, although there have been scant hints of works in progress. The rotation still largely revolves around [Rampage](http://bfa.wowhead.com/spell=184367/rampage) and [Enrage](http://bfa.wowhead.com/spell=184361/enrage), and a few small improvements have been added, although many of the same issues we’ve dealt with throughout Legion remain. Most importantly, none of the artifact traits or legendary gear perks have been carried as of this point.
+At this point, Fury remains largely unchanged, although there have been scant hints of works in progress. The rotation still largely revolves around [Rampage](http://bfa.wowhead.com/spell=184367/rampage) and [Enrage](http://bfa.wowhead.com/spell=184361/enrage), and a few small improvements have been added, although many of the same issues we’ve dealt with throughout Legion remain. Most importantly, none of the artifact traits or legendary gear perks have been carried over as of this point.
 
 # What’s been removed
 
@@ -22,7 +22,7 @@ At this point, Fury remains largely unchanged, although there have been scant hi
 - Taste for Blood (Furious Slash buff) increases crit by 20% per stack (up from 15%).
 <br>
 <br>
-- [Meat Cleaver](http://bfa.wowhead.com/spell=257019/meat-cleaver) (Whirlwind buff) now cleaves [Rampage](http://bfa.wowhead.com/spell=184367/rampage) and [Raging Blow](http://bfa.wowhead.com/spell=85288/raging-blow) (instead of Bloodthirst) at 40% damage (down from 50%).
+- [Meat Cleaver](http://bfa.wowhead.com/spell=257019/meat-cleaver) (Whirlwind buff) now cleaves [Rampage](http://bfa.wowhead.com/spell=184367/rampage) and [Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst) at 40% damage (down from 50%).
 <br>
 <br>
 - [Avatar](http://bfa.wowhead.com/spell=107574/avatar) generates 20 rage on use.
@@ -48,7 +48,7 @@ There have been few talent changes so far, though other changes have impacted th
 
 <h3>15 - <a href="http://bfa.wowhead.com/spell=215556/war-machine" rel="spell=215556" data-wh-icon-size="small">War Machine</a> / <a href="http://bfa.wowhead.com/spell=202296/endless-rage" rel="spell=202296" data-wh-icon-size="small">Endless Rage</a> / <a href="http://bfa.wowhead.com/spell=215568/fresh-meat" rel="spell=215568" data-wh-icon-size="small">Fresh Meat</a></h3>
 
-- [Fresh Meat](http://bfa.wowhead.com/spell=215568/fresh-meat) is theoretically better for short combats without [Recklessness](http://bfa.wowhead.com/spell=1719/recklessness), due to less [Rampage](http://bfa.wowhead.com/spell=184367/rampage) use due to reduced Rage generation, but [Bloodthirst’s](http://bfa.wowhead.com/spell=23881/bloodthirst) crit chance is still unreliable, and [War Machine](http://bfa.wowhead.com/spell=215556/war-machine) will continue to outperform in sustained combat or when chain pulling multiple targets.
+- [Fresh Meat](http://bfa.wowhead.com/spell=215568/fresh-meat) is theoretically better for short combats without [Recklessness](http://bfa.wowhead.com/spell=1719/recklessness) because of less [Rampage](http://bfa.wowhead.com/spell=184367/rampage) use due to reduced rage generation, but [Bloodthirst’s](http://bfa.wowhead.com/spell=23881/bloodthirst) crit chance is still unreliable, and [War Machine](http://bfa.wowhead.com/spell=215556/war-machine) will continue to outperform in sustained combat or when chain pulling multiple targets.
 
 <h3>30 - <a href="http://bfa.wowhead.com/spell=103827/double-time" rel="spell=103827" data-wh-icon-size="small">Double Time</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
 
@@ -91,16 +91,22 @@ There have been few talent changes so far, though other changes have impacted th
 
 # Azerite Traits (many values are placeholder)
 
-- [Bloodcraze](http://bfa.wowhead.com/spell=273423/bloodcraze) – When [Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst) does not critically strike, it increases your Haste by 0 for 6 seconds.
+- [Bloodcraze](http://bfa.wowhead.com/spell=273420/bloodcraze) – When [Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst) does not critically strike, it increases your Haste by 0 for 6 seconds.
 <br>
 <br>
 - Also [Bloodcraze](http://bfa.wowhead.com/spell=269233/bloodcraze) – [Bloodthirst](http://bfa.wowhead.com/spell=23881/bloodthirst) has a 5% additional critical strike chance, and deals 146 additional damage when it critically strikes.
 <br>
 <br>
-- [Trample the Weak](http://bfa.wowhead.com/spell=272837/trample-the-weak) – [Rampaging](http://bfa.wowhead.com/spell=184367/rampage) an enemy whose health percentage is lower than yours increases your Versatility by 0 for 6 seconds.
+- [Infinite Fury](http://bfa.wowhead.com/spell=277638/infinite-fury) – When [Recklessness](http://bfa.wowhead.com/spell=1719/recklessness) expires, your Critical Strike is increased by 35 for 5 sec. Your auto attacks will refresh the duration of this effect.
 <br>
 <br>
-- [Pulverizing Blows](http://bfa.wowhead.com/spell=275670/pulverizing-blows) – [Raging Blow](http://bfa.wowhead.com/spell=85288/raging-blow) causes every strike of your next [Rampage](http://bfa.wowhead.com/spell=184367/rampage) to deal an addition 6 damage. Stacks up to 5 times.
+- [Pulverizing Blows](http://bfa.wowhead.com/spell=275632/pulverizing-blows) – [Raging Blows](http://bfa.wowhead.com/spell=85288/raging-blow) causes every strike of your next [Rampage](http://bfa.wowhead.com/spell=184367/rampage) to deal an additional 6 damage. Stacks up to 5 times.
+<br>
+<br>
+- [Simmering Rage](http://bfa.wowhead.com/spell=278757/simmering-rage) – [Rampage](http://bfa.wowhead.com/spell=184367/rampage) deals an additional (5 * 25) damage and generates 1 Rage per strike.
+<br>
+<br>
+- [Trample the Weak](http://bfa.wowhead.com/spell=272836/trample-the-weak) – [Rampaging](http://bfa.wowhead.com/spell=184367/rampage) an enemy whose health percentage is lower than yours increases your Versatility by 0 for 6 seconds.
 
 # Overview
 

@@ -78,7 +78,7 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 - [Bladestorm](http://bfa.wowhead.com/spell=227847/bladestorm) and [Ravager](http://www.wowhead.com/spell=152277/ravager) both apply [Deep Wounds](http://bfa.wowhead.com/spell=262111/mastery-deep-wounds)  when they deal damage.
 <br>
 <br>
-- [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes) is now a baseline cooldown with a larger ranged and less targets hit. It is on the GCD.
+- [Sweeping Strikes](http://bfa.wowhead.com/spell=260708/sweeping-strikes) is now a baseline cooldown with a larger rang and less targets hit. It is on the GCD.
 <br>
 <br>
 - [Commanding Shout](http://www.wowhead.com/spell=97462/commanding-shout#changelog) has been renamed to [Rallying Cry](http://bfa.wowhead.com/spell=97462/rallying-cry).
@@ -198,7 +198,7 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 
 BfA Arms Rotation is very similar to Legion Arms. The rework has addressed a few of the design issues Arms had in Legion - for example, the [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash) window having such a high uptime meant it didn't work as a "window of opportunity". There wasn't any room to play around the debuff as procs were too frequent and random, so you couldn't prepare for it. This was also an issue combined with the massive amount of synergy between [Colossus Smash](http://bfa.wowhead.com/spell=167105/colossus-smash), [Precise Strikes](http://www.wowhead.com/spell=248579/precise-strikes) and [Shattered Defenses](http://www.wowhead.com/spell=248580/shattered-defenses). When you experienced the lower end of RNG, your damage plummeted, because all your synergy and damage was loaded into this one big thing. There wasn't any "skill" in regards to the procs, just how lucky you are.
 
-There was a slight rework in 7.1.5 which helped with [Colossus Smash]( [Colossus Smash](http://www.wowhead.com/spell=167105/colossus-smash)) and the damage loaded into it. But that was mostly a band-aid to help the spec until a full expansion rework. Legion Arms is fine, but it could definitely use a refresh.
+There was a slight rework in 7.1.5 which helped with [Colossus Smash](http://www.wowhead.com/spell=167105/colossus-smash) and the damage loaded into it. But that was mostly a band-aid to help the spec until a full expansion rework. Legion Arms is fine, but it could definitely use a refresh.
 
 ## Where Battle for Azeroth picks up the slack
 
