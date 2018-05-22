@@ -97,10 +97,6 @@
 
 @media screen and (min-width: 0px) and (max-width: 1800px) {
     
-    main {
-        flex-direction: column;
-    }
-
     .flex-order-1 {
         order: 1;
     }
@@ -112,9 +108,17 @@
     .warrior-crest {
         display: none;
     }
+
+    .flex-1 {
+        flex: none;
+    }
 }
 
-@media screen and (min-width: 0px) and (max-width: 1130px) {
+@media screen and (min-width: 0px) and (max-width: 1460px) {
+
+    main {
+        flex-direction: column;
+    }
 
     #spec-selection {
         flex-direction: column;

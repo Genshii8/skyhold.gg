@@ -72,3 +72,10 @@
         height: 38.7rem;
     }
 }
+
+@media screen and (min-width: 1460px) and (max-width: 1800px) {
+    
+    #recent-articles {
+        margin-right: 6rem;
+    }
+}
