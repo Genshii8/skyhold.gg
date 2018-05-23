@@ -13,7 +13,7 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 - [Focused Rage](http://bfa.wowhead.com/spell=207982/focused-rage)
 <br>
 <br>
-- [Mortal Combo](http://bfa.wowhead.com/spell=57789/mortal-strike)
+- [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo)
 <br>
 <br>
 - [Titanic Might](http://bfa.wowhead.com/spell=202612/titanic-might)
