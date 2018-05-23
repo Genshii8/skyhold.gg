@@ -28,9 +28,6 @@ A few Artifact traits have been carried over. Some keep their old name, or they 
 - [Dauntless](http://www.wowhead.com/spell=202297/dauntless)
 <br>
 <br>
-- [Mortal Combo](http://www.wowhead.com/spell=202593/mortal-combo)
-<br>
-<br>
 - [Corrupted Blood of Zakajz](http://www.wowhead.com/spell=209569/corrupted-blood-of-zakajz) and [Void Cleave](http://www.wowhead.com/spell=209573/void-cleave) are not coming with us to BfA.
 
 # What's been added

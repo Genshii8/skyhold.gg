@@ -45,7 +45,7 @@ I am ignoring any damage/tuning changes, any rage generation/cost changes, and a
 - [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) - Recharge time changed to 18 seconds. It still has 2 charges. Rage cost increased to 30. I'm mentioning this because it has a fairly large impact on gameplay (more on that below).
   <br>
   <br>
-- [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain) - This Ignore Pain functions in the exact same way, except the AP ratio has been massively nerfed and it now lets 50% of damage through instead of 90%.
+- [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain) - This Ignore Pain functions in the exact same way, except the AP ratio has been massively nerfed and it now removes 50% of damage instead of 90%.
   <br>
   <br>
 - [Spell Reflection](http://bfa.wowhead.com/spell=23920/spell-reflection) - Now reduces magic damage by 15%.
