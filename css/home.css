@@ -85,8 +85,18 @@
     font-size: 4.8rem;
 }
 
+#hol {
+    margin-top: 2rem;
+}
+
+#hol-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc66;
+}
+
 #made-by {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
