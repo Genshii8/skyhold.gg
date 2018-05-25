@@ -1,6 +1,6 @@
 While many specs are staying more or less the same going into Battle for Azeroth, Protection Warrior is once again getting some fairly significant changes. This is by no means a bad thing. While Prot was fun in Legion, it definitely had its share of issues. In BfA, our core gameplay, i.e. [Devastate](http://bfa.wowhead.com/spell=20243/devastate)/[Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam)/[Thunder Clap](http://bfa.wowhead.com/spell=6343/thunder-clap)/[Revenge](http://bfa.wowhead.com/spell=6572/revenge), remains more or less the same. The major changes are to our rage generation model, talents, and baseline abilities.
 
-**<u>Prot Warrior is still incomplete and we will definitely see more changes before BfA is released. Nothing is set in stone.</u>**
+**<u>Development is still ongoing and we will likely see more changes for Prot before BfA is released. Nothing is set in stone.</u>**
 
 This post will be updated as new changes are released.
 
@@ -60,22 +60,24 @@ I am ignoring any damage/tuning changes, any rage generation/cost changes, and a
 
 We no longer gain rage based on the damage we take. There are two sources of rage besides what we gain from abilities:
 
-1. We gain 2 rage from *our* auto attacks.
+1. We gain 2 rage from *our* auto attacks. (Note: This scales with attack speed. We won't be equipping daggers for better rage generation.)
 2. We gain 3 rage from enemy auto attacks.
 
-We do not gain rage from avoidance events (i.e. if the enemy parries/dodges or if we parry/dodge).<br>Firstly, this means that rage generation will likely be more or less consistent throughout the expansion. If things scale as they should, this won't really be an issue (yeah, that's a big "if"). However, because we gain 3 rage when we get meleed, and because there is an extremely short ICD (~0.5s), the difference in rage generation when tanking one target compared to tanking multiple targets is massive.
+We do not gain rage from avoidance events (i.e. if the enemy parries/dodges or if we parry/dodge).<br>Firstly, this means that rage generation will likely be more or less consistent throughout the expansion. If things scale as they should, this won't really be an issue (yeah, that's a big "if"). However, because we gain 3 rage when we get meleed, and because there is a short ICD on that (~1s), there is a fairly significant difference in rage generation when tanking one target compared to tanking multiple targets.
 
-On single-target, you generally feel a bit rage starved. When tanking a significant number of targets that melee you, you usually cannot spend your rage fast enough to not cap, particularly because you're getting many more free [Revenges](http://bfa.wowhead.com/spell=6572/revenge).
+On single-target, you generally feel a bit rage starved. When tanking a significant number of targets that melee you, rage comes in quite quickly allowing you to dump it into [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain). Increasing rage generation on single-target would go a long way in improving the spec's consistency, both from a gameplay and balance perspective.
 
-# Mastery
+# Mastery / Block Rating
 
-Instead of a crit block being simply 60% DR instead of 30%, a crit block in BfA is a block as if you had twice your current block value.
+In BfA, there is now a "Block" stat on shields. Your character sheet now has Block rating, and all of that rating comes from the Block on your shield (besides potential bonuses from Azerite and such). So if your shield has 2000 Block, your character sheet will show 2000 Block.
 
-Think of block value as armor that is only active when you block. That's why DR from block goes "down" when you get more armor. If you add more armor onto *more* armor, you're farther up the armor DR curve, making that "block armor" less effective . Blizzard has changed the tooltip from showing just the DR from block to armor + block DR, that way it doesn't feel like block gets weaker if you gain armor. That's also why it may seem like block is overtuned; it's not, it just includes armor.
+Block simply functions as armor that is only active when you actually block an attack. Say normally you have 4000 armor, when you block it's like you had 6000 armor for that attack. A Critical Block is what you'd expect; when you crit block your Block is doubled, so in our example it would be like you had 8000 armor for that attack.
 
-So, if you have 1000 block base, when you crit block it's like you had 2000 block. This is currently quite a bit weaker than the flat 30%/60% blocks on live (ignoring Bastion), however this is more of a tuning issue rather than a design issue.
+This means [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) functions more or less the same as other tanks' active mitigation, in that it's simply an armor increase (the difference being that it only works on blockable attacks). However, we can still of course get random blocks as well when Shield Block is down.
 
-This is how we think it works at least, it hasn't been confirmed.
+This system aims to incentivize Shield upgrades. Getting a a good shield will likely be a significant increase to survivability, way more than a similar upgrade to another armor piece would.
+
+Our actual [Mastery](http://bfa.wowhead.com/spell=76857/mastery-critical-block) is still the same in regards to what it improves: block chance. It's just the DR from blocking has changed (it's not a flat % reduction like we had before).
 
 # Talents
 
@@ -83,7 +85,7 @@ The most significant changes are to our talents. Rather than list out all of the
 
 <h3>15 - <a href="http://bfa.wowhead.com/spell=202603/into-the-fray" rel="spell=202603" data-wh-icon-size="small">Into the Fray</a> / <a href="http://bfa.wowhead.com/spell=275334/punish" rel="spell=275334" data-wh-icon-size="small">Punish</a> / <a href="http://bfa.wowhead.com/spell=202168/impending-victory" rel="spell=202168" data-wh-icon-size="small">Impending Victory</a></h3>
 
-- [Into the Fray](http://bfa.wowhead.com/spell=202603/into-the-fray) is now useful in *many* more situations compared to Live. It counts allies as well, making it very easy to keep up the buff at full or close to full stacks.
+- [Into the Fray](http://bfa.wowhead.com/spell=202603/into-the-fray) is now useful in *many* more situations compared to Live. It counts allies as well, making it much easier to keep up the buff at full or close to full stacks.
   <br>
   <br>
 - [Punish](http://bfa.wowhead.com/spell=275334/punish) is also a fairly good talent. It's essentially a permanent 3% DR on single-target (you'd also be able to keep 100% uptime on 2-3 targets with good procs). The debuff is applied to the enemy, not you. In other words, when you [Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam) an enemy, that enemy deals 3% less damage to you for 9 seconds.
@@ -97,7 +99,7 @@ Likely the choice between [ITF](http://bfa.wowhead.com/spell=202603/into-the-fra
 
 Not too much to say about this row. It's all utility. None of them are blatantly better than the other two. Overall it's a good row with good choices.
 
-<h3>45 - <a href="http://bfa.wowhead.com/spell=202560/best-served-cold" rel="spell=202560" data-wh-icon-size="small">Best Served Cold</a> / <a href="http://bfa.wowhead.com/spell=275336/unstoppable-force" rel="spell=275336" data-wh-icon-size="small">Unstoppable Force</a> / N/A</h3>
+<h3>45 - <a href="http://bfa.wowhead.com/spell=202560/best-served-cold" rel="spell=202560" data-wh-icon-size="small">Best Served Cold</a> / <a href="http://bfa.wowhead.com/spell=275336/unstoppable-force" rel="spell=275336" data-wh-icon-size="small">Unstoppable Force</a> / <a href="http://bfa.wowhead.com/spell=118000/dragon-roar" rel="spell=118000" data-wh-icon-size="small">Dragon Roar</a></h3>
 
 - [Best Served Cold](http://bfa.wowhead.com/spell=202560/best-served-cold) is the same as it was. 5% increased damage on Revenge per target, up to 5 targets (25%).
 <br>
@@ -105,39 +107,45 @@ Not too much to say about this row. It's all utility. None of them are blatantly
 - [Unstoppable Force](http://bfa.wowhead.com/spell=275336/unstoppable-force) is a damage and survivability increase. More [Thunder Claps](http://bfa.wowhead.com/spell=6343/thunder-clap) mean more [Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam) resets, which means more rage, etc.
 <br>
 <br>
-- The third talent here is the only one left that's not implemented yet.
+- [Dragon Roar](http://bfa.wowhead.com/spell=118000/dragon-roar) for Protection is a 6 second, 50% slow on a 25 second cooldown. This can be either very powerful or essentially useless depending on the situation. Currently if the enemy is immune to the slow, they also do not take the damage. In high Mythic+ where kiting is sometimes necessary, I can see this be extremely useful for situations like that.
 
-This row is a bit puzzling. Firstly, with the amount of rage generation we have now, constantly casting [Revenge](http://bfa.wowhead.com/spell=6572/revenge) isn't feasible, so [Best Served Cold](http://bfa.wowhead.com/spell=202560/best-served-cold) will really only be good on sustained, heavy AoE where you're constantly getting [Revenge](http://bfa.wowhead.com/spell=6572/revenge) resets. Not only is [Unstoppable Force](http://bfa.wowhead.com/spell=275336/unstoppable-force) more consistent in its strength, but its a survivability increase, where [Best Served Cold](http://bfa.wowhead.com/spell=202560/best-served-cold) is not. There are very few situations where you'd take [BSC](http://bfa.wowhead.com/spell=202560/best-served-cold) over [UF](http://bfa.wowhead.com/spell=275336/unstoppable-force).
+With the amount of rage generation we have now, constantly casting [Revenge](http://bfa.wowhead.com/spell=6572/revenge) isn't feasible, so [Best Served Cold](http://bfa.wowhead.com/spell=202560/best-served-cold) will really only be good on sustained, heavy AoE where you're constantly getting [Revenge](http://bfa.wowhead.com/spell=6572/revenge) resets. Not only is [Unstoppable Force](http://bfa.wowhead.com/spell=275336/unstoppable-force) more consistent in its strength, but its a survivability increase, where [Best Served Cold](http://bfa.wowhead.com/spell=202560/best-served-cold) is not. There are very few situations where you'd take [BSC](http://bfa.wowhead.com/spell=202560/best-served-cold) over [UF](http://bfa.wowhead.com/spell=275336/unstoppable-force). [Dragon Roar](http://bfa.wowhead.com/spell=118000/dragon-roar) is very powerful in situations where you can actually make use of its slow, but otherwise the go-to here is [UF](http://bfa.wowhead.com/spell=275336/unstoppable-force).
 
-<h3>60 - <a href="http://bfa.wowhead.com/spell=202095/indomitable" rel="spell=202095" data-wh-icon-size="small">Indomitable</a> / <a href="http://bfa.wowhead.com/spell=202561/never-surrender" rel="spell=202561" data-wh-icon-size="small">Never Surrender</a> / <a href="http://bfa.wowhead.com/spell=275337/bolster" rel="spell=275337" data-wh-icon-size="small">Bolster</a></h3>
+<h3>60 - <a href="http://bfa.wowhead.com/spell=202095/indomitable" rel="spell=202095" data-wh-icon-size="small">Indomitable</a> / <a href="http://bfa.wowhead.com/spell=202561/never-surrender" rel="spell=202561" data-wh-icon-size="small">Never Surrender</a> / <a href="http://bfa.wowhead.com/spell=280001/bolster" rel="spell=280001" data-wh-icon-size="small">Bolster</a></h3>
 
 - [Indomitable](http://bfa.wowhead.com/spell=202095/indomitable) is down to a 10% health increase. It's not *bad*, but it will likely only ever be used in situations where you need the raw HP to survive, or if the other two talents in the row are simply not competitive.
   <br>
   <br>
-- This new [Never Surrender](http://bfa.wowhead.com/spell=202561/never-surrender) functions in the same way as it did on Live. That is, you need to be at basically 0% HP to get the full 30% out of it. You'll get minimal benefit out of this talent the majority of the time, meaning you're much better off picking another, more consistent, talent on this row.
+- [Never Surrender](http://bfa.wowhead.com/spell=202561/never-surrender) is the same as it is on Live. That is, you need to be at basically 0% HP to get the full 100% out of it. You'll get minimal benefit out of this talent the majority of the time, meaning you're much better off picking another, more consistent, talent on this row.
   <br>
   <br>
-- [Bolster](http://bfa.wowhead.com/spell=275337/bolster) is a simple strength -> armor conversion. When you compare [Bolster](http://bfa.wowhead.com/spell=275337/bolster) with the other two choices, there's no compelling reason to pick anything but [Bolster](http://bfa.wowhead.com/spell=275337/bolster).
+- [Bolster](http://bfa.wowhead.com/spell=275337/bolster) reduces [Last Stand's](http://bfa.wowhead.com/spell=12975/last-stand) cooldown by 60 seconds (a 33% reduction), *and causes you to block all attacks for the full duration of Last Stand*. This turns an already powerful cooldown into an even more powerful cooldown. With Last Stand lasting 15 seconds, it essentially gives you the time to gain a full [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) charge back as well. Compared to the other two talents, this is absolutely the go-to.
 
 <h3>75 - <a href="http://bfa.wowhead.com/spell=275338/menace" rel="spell=275338" data-wh-icon-size="small">Menace</a> / <a href="http://bfa.wowhead.com/spell=275339/rumbling-earth" rel="spell=275339" data-wh-icon-size="small">Rumbling Earth</a> / <a href="http://bfa.wowhead.com/spell=107570/storm-bolt" rel="spell=107570" data-wh-icon-size="small">Storm Bolt</a></h3>
 
-Another utility tier. Improve your [Intimidating Shout](http://bfa.wowhead.com/spell=5246/intimidating-shout), improve your [Shockwave](http://bfa.wowhead.com/spell=46968/shockwave), or grab a single target stun. There's good choice here.
+Another utility tier. Improve your [Intimidating Shout](http://bfa.wowhead.com/spell=5246/intimidating-shout), improve your [Shockwave](http://bfa.wowhead.com/spell=46968/shockwave), or grab a single-target stun. There's good choice here.
 
 <h3>90 - <a href="http://bfa.wowhead.com/spell=202743/booming-voice" rel="spell=202743" data-wh-icon-size="small">Booming Voice</a> / <a href="http://bfa.wowhead.com/spell=202572/vengeance" rel="spell=202572" data-wh-icon-size="small">Vengeance</a> / <a href="http://bfa.wowhead.com/spell=236279/devastator" rel="spell=236279" data-wh-icon-size="small">Devastator</a></h3>
 
 - [Booming Voice](http://bfa.wowhead.com/spell=202743/booming-voice) is slightly nerfed from live, but functions the same.
-<br>
-<br>
-- [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance) is in an "interesting" spot. It's really good for rage efficiency in theory, but if you spend all your rage keeping up the [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance) rotation, you don't leave a lot of rage to cast your active mitigation abilities. Or, on the flip side, if you're spending rage on keeping up your AM, you won't get much benefit out of [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance). It's hard to say right now whether or not this talent is worth taking.
-<br>
-<br>
-- On live, [Devastator](http://bfa.wowhead.com/spell=236279/devastator) only "works" because of the insane amount of rage we generate, so we're able to fill what would be empty GCDs with [Revenges](http://bfa.wowhead.com/spell=6572/revenge). That way you get Devastator casts on top of everything else, leading to more [Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam) procs, etc. In BfA, at least on single target, [Devastator](http://bfa.wowhead.com/spell=236279/devastator) is both a DPS and survivability loss. You have times where you'll go 3-4 seconds without casting anything. There are so many spaces where you can cast [Devastate](http://bfa.wowhead.com/spell=20243/devastate), that not taking Devastator is better. *However*, AoE is a different story. On AoE, not only are you getting more [Revenge](http://bfa.wowhead.com/spell=6572/revenge) procs, but you're also getting a *lot* more rage. This allows you to fill most of your GCDs and gain the benefit of [Devastator](http://bfa.wowhead.com/spell=236279/devastator).
+  <br>
+  <br>
+- [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance) is in an "interesting" spot. It's really good for rage efficiency in theory, but if you spend all your rage keeping up the [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance) rotation, you don't leave a lot of rage to cast your active mitigation abilities. Or, on the flip side, if you're spending rage on keeping up your AM, you won't get much benefit out of [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance). It's hard to say right now whether or not this talent is worth taking on single-target. This talent has significantly increased value on AoE due to the fact that you generate more rage and have more [Revenge](http://bfa.wowhead.com/spell=6572/revenge) resets. From a pure survivability standpoint, [Vengeance](http://bfa.wowhead.com/spell=202572/vengeance) is likely the best talent on this row in AoE.
+  <br>
+  <br>
+- On live, [Devastator](http://bfa.wowhead.com/spell=236279/devastator) only "works" because of the insane amount of rage we generate, so we're able to fill what would be empty GCDs with [Revenges](http://bfa.wowhead.com/spell=6572/revenge). That way you get Devastator casts on top of everything else, leading to more [Shield Slam](http://bfa.wowhead.com/spell=23922/shield-slam) procs, etc. In Battle for Azeroth, at least on single-target, [Devastator](http://bfa.wowhead.com/spell=236279/devastator) is likely both a DPS and survivability loss (compared to not taking Devastator). You have times where you'll go 3-4 seconds without casting anything. There are so many spaces where you can cast [Devastate](http://bfa.wowhead.com/spell=20243/devastate), that not taking Devastator is better. *However*, AoE is a different story. On AoE, not only are you getting more [Revenge](http://bfa.wowhead.com/spell=6572/revenge) procs, but you're also getting a *lot* more rage. This allows you to fill most of your GCDs and gain the benefit of [Devastator](http://bfa.wowhead.com/spell=236279/devastator).
+
+This tier is definitely the most difficult one to look at and immediately "know" which talent is best for the situation you're up against. Quite a bit of testing will need to be done to determine which talent is best where.
 
 <h3>100 - <a href="http://bfa.wowhead.com/spell=152278/anger-management" rel="spell=152278" data-wh-icon-size="small">Anger Management</a> / <a href="http://bfa.wowhead.com/spell=203177/heavy-repercussions" rel="spell=202572" data-wh-icon-size="small">Heavy Repercussions</a> / <a href="http://bfa.wowhead.com/spell=228920/ravager" rel="spell=228920" data-wh-icon-size="small">Ravager</a></h3>
 
 This row is pretty much exactly the same as it is on live. Due to how rage generation is though, [AM](http://bfa.wowhead.com/spell=152278/anger-management) has greatly reduced value. [HR](http://bfa.wowhead.com/spell=203177/heavy-repercussions) will likely be the go-to choice. You'd likely only take [AM](http://bfa.wowhead.com/spell=152278/anger-management) when you *need* the CDR.
 
 [Ravager](http://bfa.wowhead.com/spell=228920/ravager) is still significantly weaker compared to the other two choices on this row. It does not provide a *consistent* survivability increase, but rather you must rely on the RNG nature of parry. [HR](http://bfa.wowhead.com/spell=203177/heavy-repercussions) and [AM](http://bfa.wowhead.com/spell=152278/anger-management) both provide a consistent, "guaranteed" survivability increase.
+
+
+
+On live, we currently run the exact same talent build for nearly all situations. In BfA, it's looking like we'll have much more variation in what talents we run, particularly when it comes to single-target vs. AoE.
 
 # Azerite Traits (Values are placeholder)
 
@@ -165,17 +173,13 @@ This row is pretty much exactly the same as it is on live. Due to how rage gener
 
 ## Gameplay
 
-One point of concern is rage generation. The difference between rage generation on single target vs. AoE is *massive*. In heavy AoE, you gain far too much rage to the point where you can't spend it all. This is due to gaining rage from getting meleed. On single-target, rage generation is low, making it difficult to maintain your rotation.
+One point of concern is rage generation. The difference between rage generation on single-target vs. AoE is larger than it probably should be. In heavy AoE, you gain rage to the point where you have to "dump" it into [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain). On single-target, rage generation is low, making it difficult to maintain your rotation.
 
 The spec functions more or less the same as Live, but feels a lot slower. Going from Live to BfA takes a bit getting used to, however the core gameplay is still there. It's really a matter of personal preference. Some people will be happy to leave being the spammy nature of Legion Prot, while some will miss it.
 
 ### Shield Block
 
-To go along with the above point about rage, [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) rage cost can be inhibiting. Trying to keep [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) up makes it difficult to cast other abilities that cost rage, to the point where casting, say, [Revenge](http://bfa.wowhead.com/spell=6572/revenge) may lock you out of casting [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) for several seconds. You could argue that this is a good gameplay dynamic because you have to make the decision between one ability or the other. I don't necessarily disagree with that. However the decision making can still be there even if rage gen is increased as the result of that is increased rotational fluidity.
-
-### Ignore Pain
-
-There's not too much to say about [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain) as it functions in the exact same way as it does on Live. It's just been nerfed to the point where it's not even worth casting if you have [Bolster](http://bfa.wowhead.com/spell=275337/bolster). With rage generation as it is, you essentially keep [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) up as much as possible, use [Bolster](http://bfa.wowhead.com/spell=275337/bolster) when you can for physical damage, and use [Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain) exclusively to mitigate non-physical damage.
+To go along with the above point about rage, [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) rage cost can be inhibiting. Trying to keep [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) up makes it difficult to cast other abilities that cost rage, to the point where casting, say, [Revenge](http://bfa.wowhead.com/spell=6572/revenge) may lock you out of casting [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) for several seconds. You could argue that this is a good gameplay dynamic because you have to make the decision between one ability or the other. I don't necessarily disagree with that. However, the decision making can still be there even if rage gen is increased as the result of that is increased rotational fluidity. (Again, speaking from a single-target point of view.)
 
 ## To sum it up:
 
@@ -185,6 +189,6 @@ The talent changes are definitely a step in the right direction. Changes to unde
 
 There are of course some talents/abilities that are under/overtuned, but balancing is still ongoing so that's not of much concern right now.
 
-Finally, some small tweaks to rage generation would greatly increase the fluidity of the spec and allow it to perform much more consistently between single target and AoE.
+Finally, some small tweaks to rage generation would greatly increase the fluidity of the spec and allow it to perform much more consistently between single-target and AoE.
 
 All in all, Prot is looking good, it just needs some adjustments here and there to turn it into a truly great spec.
