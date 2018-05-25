@@ -181,6 +181,10 @@ The spec functions more or less the same as Live, but feels a lot slower. Going 
 
 To go along with the above point about rage, [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) rage cost can be inhibiting. Trying to keep [Shield Block](http://bfa.wowhead.com/spell=2565/shield-block) up makes it difficult to cast other abilities that cost rage, to the point where casting, say, [Revenge](http://bfa.wowhead.com/spell=6572/revenge) may lock you out of casting [Shield Block's](http://bfa.wowhead.com/spell=2565/shield-block) for several seconds. You could argue that this is a good gameplay dynamic because you have to make the decision between one ability or the other. I don't necessarily disagree with that. However, the decision making can still be there even if rage gen is increased as the result of that is increased rotational fluidity. (Again, speaking from a single-target point of view.)
 
+### Ignore Pain
+
+[Ignore Pain](http://bfa.wowhead.com/spell=190456/ignore-pain) functions in the same way as it does on live (besides tuning changes), however, one *major* difference is that it's on the GCD. As a spell that sometimes needs to be used as a rage dump, or generally speaking as a spell that needs to be used quickly in reaction to something, having it on the GCD is very frustrating.
+
 ## To sum it up:
 
 We gained quite a lot of utility and our core playstyle remains the same from Legion, albeit it has been slowed down significantly.
