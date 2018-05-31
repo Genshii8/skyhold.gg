@@ -2,6 +2,10 @@
 
 <h2 style="color: #6666ff;">Legend<h2>
 
-### Ramen#0007
+### Ramen
+### Titania
 
-### Titania#5741
+<h2 style="color: #cccc99;">Chosen<h2>
+
+### Stryks
+### Enginear
