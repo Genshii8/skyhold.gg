@@ -10,46 +10,12 @@
         gtag('config', 'UA-120661903-1');
     </script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org/",
-        "@type": "BreadcrumbList",
-        "name": "skyhold.gg",
-        "description": "Warrior guides, theorycrafting, and more.",
-        "itemListElement": [
-            { 
-                "@type": "ListItem", 
-                "position": "1", 
-                "item": { 
-                    "@id": "https://skyhold.gg/arms", 
-                    "name": "Arms" 
-                } 
-            },
-            { 
-                "@type": "ListItem", 
-                "position": "2", 
-                "item": { 
-                    "@id": "https://skyhold.gg/fury", 
-                    "name": "Fury" 
-                } 
-            },
-            { 
-                "@type": "ListItem", 
-                "position": "3", 
-                "item": { 
-                    "@id": "https://skyhold.gg/protection", 
-                    "name": "Protection" 
-                } 
-            }
-        ]
-    }
-    </script>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
     <title>Skyhold</title>
+    <meta name="description" content="Warrior guides, theorycrafting, and more.">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
@@ -78,15 +44,15 @@
 </head>
 <body>
 
-    <section class="flex-column">
+    <div class="flex-column">
         <span id="title">Skyhold</span>
         <img id="logo" src="/images/logo.png">
         <span id="tagline">Warrior guides, theorycrafting, and more.</span>
-    </section>
+    </div>
 
-    <section id="banner-section">
+    <div id="banner-section">
         <img id="banner" src="/images/home/banner.png">
-    </section>
+    </div>
 
     <main class="flex-center">
 
@@ -98,7 +64,7 @@
 
             <div class="flex-column">
 
-                <div id="spec-selection" class="flex-center">
+                <nav id="spec-selection" class="flex-center">
 
                     <div class="flex-column">
                         <a id="arms-icon-link" class="spec-icon" href="/arms.html"><img class="border" src="/images/home/arms-icon.jpg"></a>
@@ -114,7 +80,7 @@
                         <a id="protection-icon-link" class="spec-icon" href="/protection.html"><img class="border" src="/images/home/protection-icon.jpg"></a>
                         <a id="protection-link" class="spec-link" href="/protection.html"><div class="border element-bg-color spec-button">Protection</div></a>
                     </div>
-                </div>
+                </nav>
 
                 <div class="links-divider"></div>
 
