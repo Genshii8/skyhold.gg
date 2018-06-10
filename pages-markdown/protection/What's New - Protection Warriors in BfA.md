@@ -95,7 +95,7 @@ The most significant changes are to our talents. Rather than list out all of the
 
 Likely the choice between [ITF](http://bfa.wowhead.com/spell=202603/into-the-fray) and [Punish](http://bfa.wowhead.com/spell=275334/punish) will come down to whether or not you're able to keep near 100% uptime on [ITF](http://bfa.wowhead.com/spell=202603/into-the-fray). Or it may be as simple as [ITF](http://bfa.wowhead.com/spell=202603/into-the-fray) for AoE and [Punish](http://bfa.wowhead.com/spell=275334/punish) for ST. [Punish](http://bfa.wowhead.com/spell=275334/punish) also has some increased value on magic damage heavy fights compared to [ITF](http://bfa.wowhead.com/spell=202603/into-the-fray). Regardless, both talents are good and I can see situations where you'd take either.
 
-<h3>30 - <a href="http://bfa.wowhead.com/spell=203201/crackling-thunder" rel="spell=203201" data-wh-icon-size="small">Crackling Thunder</a> / <a href="http://bfa.wowhead.com/spell=202163/bounding-stride" rel="spell=202163" data-wh-icon-size="small">Bounding Stride</a> / <a href="bfa.wowhead.com/spell=223657/safeguard" rel="spell=223657" data-wh-icon-size="small">Safeguard</a></h3>
+<h3>30 - <a href="http://bfa.wowhead.com/spell=203201/crackling-thunder" rel="spell=203201" data-wh-icon-size="small">Crackling Thunder</a> / <a href="http://bfa.wowhead.com/spell=202163/bounding-stride" rel="spell=202163" data-wh-icon-size="small">Bounding Stride</a> / <a href="http://bfa.wowhead.com/spell=223657/safeguard" rel="spell=223657" data-wh-icon-size="small">Safeguard</a></h3>
 
 Not too much to say about this row. It's all utility. None of them are blatantly better than the other two. Overall it's a good row with good choices.
 
