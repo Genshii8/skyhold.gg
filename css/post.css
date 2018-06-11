@@ -53,36 +53,36 @@ main > div {
     font-size: 1.6rem;
 }
 
-#post-content {
+article {
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
 /*
-    Page Content Formatting
+    Article Formatting
 */
 
 .wowhead-tooltip * {
     font-size: 100%;
 }
 
-#post-content h1 {
+article h1 {
     font-size: 3.5rem;
 }
 
-#post-content h2 {
+article h2 {
     font-size: 3rem;
 }
 
-#post-content h3 {
+article h3 {
     font-size: 2.5rem;
 }
 
-#post-content * {
+article * {
     font-size: 2rem;
 }
 
-#post-content a {
+article a {
     text-decoration: none;
     color: #ffcc66;
 }
@@ -92,7 +92,7 @@ textarea {
     color: #111;
 }
 
-#post-content img {
+article img {
     max-width: 100%;
 }
 

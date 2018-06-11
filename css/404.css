@@ -1,0 +1,29 @@
+main {
+    height: 100%;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.not-found {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navigation-text {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 2rem;
+    margin-right: 0;
+}
+
+.header-image-link {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
