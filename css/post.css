@@ -87,6 +87,11 @@ article a {
     color: #ffcc66;
 }
 
+article li {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
 textarea {
     resize: none;
     color: #111;
