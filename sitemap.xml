@@ -9,48 +9,63 @@
 
 <url>
   <loc>https://skyhold.gg/</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://skyhold.gg/arms</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://skyhold.gg/fury</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://skyhold.gg/protection</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/protection/protanalysis</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/armsfuryuldir</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/arms/masteryhotfix</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://skyhold.gg/protection/health</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skyhold.gg/protection/whatsnew</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skyhold.gg/fury/whatsnew</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skyhold.gg/arms/whatsnew</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://skyhold.gg/halloflegends</loc>
-  <lastmod>2018-07-04T19:49:10+00:00</lastmod>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/arms/whatsnew</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/fury/whatsnew</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skyhold.gg/protection/whatsnew</loc>
+  <lastmod>2018-10-16T05:33:56+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
