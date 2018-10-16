@@ -72,6 +72,11 @@
     margin-right: 3px;
 }
 
+.fa-youtube-square {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1800px) {
     
     #recent-articles {

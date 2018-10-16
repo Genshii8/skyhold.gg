@@ -72,6 +72,10 @@
     border-bottom: solid 2px #e6e6e6;
 }
 
+.icyveins-link {
+    color: #ffcc66;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1130px) {
 
     #padding-div {
