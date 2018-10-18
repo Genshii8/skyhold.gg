@@ -163,8 +163,11 @@ article img {
     text-decoration: none;
 }
 
-#support-us-button {
+#support-us-link {
     margin-top: 1rem;
+}
+
+#support-us-button {
     width: 15rem
 }
 
