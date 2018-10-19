@@ -18,23 +18,38 @@ main > div {
     text-align: center;
 }
 
-#authors {
+#authors, #co-authors {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
-#authors > div {
-    margin-left: 1rem;
-    margin-right: 1rem;
+#co-authors {
+    margin-top: 1rem;
 }
 
-#author-image {
+#authors > div, #co-authors > div {
+    margin: 1rem;
+    width: 8rem;
+}
+
+#author-image, #co-author-image {
     border-radius: 50%;
     background-color: #111;
     object-fit: cover;
     object-position: center;
     height: 5rem;
     width: 5rem;
+}
+
+#co-authors-heading {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#co-author-image {
+    height: 4rem;
+    width: 4rem;
 }
 
 #author-name {
@@ -66,15 +81,15 @@ article {
     font-size: 100%;
 }
 
-article h1 {
+article h1, article h1 * {
     font-size: 3.5rem;
 }
 
-article h2 {
+article h2, article h2 * {
     font-size: 3rem;
 }
 
-article h3 {
+article h3, article h3 * {
     font-size: 2.5rem;
 }
 
@@ -162,8 +177,11 @@ article img {
     text-decoration: none;
 }
 
-#support-us-button {
+#support-us-link {
     margin-top: 1rem;
+}
+
+#support-us-button {
     width: 15rem
 }
 
