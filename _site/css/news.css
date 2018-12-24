@@ -1,0 +1,92 @@
+.news {
+    margin-top: 2rem;
+}
+
+#recent-articles {
+    width: 30rem;
+    height: 100%;
+}
+
+#news {
+    height: 38rem;
+}
+
+.news > div {
+    width: 100%
+}
+
+.news-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.news-items {
+    align-items: flex-start;
+}
+
+#news-items {
+    padding-top: 0.5rem;
+}
+
+.news-items > div {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#recent-items > div {
+    margin-top: 1.5rem;
+}
+
+.recent-first {
+    margin-top: 1.2rem !important;
+}
+
+.news-items i {
+    font-size: 1.6rem;
+}
+
+.news-items a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.news-link {
+    margin-left: 1rem;
+}
+
+.news-item {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+.news-link .news-item {
+    margin-left: 0;
+}
+
+.recent-spec-icon {
+    width: 2.4rem;
+}
+
+.fa-file-alt {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.fa-youtube-square {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1800px) {
+    
+    #recent-articles {
+        height: 38.7rem;
+    }
+}
+
+@media screen and (min-width: 1460px) and (max-width: 1800px) {
+    
+    #recent-articles {
+        margin-right: 6rem;
+    }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120661903-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-120661903-1');
+    </script>
+
+    <script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: false, iconSize: true};</script>
+    <script src="//wow.zamimg.com/widgets/power.js"></script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <title>Arms Mastery Hotfix</title>
+    <meta name="description" content="An analysis of the hotfix to Arms' Mastery and its effects.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/images/icons/site.webmanifest">
+    <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#342f2d">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#342f2d">
+    <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="skyhold.gg">
+    <meta property="og:title" content="Arms - Mastery Hotfix">
+    <meta property="og:description" content="An analysis of the hotfix to Arms' Mastery and its effects.">
+    <meta property="og:url" content="https://skyhold.gg/arms/masteryhotfix">
+    <meta property="og:image" content="http://skyhold.gg/images/home/arms-icon-border.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,700i" rel="stylesheet">
+    <link href="/font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/font-awesome/css/fa-brands.css" rel="stylesheet">
+    <link href="/font-awesome/css/fa-solid.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/post.css">
+</head>
+<body>
+
+    <main class="flex-column">
+
+        <div>
+
+            <div class="flex-center">
+
+                <div class="flex-center-start flex-1 mobile-width">
+                    <a id="logo" href="/index.html"><img class="border header-image" src="/images/logo.png"></a>
+                    <a class="header-image-link" href="/arms.html"><img class="border header-image header-image-selected" src="/images/home/arms-icon.jpg"></a>
+                    <a class="header-image-link" href="/fury.html"><img class="border header-image" src="/images/home/fury-icon.jpg"></a>
+                    <a class="header-image-link" href="/protection.html"><img class="border header-image" src="/images/home/protection-icon.jpg"></a>
+                </div>
+            </div>
+        
+            <div class="flex-center">
+        
+                <div id="nav" class="border element-bg-color mobile-width"><div id="padding-div" class="flex-center-start">
+
+                    <div><a class="nav-link icyveins-link" target="_blank" href="https://www.icy-veins.com/wow/arms-warrior-pve-dps-guide">Icy Veins Guide</a></div>
+                
+                    <div class="dropdown-container"><a href="#" class="nav-link non-link">Articles&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
+                        <div class="flex-column dropdown-content border element-bg-color">
+
+                            <div><a class="nav-link" href="/arms/8-1armsfeedback.html">8.1 Arms Community Feedback</a></div>
+                            <div><a class="nav-link" href="/armsfuryuldir.html">Arms and Fury in Uldir</a></div>
+                            <div><a class="nav-link" href="/arms/masteryhotfix.html">Mastery Hotfix</a></div>
+                            <div><a class="nav-link" href="/arms/whatsnew.html">What's New in BfA</a></div>
+                        </div>
+                    </div>
+                    <div class="dropdown-container"><a href="#" class="nav-link non-link">Skyhold Talks&nbsp&nbsp<i class="fas fa-chevron-down"></i></a>
+                        <div class="flex-column dropdown-content border element-bg-color">
+
+                            <div><a class="nav-link" target="_blank" href="https://www.youtube.com/watch?v=GSxc7uXAkY0">Episode #3: BFA Pre-Patch</a></div>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+
+            <div class="flex-center">
+
+                <div id="post-container" class="border element-bg-color flex-column-start flex-1 mobile-width">
+
+                    <span id="title">Arms Mastery Hotfix</span>
+                    <span id="date">Last Updated: August 17, 2018</span>
+
+                    <div id="authors" class="flex-center">
+
+                        <div class="flex-column">
+
+                            <img id="author-image" class="border" src="/images/authors/archimtiros.jpg"></img>
+                            <span id="author-name">Archimtiros</span>
+
+                            <div id="author-social" class="flex-center">
+
+                                <a target="_blank" href="https://twitter.com/Archimtiros"><i class="fab fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.twitch.tv/ArchiVision"><i class="fab fa-twitch"></i></a>
+                                <a target="_blank" href="https://www.patreon.com/archimtiros"><i class="fab fa-patreon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <article class="flex-stretch">
+                        <p>A <a class="text-link" target="_blank" href="https://us.battle.net/forums/en/wow/topic/20767787673#1">bluepost</a> today informed us that <a href="https://www.wowhead.com/spell=262111/mastery-deep-wounds">Arms' Mastery</a> was being addressed via hotfix, an eagerly awaited change, considering it's been underperforming since Deep Wounds' inception during early Beta. The in-game results of the change were pretty immediate:</p>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image1.png"></p>
+                        <p>While many were quick to bitch about an already well performing spec receiving changes, most are unaware of exactly how bad the situation was, so let's recap real quick (TLDR at the bottom for those who think they already know it all):</p>
+                        <h1 id="whydoesdeepwoundsneedfixingmorethaninsertclasshere">Why does Deep Wounds need fixing more than [insert class here]?</h1>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image2.png"></p>
+                        <p>This is the part people don't get. It isn't that <a href="https://www.wowhead.com/spell=262111/mastery-deep-wounds">Arms' Mastery</a> was bad, it was that Arms' Mastery functionally <em>didn't exist</em>. It was perhaps the worst scaling stat in the history of the game, which is an obvious design flaw. While fixing it results in some tuning, the intent isn't to make Arms better/worse/stronger/weaker; it's to fix a (gearing) game breaking issue. It's one thing when your spec does poor damage, but another thing entirely when a 60 item level "upgrade" is actually worse because it has a broken stat on it.</p>
+                        <p>During prepatch, Deep Wounds total damage averaged ~15% of Arms damage, which is roughly commensurate with similarly structured masteries such as <a href="https://www.wowhead.com/spell=76613/mastery-icicles">Frost Mage Icicles</a>. However, that was primarily made up of Deep Wounds direct AP coefficient, with a meager 1% increased damage per % of Mastery amounting to a very minor increase - it doesn't take a genius to figure out that increasing roughly 15% of your damage by 1% is a lot less of an overall gain than increasing an ability that affects 80%+ of your damage (like Enrage) by 1%.</p>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image3.png"></p>
+                        <p>So while Arms' Mastery did increase Deep Wounds damage, it hardly had any practical impact on the spec's <em>overall</em> damage. Instead of a steady upward incline similar to other stats, Mastery was basically flat.</p>
+                        <h1 id="oksowhatactuallychanged">Ok, so what actually changed?</h1>
+                        <p>First, Arms <a class="text-link" target="_blank" href="/images/arms/Mastery Hotfix/image4.png">scaling aura</a> was reduced from +34% -&gt; +15%, which results in <em>all</em> of Arms yellow damage abilities dealing approx. 15% less damage (because they're multipliers, if you don't know how this works, reference my <a class="text-link" target="_blank" href="https://www.wowhead.com/news=281913/battle-for-azeroth-new-formula-for-calculating-ability-damage">ability damage formula</a> changes post, or just take my word for it), as stated in the bluepost.</p>
+                        <p>Second, the Arm's-specific Azerite powers <a href="https://www.wowhead.com/spell=278751/crushing-assault">Crushing Assault</a>, <a href="https://www.wowhead.com/spell=272866/executioners-precision">Executioner's Precision</a>, <a href="https://www.wowhead.com/spell=273409/gathering-storm">Gathering Storm</a>, <a href="https://www.wowhead.com/spell=278752/lord-of-war">Lord of War</a>, and <a href="https://www.wowhead.com/spell=277639/seismic-wave">Seismic Wave</a> were <a class="text-link" target="_blank" href="/images/arms/Mastery Hotfix/image5.png">buffed by 16.5%</a>. Because these (and only these) Azerite powers are affected by the scaling aura, this buff compensates for the loss above, keeping the current tuning of Azerite power gain relatively intact. <a href="https://www.wowhead.com/spell=275529/test-of-might">Test of Might</a> was not affected by either of these two changes, because it does not deal damage.</p>
+                        <p>Finally, Arms' <a href="https://www.wowhead.com/spell=262111/mastery-deep-wounds">Mastery: Deep Wounds</a> <a class="text-link" target="_blank" href="/images/arms/Mastery Hotfix/image6.png">scale factor</a> (damage % gain per % of Mastery) was buffed from 1% -&gt; 10% and as a result its base Mastery changed from 16% -&gt; 80%. The <a class="text-link" target="_blank" href="/images/arms/Mastery Hotfix/image7.png">base damage AP coefficient</a> was also reduced (separate from the scaling aura above) from 17.940 per tick (54% AP total across 3 ticks) -&gt; 12.500 per tick (37.5% AP total). These numbers are largely unimportant - even with no Mastery on gear, it results in a slight damage increase for Deep Wounds. </p>
+                        <h1 id="idontreallycareaboutallthisismasterygoodnow">I don't really care about all this. Is Mastery good now?</h1>
+                        <p>Yes; it's not the best stat, but it is <em>usable</em> and roughly equal to Versatility. You won't go out of your way to get it, but it makes gearing significantly more lenient, and Mastery trinkets/buffs/effects aren't entirely wasted, at the very least. Here are a few comparisons:</p>
+                        <p>Left = before, Right = after </p>
+                        <p>This is the SimC default 340ilvl pre-raid profile, which has zero Mastery on gear, aside from the Heart of Azeroth.  </p>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image8.png">
+                        <img class="border center-image" src="/images/arms/Mastery Hotfix/image9.png"></p>
+                        <p>This is a moderate (~8%) nerf for a hypothetical "BiS" profile without any Mastery whatsoever. Keep in mind that is <em>incredibly unlikely</em>. Realistically speaking, this won't apply to 99.9% of players, and is only for the sake of comparison.</p>
+                        <p>Below is an unoptimized, randomly geared 330ilvl profile, which started with 26% Mastery.</p>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image10.png">
+                        <img class="border center-image" src="/images/arms/Mastery Hotfix/image11.png"></p>
+                        <p>This is much leaner, and with more Mastery would quickly even out. Stacking Mastery still isn't ideal, but because all loot now is now personal, it's very unlikely to ever actually have a perfect set of Crit/Haste gear with no Mastery whatsoever. Making gearing easier will therefore result in a buff for most players, who would otherwise need to handicap themselves by equipping lower ilevel gear to avoid the dead stat, making this a good change.</p>
+                        <p>Keep in mind that this is primarily meant to address a design issue. The majority of actual tuning will come between the week of the 3rd-11th, before Mythic Uldir release.</p>
+                        <h1 id="seriouslythoughwhatsthetldr">Seriously though, what's the TLDR?</h1>
+                        <p>This is a soft nerf to profiles with minimal Mastery. For players who already had a moderate to high amount of Mastery gear, it's roughly neutral if not potentially a buff.</p>
+                        <ul>
+                        <li>Mastery is better, but not best.</li>
+                        <li>You can wear higher ilevel Mastery gear, but Haste/Crit are still ideal.</li>
+                        <li>Arms-specific Azerite powers are largely unchanged; Universal powers which impacted Mastery will shift up slightly.</li>
+                        <li><a href="https://www.wowhead.com/spell=262111/mastery-deep-wounds">Deep Wounds</a> as a percentage of your overall damage is only slightly higher. You're not doing 60% of your damage with a bleed.</li>
+                        <li>Arms is still very bursty and effective in dungeons.</li>
+                        <li>The rotation, talents, Best-in-Slot, consumable, enchants, and virtually everything else not covered here remains the same.</li>
+                        <li>Raidbots will be updated tomorrow for you to sim your own stuff.</li>
+                        <li>I need a burrito.</li>
+                        </ul>
+                        <p>Bonus plot point graph: </p>
+                        <p><img class="border center-image" src="/images/arms/Mastery Hotfix/image12.png"></p>
+                    </article>
+                    
+                    <a id="return-to-top" href="#"><div class="flex-column">
+                        <i class="fas fa-chevron-up"></i>
+                        <span>Return to Top</span>
+                    </div></a>
+                    <div id="support-us" class="flex-column">
+                        <span>If you liked this article, please consider supporting us on Patreon!</span>
+                        <a id="support-us-link" target="_blank" href="https://www.patreon.com/Skyhold"><img id="support-us-button" class="border" src="/images/home/patreon-button.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <img class="fixed-image" src="/images/warrior-crest.png">
+</body>
+</html>

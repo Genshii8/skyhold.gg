@@ -1,0 +1,172 @@
+#title {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+#logo {
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+#tagline {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#banner-section {
+    height: 10.42vw;
+    margin-top: 2rem;
+}
+
+#banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 80%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.spec-icon {
+    margin-top: 8rem;
+}
+
+#arms-icon-link {
+    margin-right: 4rem;
+}
+
+#protection-icon-link {
+    margin-left: 4rem;
+}
+
+.spec-link {
+    font-size: 4rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 7.5rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 6rem;
+}
+
+#arms-link {
+    margin-left: 0;
+}
+
+#protection-link {
+    margin-right: 0;
+}
+
+.spec-button {
+    width: 30rem;
+    height: 7.5rem;
+}
+
+.links-divider {
+    border-top: solid 1px #e6e6e6;
+    width: 100%;
+    height: 0;
+    margin-top: 2rem;
+}
+
+#links > div {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.link-icon {
+    margin-right: 1rem;
+}
+
+.link-icon-size {
+    font-size: 4.8rem;
+}
+
+#hol {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc66;
+}
+
+#made-by {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.warrior-crest {
+    width: 15rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1800px) {
+    
+    .flex-order-1 {
+        order: 1;
+    }
+    
+    .flex-order-2 {
+        order: 2;
+    }
+
+    .warrior-crest {
+        display: none;
+    }
+
+    .flex-1 {
+        flex: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1460px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    #spec-selection {
+        flex-direction: column;
+    }
+
+    #arms-icon-link {
+        margin-right: 0;
+    }
+
+    #fury-icon-link {
+        margin-top: 0;
+    }
+    
+    #protection-icon-link {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #arms-link {
+        margin-right: 0;
+    }
+
+    #fury-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #protection-link {
+        margin-left: 0;
+    }
+
+    #links > div {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .link-icon {
+        margin-right: 0;
+    }
+
+    .display-none {
+        display: none;
+    }
+}

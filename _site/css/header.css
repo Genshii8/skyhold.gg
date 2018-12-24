@@ -1,0 +1,91 @@
+#logo {
+    margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+.header-image-link {
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.header-image {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.header-image-selected {
+    border: solid 1px #ffcc66;
+    box-shadow: 0 0 10px 1px #ffcc66;
+}
+
+#nav {
+    width: 107rem;
+    margin-top: 1rem;
+}
+
+#padding-div {
+    height: 100%;
+}
+
+#padding-div > div {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 0.5rem;
+    align-items: flex-start;
+}
+
+.dropdown-content > div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: flex;
+}
+
+.nav-link:hover {
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.non-link:hover {
+    border-bottom: none;
+    cursor: default;
+}
+
+.nav-selected {
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.icyveins-link {
+    color: #ffcc66;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1130px) {
+
+    #padding-div {
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #padding-div > div {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
