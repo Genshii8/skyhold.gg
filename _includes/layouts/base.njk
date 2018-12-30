@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-120661903-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'UA-120661903-1');
-        </script>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-120661903-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-120661903-1');
+    </script>
 
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-        <title>{{ title + ' |' if title }} Skyhold</title>
-        <meta name="description" content="Warrior guides, theorycrafting, and more.">
+    <title>{{ title + ' | ' if title }}Skyhold</title>
+    <meta name="description" content="Warrior guides, theorycrafting, and more.">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
-        <link rel="manifest" href="/images/icons/site.webmanifest">
-        <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#342f2d">
-        <link rel="shortcut icon" href="/images/icons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#342f2d">
-        <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/images/icons/site.webmanifest">
+    <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#342f2d">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#342f2d">
+    <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="skyhold.gg">
-        <meta property="og:title" content="Home">
-        <meta property="og:description" content="Warrior guides, theorycrafting, and more.">
-        <meta property="og:url" content="https://skyhold.gg">
-        <meta property="og:image" content="http://skyhold.gg/images/logo-small.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="skyhold.gg">
+    <meta property="og:title" content="{{ og_title }}">
+    <meta property="og:description" content="{{ og_desc }}">
+    <meta property="og:url" content="https://skyhold.gg">
+    <meta property="og:image" content="http://skyhold.gg/images/
+    {%- if spec == "arms" -%}
+        home/arms-icon-border.png
+    {%- elif spec == "fury" -%}
+        home/fury-icon-border.png
+    {%- elif spec == "prot" -%}
+        home/prot-icon-border.png
+    {%- else -%}
+        logo-small.png
+    {%- endif -%}
+    ">
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/main.css' | url }}">
+    {% for item in css %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/' + item + '.css' | url }}">
+    {% endfor %}
+</head>
+<body>
 
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,700i" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/main.css' | url }}">
-        {% for item in css %}
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/css/' + item + '.css' | url }}">
-        {% endfor %}
-    </head>
-    <body>
-
-        {{ content | safe }}
-        
-    </body>
+    {{ content | safe }}
+    
+</body>
 </html>
